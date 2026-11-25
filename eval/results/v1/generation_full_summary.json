@@ -1,0 +1,42 @@
+{
+ "by_category": {
+  "image_only": {
+   "n": 15,
+   "accuracy": 0.533,
+   "partial": 0.567,
+   "cites_gold": 0.867
+  },
+  "text": {
+   "n": 10,
+   "accuracy": 0.9,
+   "partial": 0.95,
+   "cites_gold": 0.9
+  },
+  "audio": {
+   "n": 8,
+   "accuracy": 1,
+   "partial": 1.0,
+   "cites_gold": 1
+  },
+  "multihop": {
+   "n": 7,
+   "accuracy": 0.429,
+   "partial": 0.595,
+   "cites_gold": 1
+  },
+  "all": {
+   "n": 40,
+   "accuracy": 0.7,
+   "partial": 0.754,
+   "cites_gold": 0.925
+  }
+ },
+ "latency_ms": {
+  "p50": 2494,
+  "p95": 15537
+ },
+ "providers": [
+  "gemini:gemini-flash-lite-latest",
+  "ollama:qwen2.5vl:7b"
+ ]
+}

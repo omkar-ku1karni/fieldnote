@@ -1,0 +1,25 @@
+-------------------
+call_id: C16
+date: 2025-11-03
+site: Brookhaven Elementary School
+unit: RTU-3
+model: VRT-048
+tech: Priya Raman
+agent: Megan
+topic: Gas valve has 24 volts but no flame
+-------
+AGENT: Vantorr Technical Support, this is Megan. How can I help you?
+TECH: Hi Megan, Priya Raman with Ridgeline Mechanical Services. I'm at Brookhaven Elementary School in Madison, Wisconsin, looking at R-T-U three, a V-R-T forty-eight. Serial is two one two zero V zero zero one zero two. It's calling for gas heat. I have twenty-four volts at the gas valve during the ignition attempt, but I'm not getting flame.
+AGENT: Thanks, Priya. Is the inducer running and is the normal ignition sequence reaching the point where the valve is commanded?
+TECH: Yes, that's what I'm seeing. The inducer runs, the sequence moves forward, and the valve gets its call. I'm not trying to defeat any safeties. I'm just tracing where the ignition attempt stops.
+AGENT: Good. Do you see the igniter heat as expected during that attempt, or does it look like it's struggling to get there?
+TECH: It doesn't look right. I can't get a convincing glow, and I want to check the igniter instead of assuming the valve must be the problem because there's voltage present.
+AGENT: That's sensible. Have you isolated power and measured the igniter's cold resistance, with the component disconnected for the check?
+TECH: I'm at that point now. I shut the unit down and followed the lockout procedure. Let me get the meter leads settled. Okay, the reading is higher than I expected, and it isn't stable when I check the connection.
+AGENT: The specified component is igniter part V-P-N eleven ninety. Its cold resistance range is forty to seventy-five ohms cold. If you measure over a hundred ohms replace it. Check the leads and meter contact before condemning the igniter so you're measuring the part, not a poor connection.
+TECH: Understood. With the connection cleaned up and the part isolated, it's still above that replacement threshold. I'll document the result. The school wants heat restored, but I don't want anybody improvising around an ignition failure.
+AGENT: Exactly. Replace it with the specified part, inspect the mounting and connections according to the unit instructions, and restore the normal ignition sequence. Don't manually light the burner or hold the gas valve open for a test.
+TECH: Got it. I'll have the replacement brought out and leave the gas heat disabled until the work is completed. The building contact knows this unit isn't ready for service yet.
+AGENT: After the replacement, perform a complete supervised heat startup and confirm the flame is established and proven through the normal safety sequence. If it still won't light, call us with what you observe rather than guessing at another component.
+TECH: Will do. Thanks for checking the igniter criteria with me, Megan. That gives me a clear path without taking shortcuts on a school rooftop.
+AGENT: You're welcome, Priya. Thanks for calling Vantorr Technical Support. Stay safe up there.

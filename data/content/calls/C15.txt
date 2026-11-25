@@ -1,0 +1,27 @@
+-------------------
+call_id: C15
+date: 2025-11-18
+site: Northgate Fitness Center
+unit: RTU-4
+model: VAH-048
+tech: Sam Okafor
+agent: Tom
+topic: Electric heat staging timing
+-------
+AGENT: Vantorr Technical Support, this is Tom. What are you working on?
+TECH: Hey Tom, Sam Okafor with Ridgeline Mechanical Services. I'm at Northgate Fitness Center in Golden, Colorado, on the unit tagged R-T-U four. It's a V-A-H forty-eight air handler, serial two four three one V zero one seven eight five. The staff says the electric heat seems to come on in pieces, and they're calling it a delay problem.
+AGENT: Understood. When you give it a heat call, does the indoor blower respond and does the first heat stage start normally?
+TECH: Yes. The blower starts, and I can tell the first stage is responding. There's just a pause before the next stage follows. I'm in the equipment room now, so I can watch it without guessing from what somebody feels at a register.
+AGENT: Good. Does that pause happen consistently, or are you seeing a stage fail to come on at all?
+TECH: It's pretty consistent from the calls I've watched. I haven't seen a stage completely refuse to operate. The complaint came from the front desk because the heat doesn't feel immediate when they turn the thermostat up.
+AGENT: And are you seeing an active fault indication on the V-A-B fifty control board while that sequence occurs?
+TECH: No active fault that I can see. The board looks normal, and nothing is dropping out. I wanted to ask before I started chasing relays that might not actually be bad.
+AGENT: That sounds like expected sequencing. The V-A-B fifty board stages the heat strips thirty seconds apart. It intentionally brings the stages in separately instead of energizing them together on the same instant.
+TECH: Okay, that tracks with what I'm watching. I just heard another contactor pull in after the earlier one. So the gap by itself isn't evidence that the second stage is failing.
+AGENT: Correct. The timing alone isn't a fault. Verify that each stage responds in the intended sequence and that the unit isn't reporting a separate problem. Don't bypass the board or jumper a stage just to make the heat feel faster.
+TECH: Definitely not. The facilities person asked whether I could make it kick harder right away. I'm going to explain that the delay is part of the equipment's normal control, not something we're working around.
+AGENT: That's the right message. If you later find a stage that never comes on, then troubleshoot that stage using the unit diagram and approved procedures. But what you've described today is the normal staggered sequence.
+TECH: Good. I'll let the remaining cycle finish, note that both stages responded, and close out the complaint as an operating explanation. It helps to have the timing confirmed by support.
+AGENT: Happy to confirm it. Also make sure the access panels are back in place before you leave the mechanical room. No reason to create another issue while clearing this one.
+TECH: Absolutely. Thanks for the help, Tom. I appreciate the quick answer.
+AGENT: Anytime, Sam. Thanks for calling Vantorr Technical Support. Take care.

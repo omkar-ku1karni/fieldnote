@@ -1,0 +1,27 @@
+-------------------
+call_id: C24
+date: 2025-10-07
+site: Elm & 3rd Retail Plaza
+unit: RTU-5
+model: VRL-150
+tech: Luis Herrera
+agent: Tom
+topic: Failed compressor on circuit two — interim operation
+-------
+AGENT: Vantorr Technical Support, this is Tom. What can I help you with?
+TECH: Hi Tom, Luis Herrera from Ridgeline Mechanical Services. I'm at Elm and Third Retail Plaza in Waukesha, Wisconsin. The unit is R-T-U five, a V-R-L one-fifty. Serial number is two two three three V zero one eight four eight. We've confirmed a failed compressor on circuit two, and the customer wants to know whether circuit one can keep them going while we arrange the replacement.
+AGENT: Okay, Luis. Is the failure isolated to the second refrigerant circuit, with no sign of an electrical or mechanical problem affecting the first circuit?
+TECH: That's what our investigation shows. We aren't trying to bring the failed compressor back online. We've shut it down and identified the second circuit as the one that needs repair.
+AGENT: Understood. Has anyone attempted to leave the failed circuit energized or force its contactor to get temporary cooling?
+TECH: No. We stopped that circuit and left it alone. The building manager asked about running the whole rooftop, but I told him I needed support guidance on the proper reduced-capacity arrangement.
+AGENT: Good. Is circuit one operating normally when tested through its standard controls, without an active safety condition that would prevent continued use?
+TECH: Yes, circuit one responds as expected on the checks we've completed. I'm standing by the control compartment now.
+AGENT: All right. The specified replacement is replacement compressor part V-C-P one-fifty-T, with about a three week lead time. For the interim configuration, disable circuit two with DIP switch six and run on circuit one. Follow the V-R-L service instructions for that control change.
+TECH: Okay. So this is a temporary single-circuit arrangement, not a repair to the failed compressor. I'll make sure the work order says circuit two is disabled and that the unit won't have its full cooling capacity available.
+AGENT: Exactly. Keep the failed circuit electrically isolated as required by the repair procedure. Confirm the remaining circuit and its safeties are in proper condition before leaving the system in service. Do not override protection to keep cooling going.
+TECH: I agree. I'll verify the switch change against the board documentation, bring the unit back up through the normal sequence, and watch circuit one operate.
+AGENT: That's important. They may notice slower cooling under a heavy load, so communicate the limitation without promising the temporary arrangement can meet every condition. Make sure the planned compressor replacement stays on the service schedule.
+TECH: Will do. I'll also label the temporary configuration in the service notes so another technician doesn't come along and assume somebody accidentally disabled the second circuit.
+AGENT: Perfect. Once the replacement is installed, use the normal commissioning and verification procedure before returning the equipment to full operation. Don't leave the temporary board setting behind after the repair.
+TECH: Understood. Thanks for confirming the part and the interim method, Tom. I'll finish the controlled startup and give the manager an update.
+AGENT: You're welcome, Luis. Thanks for calling Vantorr Technical Support. Be careful on the roof.

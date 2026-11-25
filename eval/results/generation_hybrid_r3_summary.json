@@ -1,0 +1,24 @@
+{
+ "errors": 0,
+ "by_category": {
+  "image_only": {
+   "n": 15,
+   "accuracy": 0.867,
+   "partial": 0.867,
+   "cites_gold": 1
+  },
+  "all": {
+   "n": 15,
+   "accuracy": 0.867,
+   "partial": 0.867,
+   "cites_gold": 1
+  }
+ },
+ "latency_ms": {
+  "p50": 2891,
+  "p95": 36432
+ },
+ "providers": [
+  "gemini:gemini-flash-lite-latest"
+ ]
+}

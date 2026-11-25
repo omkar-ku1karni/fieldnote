@@ -1,0 +1,33 @@
+-------------------
+
+call_id: C09
+date: 2025-05-20
+site: Harbor Point Distribution Center (Kenosha, WI)
+unit: RTU-4
+model: VRL-150
+tech: Marcus Bell
+agent: Tom
+topic: Economizer damper not modulating
+-------
+
+AGENT: Vantorr Technical Support, this is Tom. What can I help you troubleshoot?
+TECH: Hey, Tom. Marcus Bell with Ridgeline Mechanical Services. I'm on the roof at Harbor Point Distribution Center in Kenosha, checking the economizer on R-T-U four.
+AGENT: Okay, Marcus. Read me the model and serial from the plate, please.
+TECH: V-R-L one-fifty, serial two two one two V zero one two five five. The damper doesn't modulate the way the control is asking it to.
+AGENT: When the controller changes its economizer demand, does the actuator stay in one position, or does it move but not reach the requested position?
+TECH: It makes a small movement, then seems to sit there. The linkage doesn't look broken. I can hear the actuator responding, but the damper's not tracking the command.
+AGENT: Have you verified that the linkage is free to move through its intended travel without binding?
+TECH: Yes. With power safely isolated, I inspected it. Nothing is jammed and the arms look seated. I don't want to force the damper while the motor is powered.
+AGENT: Good. Have you compared the actuator's required control-signal range with the board's configured output mode?
+TECH: Not yet. That's why I called. The controller is issuing a demand, but I don't know if the signal setup matches this actuator.
+AGENT: That mismatch is worth checking. The actuator needs a two to ten volt signal, while the board ships in zero to ten volt mode.
+TECH: Ah, so the board's factory setting may not match the actuator input. Is there a supported configuration change for this combination?
+AGENT: Yes. With power isolated, move jumper J-P seven according to the economizer setup instructions. Verify the jumper location in the board diagram before changing it.
+TECH: All right. I'll photograph the original configuration and check the drawing. I won't guess at a jumper position just because another board looked similar.
+AGENT: Perfect. Afterward, restore normal operation and observe the damper as the economizer demand changes. Check for smooth movement rather than only listening for a motor sound.
+TECH: That should tell us whether this is the signal mismatch or whether we still need to investigate the actuator and linkage.
+AGENT: Exactly. If it still fails to follow the command, document the input and response using the specified service test. Don't replace an actuator without verifying the control path.
+TECH: Understood. I'll work from the unit's diagram and note whatever we find for the building team.
+AGENT: Good plan, Marcus. Call Vantorr Technical Support back if the damper still doesn't modulate after the configuration check.
+TECH: Thanks, Tom. I'll secure the panel before we run the final test.
+AGENT: You're welcome. Be careful up there.

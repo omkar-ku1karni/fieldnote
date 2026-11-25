@@ -1,0 +1,2897 @@
+{
+  "seed": 20261122,
+  "manufacturer": "Vantorr Climate Systems",
+  "contractor": "Ridgeline Mechanical Services",
+  "series": {
+    "VRT": {
+      "title": "VRT Series Packaged Rooftop Unit — Gas Heat / Electric Cooling",
+      "kind": "rtu_gas",
+      "refrigerant": "R-454B",
+      "sizes": [
+        36,
+        48,
+        60
+      ],
+      "board": "VCB-200",
+      "compressor": "single-stage scroll",
+      "text_facts": [
+        "Filters should be inspected monthly during the cooling season and replaced at least every 3 months.",
+        "The condenser coil must be cleaned at least once a year.",
+        "The unit is not approved for installation on roofs with a slope greater than 1/4 in. per foot unless a level curb is used."
+      ],
+      "figure_facts": {
+        "led_codes": [
+          {
+            "red": 1,
+            "green": 2,
+            "condition": "Compressor contactor feedback fault",
+            "action": "Inspect contactor contacts and coil; check 24 V at Y"
+          },
+          {
+            "red": 2,
+            "green": 1,
+            "condition": "Freeze protection (indoor coil below 30 °F)",
+            "action": "Check airflow, filters and charge"
+          },
+          {
+            "red": 2,
+            "green": 3,
+            "condition": "Flame rollout switch open",
+            "action": "Inspect inducer, vent and heat exchanger before resetting rollout switch"
+          },
+          {
+            "red": 3,
+            "green": 0,
+            "condition": "Refrigerant detection sensor fault",
+            "action": "Replace refrigerant detection sensor; blower runs in mitigation mode"
+          },
+          {
+            "red": 3,
+            "green": 1,
+            "condition": "Ignition lockout (3 failed trials)",
+            "action": "Check gas supply, igniter and flame sensor"
+          },
+          {
+            "red": 4,
+            "green": 2,
+            "condition": "Low-pressure switch open",
+            "action": "Check for loss of charge, restricted filter-drier or low indoor airflow"
+          },
+          {
+            "red": 5,
+            "green": 1,
+            "condition": "Five-strike lockout (repeated pressure trips)",
+            "action": "Correct root cause, then cycle power to reset"
+          },
+          {
+            "red": 6,
+            "green": 0,
+            "condition": "Refrigerant leak detected (A2L mitigation active)",
+            "action": "Ventilate area, locate and repair leak before restart"
+          },
+          {
+            "red": 6,
+            "green": 1,
+            "condition": "High-pressure switch open",
+            "action": "Check condenser airflow, fan motor and capacitor; verify charge"
+          },
+          {
+            "red": 6,
+            "green": 3,
+            "condition": "Outdoor ambient sensor open/short",
+            "action": "Check sensor wiring and resistance against the sensor curve"
+          }
+        ],
+        "wiring": [
+          {
+            "src": "Board HP1",
+            "dst": "HPS-1",
+            "color": "BRN"
+          },
+          {
+            "src": "Board HP2",
+            "dst": "HPS-2",
+            "color": "PNK"
+          },
+          {
+            "src": "Board LP1",
+            "dst": "LPS-1",
+            "color": "YEL/BLK"
+          },
+          {
+            "src": "Board LP2",
+            "dst": "LPS-2",
+            "color": "RED/WHT"
+          },
+          {
+            "src": "Board Y-OUT",
+            "dst": "Contactor A1",
+            "color": "ORG"
+          },
+          {
+            "src": "Board CF",
+            "dst": "Cond. fan relay",
+            "color": "YEL"
+          },
+          {
+            "src": "Board IND",
+            "dst": "Inducer motor",
+            "color": "VIO"
+          },
+          {
+            "src": "Board GV",
+            "dst": "Gas valve MV",
+            "color": "BLU/WHT"
+          },
+          {
+            "src": "Board HSI",
+            "dst": "Igniter",
+            "color": "GRY"
+          },
+          {
+            "src": "Board RS",
+            "dst": "Rollout switch",
+            "color": "BLU"
+          },
+          {
+            "src": "Board FS",
+            "dst": "Flame sensor",
+            "color": "WHT/BLK"
+          },
+          {
+            "src": "Board RDS",
+            "dst": "Refrig. detection sensor",
+            "color": "BLK"
+          }
+        ],
+        "control_fuse_a": 3,
+        "altitude_derate": [
+          [
+            "0 – 2,000",
+            0
+          ],
+          [
+            "2,001 – 3,000",
+            6
+          ],
+          [
+            "3,001 – 4,000",
+            9
+          ],
+          [
+            "4,001 – 5,000",
+            13
+          ],
+          [
+            "5,001 – 6,000",
+            16
+          ],
+          [
+            "6,001 – 7,000",
+            20
+          ],
+          [
+            "7,001 – 8,000",
+            23
+          ]
+        ]
+      }
+    },
+    "VHP": {
+      "title": "VHP Series Packaged Rooftop Heat Pump",
+      "kind": "rtu_hp",
+      "refrigerant": "R-454B",
+      "sizes": [
+        36,
+        48,
+        60
+      ],
+      "board": "VCB-210",
+      "compressor": "single-stage scroll",
+      "text_facts": [
+        "The unit must be level within 1/4 in. side to side so the condensate and defrost water drain correctly.",
+        "Auxiliary electric heat kits are available in 5, 10 and 15 kW sizes."
+      ],
+      "figure_facts": {
+        "led_codes": [
+          {
+            "red": 1,
+            "green": 0,
+            "condition": "Phase loss or reversal",
+            "action": "Check incoming three-phase power and rotation"
+          },
+          {
+            "red": 1,
+            "green": 1,
+            "condition": "Freeze protection (indoor coil below 30 °F)",
+            "action": "Check airflow, filters and charge"
+          },
+          {
+            "red": 1,
+            "green": 3,
+            "condition": "Compressor contactor feedback fault",
+            "action": "Inspect contactor contacts and coil; check 24 V at Y"
+          },
+          {
+            "red": 2,
+            "green": 1,
+            "condition": "Refrigerant leak detected (A2L mitigation active)",
+            "action": "Ventilate area, locate and repair leak before restart"
+          },
+          {
+            "red": 3,
+            "green": 1,
+            "condition": "Five-strike lockout (repeated pressure trips)",
+            "action": "Correct root cause, then cycle power to reset"
+          },
+          {
+            "red": 4,
+            "green": 2,
+            "condition": "High-pressure switch open",
+            "action": "Check condenser airflow, fan motor and capacitor; verify charge"
+          },
+          {
+            "red": 5,
+            "green": 3,
+            "condition": "Communication loss with thermostat",
+            "action": "Check thermostat wiring and terminal connections"
+          },
+          {
+            "red": 6,
+            "green": 0,
+            "condition": "Outdoor ambient sensor open/short",
+            "action": "Check sensor wiring and resistance against the sensor curve"
+          },
+          {
+            "red": 6,
+            "green": 1,
+            "condition": "Low-pressure switch open",
+            "action": "Check for loss of charge, restricted filter-drier or low indoor airflow"
+          },
+          {
+            "red": 6,
+            "green": 3,
+            "condition": "Refrigerant detection sensor fault",
+            "action": "Replace refrigerant detection sensor; blower runs in mitigation mode"
+          }
+        ],
+        "wiring": [
+          {
+            "src": "Board HP1",
+            "dst": "HPS-1",
+            "color": "YEL/BLK"
+          },
+          {
+            "src": "Board HP2",
+            "dst": "HPS-2",
+            "color": "BLU/WHT"
+          },
+          {
+            "src": "Board LP1",
+            "dst": "LPS-1",
+            "color": "PNK"
+          },
+          {
+            "src": "Board LP2",
+            "dst": "LPS-2",
+            "color": "WHT/BLK"
+          },
+          {
+            "src": "Board Y-OUT",
+            "dst": "Contactor A1",
+            "color": "BRN"
+          },
+          {
+            "src": "Board CF",
+            "dst": "Cond. fan relay",
+            "color": "YEL"
+          },
+          {
+            "src": "Board RV",
+            "dst": "Reversing valve (B)",
+            "color": "BLK"
+          },
+          {
+            "src": "Board DFT",
+            "dst": "Defrost sensor",
+            "color": "RED/WHT"
+          },
+          {
+            "src": "Board OAT",
+            "dst": "Outdoor air sensor",
+            "color": "VIO"
+          },
+          {
+            "src": "Board W2-OUT",
+            "dst": "Heat kit relay",
+            "color": "GRY"
+          },
+          {
+            "src": "Board RDS",
+            "dst": "Refrig. detection sensor",
+            "color": "ORG"
+          }
+        ],
+        "control_fuse_a": 3,
+        "thermistor": {
+          "name": "Defrost / outdoor coil sensor",
+          "r25_kohm": 15.0,
+          "beta": 3720
+        }
+      }
+    },
+    "VCU": {
+      "title": "VCU Series Split-System Condensing Unit",
+      "kind": "condenser",
+      "refrigerant": "R-410A",
+      "sizes": [
+        24,
+        36,
+        48
+      ],
+      "board": "VCB-110",
+      "compressor": "single-stage scroll",
+      "text_facts": [
+        "The maximum total refrigerant line length is 100 ft, with a maximum vertical lift of 40 ft.",
+        "Factory charge covers the standard line set length of 25 ft."
+      ],
+      "figure_facts": {
+        "led_codes": [
+          {
+            "red": 1,
+            "green": 1,
+            "condition": "Low-pressure switch open",
+            "action": "Check for loss of charge, restricted filter-drier or low indoor airflow"
+          },
+          {
+            "red": 2,
+            "green": 0,
+            "condition": "Discharge temperature limit",
+            "action": "Check charge and expansion device; compressor may be overheating"
+          },
+          {
+            "red": 2,
+            "green": 3,
+            "condition": "Outdoor ambient sensor open/short",
+            "action": "Check sensor wiring and resistance against the sensor curve"
+          },
+          {
+            "red": 3,
+            "green": 2,
+            "condition": "High-pressure switch open",
+            "action": "Check condenser airflow, fan motor and capacitor; verify charge"
+          },
+          {
+            "red": 5,
+            "green": 2,
+            "condition": "Five-strike lockout (repeated pressure trips)",
+            "action": "Correct root cause, then cycle power to reset"
+          },
+          {
+            "red": 6,
+            "green": 2,
+            "condition": "Phase loss or reversal",
+            "action": "Check incoming three-phase power and rotation"
+          },
+          {
+            "red": 6,
+            "green": 3,
+            "condition": "Compressor contactor feedback fault",
+            "action": "Inspect contactor contacts and coil; check 24 V at Y"
+          }
+        ],
+        "wiring": [
+          {
+            "src": "Board HP1",
+            "dst": "HPS-1",
+            "color": "RED/WHT"
+          },
+          {
+            "src": "Board HP2",
+            "dst": "HPS-2",
+            "color": "YEL"
+          },
+          {
+            "src": "Board LP1",
+            "dst": "LPS-1",
+            "color": "GRY"
+          },
+          {
+            "src": "Board LP2",
+            "dst": "LPS-2",
+            "color": "ORG"
+          },
+          {
+            "src": "Board Y-OUT",
+            "dst": "Contactor A1",
+            "color": "YEL/BLK"
+          },
+          {
+            "src": "Board CF",
+            "dst": "Cond. fan motor",
+            "color": "BLK"
+          },
+          {
+            "src": "Board OAT",
+            "dst": "Outdoor air sensor",
+            "color": "BLU"
+          },
+          {
+            "src": "Board DT",
+            "dst": "Discharge temp sensor",
+            "color": "BLU/WHT"
+          }
+        ],
+        "control_fuse_a": 5,
+        "lineset_adder_oz_per_ft": [
+          [
+            "1/4\"",
+            0.31
+          ],
+          [
+            "5/16\"",
+            0.47
+          ],
+          [
+            "3/8\"",
+            0.71
+          ],
+          [
+            "1/2\"",
+            1.26
+          ]
+        ],
+        "lineset_standard_ft": 25,
+        "thermistor": {
+          "name": "Outdoor air sensor",
+          "r25_kohm": 10.0,
+          "beta": 3560
+        }
+      }
+    },
+    "VAH": {
+      "title": "VAH Series Multi-Position Air Handler",
+      "kind": "air_handler",
+      "refrigerant": "R-410A",
+      "sizes": [
+        24,
+        36,
+        48
+      ],
+      "board": "VAB-50",
+      "compressor": null,
+      "text_facts": [
+        "The air handler can be installed upflow, downflow, horizontal left or horizontal right.",
+        "A secondary drain pan is required when the unit is installed above a finished ceiling."
+      ],
+      "figure_facts": {
+        "led_codes": [
+          {
+            "red": 1,
+            "green": 3,
+            "condition": "Indoor blower proving fault",
+            "action": "Check blower motor, belt or wheel and airflow switch"
+          },
+          {
+            "red": 3,
+            "green": 1,
+            "condition": "Freeze protection (indoor coil below 30 °F)",
+            "action": "Check airflow, filters and charge"
+          },
+          {
+            "red": 4,
+            "green": 0,
+            "condition": "Communication loss with thermostat",
+            "action": "Check thermostat wiring and terminal connections"
+          },
+          {
+            "red": 5,
+            "green": 1,
+            "condition": "Refrigerant leak detected (A2L mitigation active)",
+            "action": "Ventilate area, locate and repair leak before restart"
+          },
+          {
+            "red": 5,
+            "green": 2,
+            "condition": "Refrigerant detection sensor fault",
+            "action": "Replace refrigerant detection sensor; blower runs in mitigation mode"
+          }
+        ],
+        "wiring": [
+          {
+            "src": "Board G",
+            "dst": "Blower relay",
+            "color": "ORG"
+          },
+          {
+            "src": "Board W1",
+            "dst": "Heat seq. 1",
+            "color": "PNK"
+          },
+          {
+            "src": "Board W2",
+            "dst": "Heat seq. 2",
+            "color": "GRY"
+          },
+          {
+            "src": "Board FS",
+            "dst": "Float switch",
+            "color": "YEL"
+          },
+          {
+            "src": "Board RDS",
+            "dst": "Refrig. detection sensor",
+            "color": "RED/WHT"
+          },
+          {
+            "src": "Board EEV",
+            "dst": "Expansion valve",
+            "color": "BLU"
+          }
+        ],
+        "control_fuse_a": 3
+      }
+    },
+    "VRL": {
+      "title": "VRL Series Large Packaged Rooftop Unit — Two-Stage Cooling",
+      "kind": "rtu_large",
+      "refrigerant": "R-454B",
+      "sizes": [
+        90,
+        120,
+        150
+      ],
+      "board": "VCB-400",
+      "compressor": "two tandem scroll compressors on two independent circuits",
+      "text_facts": [
+        "Crankcase heaters must be energized at least 24 hours before the first start-up.",
+        "Economizer operation is controlled by a dry-bulb changeover setpoint that is field adjustable."
+      ],
+      "figure_facts": {
+        "led_codes": [
+          {
+            "red": 1,
+            "green": 0,
+            "condition": "Outdoor ambient sensor open/short",
+            "action": "Check sensor wiring and resistance against the sensor curve"
+          },
+          {
+            "red": 2,
+            "green": 1,
+            "condition": "Five-strike lockout (repeated pressure trips)",
+            "action": "Correct root cause, then cycle power to reset"
+          },
+          {
+            "red": 2,
+            "green": 3,
+            "condition": "Indoor blower proving fault",
+            "action": "Check blower motor, belt or wheel and airflow switch"
+          },
+          {
+            "red": 3,
+            "green": 2,
+            "condition": "Discharge temperature limit",
+            "action": "Check charge and expansion device; compressor may be overheating"
+          },
+          {
+            "red": 4,
+            "green": 0,
+            "condition": "High-pressure switch open",
+            "action": "Check condenser airflow, fan motor and capacitor; verify charge"
+          },
+          {
+            "red": 4,
+            "green": 2,
+            "condition": "Refrigerant leak detected (A2L mitigation active)",
+            "action": "Ventilate area, locate and repair leak before restart"
+          },
+          {
+            "red": 5,
+            "green": 0,
+            "condition": "Refrigerant detection sensor fault",
+            "action": "Replace refrigerant detection sensor; blower runs in mitigation mode"
+          },
+          {
+            "red": 5,
+            "green": 1,
+            "condition": "Compressor contactor feedback fault",
+            "action": "Inspect contactor contacts and coil; check 24 V at Y"
+          },
+          {
+            "red": 6,
+            "green": 1,
+            "condition": "Low-pressure switch open",
+            "action": "Check for loss of charge, restricted filter-drier or low indoor airflow"
+          },
+          {
+            "red": 6,
+            "green": 2,
+            "condition": "Phase loss or reversal",
+            "action": "Check incoming three-phase power and rotation"
+          }
+        ],
+        "wiring": [
+          {
+            "src": "Board HP1-A",
+            "dst": "HPS circuit 1",
+            "color": "BLU/WHT"
+          },
+          {
+            "src": "Board HP1-B",
+            "dst": "HPS circuit 2",
+            "color": "WHT/BLK"
+          },
+          {
+            "src": "Board LP1-A",
+            "dst": "LPS circuit 1",
+            "color": "BLU"
+          },
+          {
+            "src": "Board LP1-B",
+            "dst": "LPS circuit 2",
+            "color": "VIO"
+          },
+          {
+            "src": "Board Y1-OUT",
+            "dst": "Contactor C1",
+            "color": "YEL/BLK"
+          },
+          {
+            "src": "Board Y2-OUT",
+            "dst": "Contactor C2",
+            "color": "RED/WHT"
+          },
+          {
+            "src": "Board PM",
+            "dst": "Phase monitor",
+            "color": "BRN"
+          },
+          {
+            "src": "Board ECON",
+            "dst": "Economizer actuator",
+            "color": "PNK"
+          },
+          {
+            "src": "Board CF1",
+            "dst": "Cond. fan 1",
+            "color": "YEL"
+          },
+          {
+            "src": "Board CF2",
+            "dst": "Cond. fan 2",
+            "color": "BLK"
+          },
+          {
+            "src": "Board RDS",
+            "dst": "Refrig. detection sensor",
+            "color": "ORG"
+          }
+        ],
+        "control_fuse_a": 5
+      }
+    }
+  },
+  "models": {
+    "VRT-036": {
+      "series": "VRT",
+      "size": 36,
+      "text_facts": {
+        "nominal_tons": "3",
+        "refrigerant": "R-454B",
+        "cooling_capacity_btuh": "35,800",
+        "factory_charge": "3 lb 13 oz",
+        "min_cooling_ambient_f": "35 °F",
+        "anti_short_cycle_delay": "5 minutes",
+        "filter": "2 filters, 16 x 25 x 2 in.",
+        "operating_weight_lb": "350 lb",
+        "clearances_in": "service side 36 in., condenser coil side 18 in., top 60 in. unobstructed",
+        "voltage_options": "208/230-1-60, 208/230-3-60",
+        "heating_input_btuh": "60,000"
+      },
+      "figure_facts": {
+        "charging_chart": {
+          "L0": 401.1,
+          "kT": 2.625,
+          "kS": 0.833,
+          "outdoor_temps_f": [
+            65,
+            75,
+            85,
+            95,
+            105,
+            115
+          ],
+          "suction_range": [
+            100,
+            160
+          ]
+        },
+        "hps_open_psig": 640,
+        "hps_close_psig": 470,
+        "lps_open_psig": 50,
+        "lps_close_psig": 95,
+        "mca_a": 24.6,
+        "mop_a": 40,
+        "blower_table": {
+          "esp_in_wc": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "taps": {
+            "Low": [
+              850,
+              830,
+              805,
+              775,
+              745,
+              710,
+              670,
+              635,
+              590,
+              550
+            ],
+            "Med-Low": [
+              995,
+              970,
+              940,
+              905,
+              870,
+              830,
+              785,
+              740,
+              690,
+              640
+            ],
+            "Med": [
+              1125,
+              1095,
+              1065,
+              1025,
+              980,
+              935,
+              885,
+              835,
+              780,
+              725
+            ],
+            "Med-High": [
+              1255,
+              1225,
+              1185,
+              1145,
+              1095,
+              1045,
+              990,
+              930,
+              870,
+              805
+            ],
+            "High": [
+              1385,
+              1350,
+              1310,
+              1260,
+              1210,
+              1155,
+              1090,
+              1030,
+              960,
+              890
+            ]
+          }
+        }
+      }
+    },
+    "VRT-048": {
+      "series": "VRT",
+      "size": 48,
+      "text_facts": {
+        "nominal_tons": "4",
+        "refrigerant": "R-454B",
+        "cooling_capacity_btuh": "47,100",
+        "factory_charge": "5 lb 7 oz",
+        "min_cooling_ambient_f": "35 °F",
+        "anti_short_cycle_delay": "5 minutes",
+        "filter": "2 filters, 20 x 25 x 2 in.",
+        "operating_weight_lb": "470 lb",
+        "clearances_in": "service side 36 in., condenser coil side 18 in., top 60 in. unobstructed",
+        "voltage_options": "208/230-1-60, 208/230-3-60",
+        "heating_input_btuh": "80,000"
+      },
+      "figure_facts": {
+        "charging_chart": {
+          "L0": 395.6,
+          "kT": 3.235,
+          "kS": 0.701,
+          "outdoor_temps_f": [
+            65,
+            75,
+            85,
+            95,
+            105,
+            115
+          ],
+          "suction_range": [
+            100,
+            160
+          ]
+        },
+        "hps_open_psig": 645,
+        "hps_close_psig": 465,
+        "lps_open_psig": 50,
+        "lps_close_psig": 90,
+        "mca_a": 33.1,
+        "mop_a": 60,
+        "blower_table": {
+          "esp_in_wc": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "taps": {
+            "Low": [
+              1135,
+              1105,
+              1070,
+              1030,
+              985,
+              935,
+              885,
+              830,
+              770,
+              710
+            ],
+            "Med-Low": [
+              1325,
+              1290,
+              1250,
+              1200,
+              1150,
+              1095,
+              1030,
+              970,
+              900,
+              830
+            ],
+            "Med": [
+              1495,
+              1460,
+              1410,
+              1360,
+              1300,
+              1235,
+              1165,
+              1095,
+              1020,
+              940
+            ],
+            "Med-High": [
+              1670,
+              1630,
+              1575,
+              1515,
+              1450,
+              1380,
+              1300,
+              1220,
+              1135,
+              1045
+            ],
+            "High": [
+              1845,
+              1795,
+              1740,
+              1675,
+              1600,
+              1520,
+              1440,
+              1350,
+              1255,
+              1155
+            ]
+          }
+        }
+      }
+    },
+    "VRT-060": {
+      "series": "VRT",
+      "size": 60,
+      "text_facts": {
+        "nominal_tons": "5",
+        "refrigerant": "R-454B",
+        "cooling_capacity_btuh": "58,300",
+        "factory_charge": "6 lb 8 oz",
+        "min_cooling_ambient_f": "35 °F",
+        "anti_short_cycle_delay": "5 minutes",
+        "filter": "3 filters, 20 x 25 x 2 in.",
+        "operating_weight_lb": "560 lb",
+        "clearances_in": "service side 36 in., condenser coil side 18 in., top 60 in. unobstructed",
+        "voltage_options": "208/230-3-60, 460-3-60",
+        "heating_input_btuh": "100,000"
+      },
+      "figure_facts": {
+        "charging_chart": {
+          "L0": 384.9,
+          "kT": 2.947,
+          "kS": 0.645,
+          "outdoor_temps_f": [
+            65,
+            75,
+            85,
+            95,
+            105,
+            115
+          ],
+          "suction_range": [
+            100,
+            160
+          ]
+        },
+        "hps_open_psig": 630,
+        "hps_close_psig": 455,
+        "lps_open_psig": 40,
+        "lps_close_psig": 85,
+        "mca_a": 39.3,
+        "mop_a": 70,
+        "blower_table": {
+          "esp_in_wc": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "taps": {
+            "Low": [
+              1420,
+              1385,
+              1345,
+              1300,
+              1250,
+              1190,
+              1130,
+              1070,
+              1000,
+              930
+            ],
+            "Med-Low": [
+              1655,
+              1620,
+              1570,
+              1515,
+              1455,
+              1390,
+              1320,
+              1245,
+              1170,
+              1090
+            ],
+            "Med": [
+              1875,
+              1830,
+              1775,
+              1715,
+              1645,
+              1570,
+              1495,
+              1410,
+              1320,
+              1230
+            ],
+            "Med-High": [
+              2090,
+              2040,
+              1980,
+              1915,
+              1835,
+              1755,
+              1665,
+              1575,
+              1475,
+              1375
+            ],
+            "High": [
+              2305,
+              2255,
+              2185,
+              2110,
+              2025,
+              1935,
+              1840,
+              1735,
+              1630,
+              1515
+            ]
+          }
+        }
+      }
+    },
+    "VHP-036": {
+      "series": "VHP",
+      "size": 36,
+      "text_facts": {
+        "nominal_tons": "3",
+        "refrigerant": "R-454B",
+        "cooling_capacity_btuh": "35,300",
+        "factory_charge": "4 lb 0 oz",
+        "min_cooling_ambient_f": "35 °F",
+        "anti_short_cycle_delay": "5 minutes",
+        "filter": "2 filters, 16 x 25 x 2 in.",
+        "operating_weight_lb": "370 lb",
+        "clearances_in": "service side 36 in., coil side 24 in., top 60 in. unobstructed",
+        "voltage_options": "208/230-1-60, 208/230-3-60",
+        "defrost_interval_options": "30, 60 or 90 minutes (factory default 60 minutes)"
+      },
+      "figure_facts": {
+        "charging_chart": {
+          "L0": 386.5,
+          "kT": 2.977,
+          "kS": 0.608,
+          "outdoor_temps_f": [
+            65,
+            75,
+            85,
+            95,
+            105,
+            115
+          ],
+          "suction_range": [
+            100,
+            160
+          ]
+        },
+        "hps_open_psig": 620,
+        "hps_close_psig": 430,
+        "lps_open_psig": 45,
+        "lps_close_psig": 80,
+        "mca_a": 25.4,
+        "mop_a": 45,
+        "blower_table": {
+          "esp_in_wc": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "taps": {
+            "Low": [
+              850,
+              830,
+              805,
+              775,
+              745,
+              710,
+              670,
+              630,
+              590,
+              545
+            ],
+            "Med-Low": [
+              995,
+              970,
+              940,
+              905,
+              865,
+              825,
+              780,
+              735,
+              685,
+              635
+            ],
+            "Med": [
+              1125,
+              1095,
+              1060,
+              1025,
+              980,
+              935,
+              885,
+              830,
+              775,
+              720
+            ],
+            "Med-High": [
+              1255,
+              1225,
+              1185,
+              1140,
+              1095,
+              1045,
+              985,
+              930,
+              865,
+              805
+            ],
+            "High": [
+              1385,
+              1350,
+              1310,
+              1260,
+              1210,
+              1150,
+              1090,
+              1025,
+              955,
+              885
+            ]
+          }
+        }
+      }
+    },
+    "VHP-048": {
+      "series": "VHP",
+      "size": 48,
+      "text_facts": {
+        "nominal_tons": "4",
+        "refrigerant": "R-454B",
+        "cooling_capacity_btuh": "46,500",
+        "factory_charge": "5 lb 1 oz",
+        "min_cooling_ambient_f": "35 °F",
+        "anti_short_cycle_delay": "5 minutes",
+        "filter": "2 filters, 20 x 25 x 2 in.",
+        "operating_weight_lb": "480 lb",
+        "clearances_in": "service side 36 in., coil side 24 in., top 60 in. unobstructed",
+        "voltage_options": "208/230-1-60, 208/230-3-60",
+        "defrost_interval_options": "30, 60 or 90 minutes (factory default 60 minutes)"
+      },
+      "figure_facts": {
+        "charging_chart": {
+          "L0": 390.1,
+          "kT": 3.157,
+          "kS": 0.716,
+          "outdoor_temps_f": [
+            65,
+            75,
+            85,
+            95,
+            105,
+            115
+          ],
+          "suction_range": [
+            100,
+            160
+          ]
+        },
+        "hps_open_psig": 645,
+        "hps_close_psig": 465,
+        "lps_open_psig": 50,
+        "lps_close_psig": 90,
+        "mca_a": 31.1,
+        "mop_a": 50,
+        "blower_table": {
+          "esp_in_wc": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "taps": {
+            "Low": [
+              1135,
+              1110,
+              1080,
+              1045,
+              1005,
+              960,
+              915,
+              865,
+              815,
+              760
+            ],
+            "Med-Low": [
+              1325,
+              1295,
+              1260,
+              1215,
+              1170,
+              1120,
+              1065,
+              1010,
+              950,
+              885
+            ],
+            "Med": [
+              1500,
+              1465,
+              1425,
+              1375,
+              1325,
+              1265,
+              1205,
+              1140,
+              1070,
+              1000
+            ],
+            "Med-High": [
+              1675,
+              1635,
+              1590,
+              1535,
+              1475,
+              1415,
+              1345,
+              1270,
+              1195,
+              1115
+            ],
+            "High": [
+              1845,
+              1805,
+              1755,
+              1695,
+              1630,
+              1560,
+              1485,
+              1405,
+              1320,
+              1235
+            ]
+          }
+        }
+      }
+    },
+    "VHP-060": {
+      "series": "VHP",
+      "size": 60,
+      "text_facts": {
+        "nominal_tons": "5",
+        "refrigerant": "R-454B",
+        "cooling_capacity_btuh": "59,300",
+        "factory_charge": "5 lb 15 oz",
+        "min_cooling_ambient_f": "35 °F",
+        "anti_short_cycle_delay": "5 minutes",
+        "filter": "3 filters, 20 x 25 x 2 in.",
+        "operating_weight_lb": "580 lb",
+        "clearances_in": "service side 36 in., coil side 24 in., top 60 in. unobstructed",
+        "voltage_options": "208/230-3-60, 460-3-60",
+        "defrost_interval_options": "30, 60 or 90 minutes (factory default 60 minutes)"
+      },
+      "figure_facts": {
+        "charging_chart": {
+          "L0": 394.6,
+          "kT": 2.798,
+          "kS": 0.932,
+          "outdoor_temps_f": [
+            65,
+            75,
+            85,
+            95,
+            105,
+            115
+          ],
+          "suction_range": [
+            100,
+            160
+          ]
+        },
+        "hps_open_psig": 625,
+        "hps_close_psig": 455,
+        "lps_open_psig": 45,
+        "lps_close_psig": 90,
+        "mca_a": 38.3,
+        "mop_a": 70,
+        "blower_table": {
+          "esp_in_wc": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "taps": {
+            "Low": [
+              1420,
+              1390,
+              1350,
+              1300,
+              1250,
+              1195,
+              1135,
+              1075,
+              1010,
+              940
+            ],
+            "Med-Low": [
+              1655,
+              1620,
+              1570,
+              1520,
+              1460,
+              1395,
+              1325,
+              1255,
+              1180,
+              1100
+            ],
+            "Med": [
+              1875,
+              1830,
+              1780,
+              1715,
+              1650,
+              1580,
+              1500,
+              1420,
+              1330,
+              1240
+            ],
+            "Med-High": [
+              2090,
+              2045,
+              1985,
+              1915,
+              1840,
+              1760,
+              1675,
+              1585,
+              1485,
+              1385
+            ],
+            "High": [
+              2310,
+              2255,
+              2190,
+              2115,
+              2035,
+              1945,
+              1850,
+              1745,
+              1640,
+              1530
+            ]
+          }
+        }
+      }
+    },
+    "VCU-024": {
+      "series": "VCU",
+      "size": 24,
+      "text_facts": {
+        "nominal_tons": "2",
+        "refrigerant": "R-410A",
+        "cooling_capacity_btuh": "23,500",
+        "factory_charge": "2 lb 9 oz",
+        "min_cooling_ambient_f": "35 °F",
+        "anti_short_cycle_delay": "5 minutes",
+        "operating_weight_lb": "90 lb",
+        "clearances_in": "service side 24 in., other sides 12 in., top 60 in. unobstructed",
+        "voltage_options": "208/230-1-60, 208/230-3-60"
+      },
+      "figure_facts": {
+        "charging_chart": {
+          "L0": 390.7,
+          "kT": 2.9,
+          "kS": 0.676,
+          "outdoor_temps_f": [
+            65,
+            75,
+            85,
+            95,
+            105,
+            115
+          ],
+          "suction_range": [
+            100,
+            160
+          ]
+        },
+        "hps_open_psig": 610,
+        "hps_close_psig": 445,
+        "lps_open_psig": 50,
+        "lps_close_psig": 90,
+        "mca_a": 16.3,
+        "mop_a": 30
+      }
+    },
+    "VCU-036": {
+      "series": "VCU",
+      "size": 36,
+      "text_facts": {
+        "nominal_tons": "3",
+        "refrigerant": "R-410A",
+        "cooling_capacity_btuh": "35,000",
+        "factory_charge": "3 lb 15 oz",
+        "min_cooling_ambient_f": "35 °F",
+        "anti_short_cycle_delay": "5 minutes",
+        "operating_weight_lb": "150 lb",
+        "clearances_in": "service side 24 in., other sides 12 in., top 60 in. unobstructed",
+        "voltage_options": "208/230-1-60, 208/230-3-60"
+      },
+      "figure_facts": {
+        "charging_chart": {
+          "L0": 389.0,
+          "kT": 3.134,
+          "kS": 0.838,
+          "outdoor_temps_f": [
+            65,
+            75,
+            85,
+            95,
+            105,
+            115
+          ],
+          "suction_range": [
+            100,
+            160
+          ]
+        },
+        "hps_open_psig": 635,
+        "hps_close_psig": 430,
+        "lps_open_psig": 50,
+        "lps_close_psig": 100,
+        "mca_a": 22.5,
+        "mop_a": 40
+      }
+    },
+    "VCU-048": {
+      "series": "VCU",
+      "size": 48,
+      "text_facts": {
+        "nominal_tons": "4",
+        "refrigerant": "R-410A",
+        "cooling_capacity_btuh": "47,000",
+        "factory_charge": "4 lb 14 oz",
+        "min_cooling_ambient_f": "35 °F",
+        "anti_short_cycle_delay": "5 minutes",
+        "operating_weight_lb": "210 lb",
+        "clearances_in": "service side 24 in., other sides 12 in., top 60 in. unobstructed",
+        "voltage_options": "208/230-1-60, 208/230-3-60"
+      },
+      "figure_facts": {
+        "charging_chart": {
+          "L0": 369.5,
+          "kT": 3.033,
+          "kS": 0.842,
+          "outdoor_temps_f": [
+            65,
+            75,
+            85,
+            95,
+            105,
+            115
+          ],
+          "suction_range": [
+            100,
+            160
+          ]
+        },
+        "hps_open_psig": 635,
+        "hps_close_psig": 475,
+        "lps_open_psig": 45,
+        "lps_close_psig": 100,
+        "mca_a": 31.9,
+        "mop_a": 60
+      }
+    },
+    "VAH-024": {
+      "series": "VAH",
+      "size": 24,
+      "text_facts": {
+        "nominal_tons": "2",
+        "refrigerant": "R-410A",
+        "filter": "1 filter, 16 x 20 x 1 in.",
+        "operating_weight_lb": "60 lb",
+        "clearances_in": "front service access 24 in.; zero clearance to combustibles on sides",
+        "voltage_options": "208/230-1-60, 208/230-3-60"
+      },
+      "figure_facts": {
+        "mca_a": 16.2,
+        "mop_a": 30,
+        "blower_table": {
+          "esp_in_wc": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "taps": {
+            "Low": [
+              570,
+              555,
+              540,
+              520,
+              500,
+              475,
+              450,
+              425,
+              400,
+              370
+            ],
+            "Med-Low": [
+              660,
+              645,
+              625,
+              605,
+              580,
+              555,
+              525,
+              495,
+              465,
+              430
+            ],
+            "Med": [
+              750,
+              730,
+              710,
+              685,
+              655,
+              625,
+              595,
+              560,
+              525,
+              490
+            ],
+            "Med-High": [
+              835,
+              815,
+              790,
+              765,
+              735,
+              700,
+              665,
+              625,
+              585,
+              545
+            ],
+            "High": [
+              925,
+              900,
+              875,
+              845,
+              810,
+              770,
+              730,
+              690,
+              645,
+              600
+            ]
+          }
+        }
+      }
+    },
+    "VAH-036": {
+      "series": "VAH",
+      "size": 36,
+      "text_facts": {
+        "nominal_tons": "3",
+        "refrigerant": "R-410A",
+        "filter": "2 filters, 16 x 25 x 2 in.",
+        "operating_weight_lb": "100 lb",
+        "clearances_in": "front service access 24 in.; zero clearance to combustibles on sides",
+        "voltage_options": "208/230-1-60, 208/230-3-60"
+      },
+      "figure_facts": {
+        "mca_a": 25.9,
+        "mop_a": 45,
+        "blower_table": {
+          "esp_in_wc": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "taps": {
+            "Low": [
+              850,
+              830,
+              800,
+              770,
+              735,
+              695,
+              655,
+              610,
+              565,
+              520
+            ],
+            "Med-Low": [
+              990,
+              965,
+              935,
+              895,
+              855,
+              810,
+              765,
+              710,
+              660,
+              605
+            ],
+            "Med": [
+              1120,
+              1090,
+              1055,
+              1015,
+              965,
+              915,
+              865,
+              805,
+              745,
+              685
+            ],
+            "Med-High": [
+              1250,
+              1220,
+              1180,
+              1130,
+              1080,
+              1025,
+              965,
+              900,
+              830,
+              760
+            ],
+            "High": [
+              1380,
+              1345,
+              1300,
+              1250,
+              1190,
+              1130,
+              1060,
+              990,
+              920,
+              840
+            ]
+          }
+        }
+      }
+    },
+    "VAH-048": {
+      "series": "VAH",
+      "size": 48,
+      "text_facts": {
+        "nominal_tons": "4",
+        "refrigerant": "R-410A",
+        "filter": "2 filters, 20 x 25 x 2 in.",
+        "operating_weight_lb": "120 lb",
+        "clearances_in": "front service access 24 in.; zero clearance to combustibles on sides",
+        "voltage_options": "208/230-1-60, 208/230-3-60"
+      },
+      "figure_facts": {
+        "mca_a": 32.5,
+        "mop_a": 60,
+        "blower_table": {
+          "esp_in_wc": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "taps": {
+            "Low": [
+              1135,
+              1105,
+              1065,
+              1025,
+              980,
+              930,
+              875,
+              815,
+              755,
+              695
+            ],
+            "Med-Low": [
+              1325,
+              1290,
+              1245,
+              1195,
+              1140,
+              1080,
+              1020,
+              955,
+              885,
+              810
+            ],
+            "Med": [
+              1495,
+              1455,
+              1410,
+              1350,
+              1290,
+              1225,
+              1155,
+              1075,
+              1000,
+              915
+            ],
+            "Med-High": [
+              1670,
+              1625,
+              1570,
+              1510,
+              1440,
+              1365,
+              1285,
+              1200,
+              1115,
+              1020
+            ],
+            "High": [
+              1840,
+              1795,
+              1735,
+              1665,
+              1590,
+              1510,
+              1420,
+              1325,
+              1230,
+              1125
+            ]
+          }
+        }
+      }
+    },
+    "VRL-090": {
+      "series": "VRL",
+      "size": 90,
+      "text_facts": {
+        "nominal_tons": "7.5",
+        "refrigerant": "R-454B",
+        "cooling_capacity_btuh": "89,300",
+        "factory_charge": "10 lb 1 oz",
+        "min_cooling_ambient_f": "40 °F",
+        "anti_short_cycle_delay": "5 minutes",
+        "filter": "4 filters, 20 x 25 x 2 in.",
+        "operating_weight_lb": "1080 lb",
+        "clearances_in": "service side 48 in., condenser side 36 in., top 72 in. unobstructed",
+        "voltage_options": "208/230-3-60, 460-3-60",
+        "stages": "two stages of cooling (circuit 1 = Y1, circuit 2 = Y2)"
+      },
+      "figure_facts": {
+        "charging_chart": {
+          "L0": 378.0,
+          "kT": 2.809,
+          "kS": 0.992,
+          "outdoor_temps_f": [
+            65,
+            75,
+            85,
+            95,
+            105,
+            115
+          ],
+          "suction_range": [
+            100,
+            160
+          ]
+        },
+        "hps_open_psig": 605,
+        "hps_close_psig": 425,
+        "lps_open_psig": 40,
+        "lps_close_psig": 90,
+        "mca_a": 58.5,
+        "mop_a": 100,
+        "blower_table": {
+          "esp_in_wc": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "taps": {
+            "Low": [
+              2130,
+              2075,
+              2010,
+              1940,
+              1860,
+              1770,
+              1675,
+              1575,
+              1475,
+              1365
+            ],
+            "Med-Low": [
+              2485,
+              2420,
+              2350,
+              2260,
+              2170,
+              2065,
+              1955,
+              1840,
+              1720,
+              1590
+            ],
+            "Med": [
+              2810,
+              2740,
+              2655,
+              2560,
+              2450,
+              2335,
+              2210,
+              2080,
+              1945,
+              1800
+            ],
+            "Med-High": [
+              3135,
+              3055,
+              2965,
+              2855,
+              2735,
+              2605,
+              2470,
+              2320,
+              2170,
+              2005
+            ],
+            "High": [
+              3460,
+              3375,
+              3270,
+              3150,
+              3020,
+              2875,
+              2725,
+              2565,
+              2395,
+              2215
+            ]
+          }
+        }
+      }
+    },
+    "VRL-120": {
+      "series": "VRL",
+      "size": 120,
+      "text_facts": {
+        "nominal_tons": "10",
+        "refrigerant": "R-454B",
+        "cooling_capacity_btuh": "116,800",
+        "factory_charge": "12 lb 11 oz",
+        "min_cooling_ambient_f": "40 °F",
+        "anti_short_cycle_delay": "5 minutes",
+        "filter": "4 filters, 24 x 24 x 2 in.",
+        "operating_weight_lb": "1370 lb",
+        "clearances_in": "service side 48 in., condenser side 36 in., top 72 in. unobstructed",
+        "voltage_options": "208/230-3-60, 460-3-60",
+        "stages": "two stages of cooling (circuit 1 = Y1, circuit 2 = Y2)"
+      },
+      "figure_facts": {
+        "charging_chart": {
+          "L0": 404.2,
+          "kT": 2.737,
+          "kS": 0.755,
+          "outdoor_temps_f": [
+            65,
+            75,
+            85,
+            95,
+            105,
+            115
+          ],
+          "suction_range": [
+            100,
+            160
+          ]
+        },
+        "hps_open_psig": 620,
+        "hps_close_psig": 430,
+        "lps_open_psig": 55,
+        "lps_close_psig": 100,
+        "mca_a": 81.0,
+        "mop_a": 125,
+        "blower_table": {
+          "esp_in_wc": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "taps": {
+            "Low": [
+              2830,
+              2750,
+              2655,
+              2540,
+              2415,
+              2285,
+              2140,
+              1985,
+              1825,
+              1660
+            ],
+            "Med-Low": [
+              3305,
+              3210,
+              3095,
+              2965,
+              2820,
+              2665,
+              2495,
+              2320,
+              2130,
+              1935
+            ],
+            "Med": [
+              3735,
+              3630,
+              3500,
+              3355,
+              3190,
+              3010,
+              2820,
+              2620,
+              2410,
+              2190
+            ],
+            "Med-High": [
+              4170,
+              4050,
+              3905,
+              3740,
+              3560,
+              3360,
+              3150,
+              2925,
+              2690,
+              2440
+            ],
+            "High": [
+              4600,
+              4470,
+              4310,
+              4130,
+              3930,
+              3710,
+              3475,
+              3230,
+              2970,
+              2695
+            ]
+          }
+        }
+      }
+    },
+    "VRL-150": {
+      "series": "VRL",
+      "size": 150,
+      "text_facts": {
+        "nominal_tons": "12.5",
+        "refrigerant": "R-454B",
+        "cooling_capacity_btuh": "148,200",
+        "factory_charge": "15 lb 5 oz",
+        "min_cooling_ambient_f": "40 °F",
+        "anti_short_cycle_delay": "5 minutes",
+        "filter": "6 filters, 24 x 24 x 2 in.",
+        "operating_weight_lb": "1850 lb",
+        "clearances_in": "service side 48 in., condenser side 36 in., top 72 in. unobstructed",
+        "voltage_options": "208/230-3-60, 460-3-60",
+        "stages": "two stages of cooling (circuit 1 = Y1, circuit 2 = Y2)"
+      },
+      "figure_facts": {
+        "charging_chart": {
+          "L0": 394.3,
+          "kT": 2.713,
+          "kS": 0.765,
+          "outdoor_temps_f": [
+            65,
+            75,
+            85,
+            95,
+            105,
+            115
+          ],
+          "suction_range": [
+            100,
+            160
+          ]
+        },
+        "hps_open_psig": 610,
+        "hps_close_psig": 420,
+        "lps_open_psig": 60,
+        "lps_close_psig": 110,
+        "mca_a": 107.4,
+        "mop_a": 125,
+        "blower_table": {
+          "esp_in_wc": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "taps": {
+            "Low": [
+              3535,
+              3435,
+              3305,
+              3160,
+              2995,
+              2820,
+              2635,
+              2435,
+              2225,
+              2005
+            ],
+            "Med-Low": [
+              4125,
+              4005,
+              3855,
+              3685,
+              3495,
+              3290,
+              3070,
+              2840,
+              2595,
+              2340
+            ],
+            "Med": [
+              4665,
+              4530,
+              4360,
+              4165,
+              3955,
+              3720,
+              3475,
+              3210,
+              2935,
+              2645
+            ],
+            "Med-High": [
+              5205,
+              5055,
+              4865,
+              4650,
+              4410,
+              4150,
+              3875,
+              3585,
+              3275,
+              2955
+            ],
+            "High": [
+              5745,
+              5580,
+              5370,
+              5130,
+              4870,
+              4585,
+              4280,
+              3955,
+              3615,
+              3260
+            ]
+          }
+        }
+      }
+    }
+  },
+  "sites": [
+    {
+      "id": "LMOB",
+      "name": "Lakeshore Medical Office Building",
+      "city": "Milwaukee, WI",
+      "elevation_ft": 620
+    },
+    {
+      "id": "BES",
+      "name": "Brookhaven Elementary School",
+      "city": "Madison, WI",
+      "elevation_ft": 860
+    },
+    {
+      "id": "HPDC",
+      "name": "Harbor Point Distribution Center",
+      "city": "Kenosha, WI",
+      "elevation_ft": 610
+    },
+    {
+      "id": "E3RP",
+      "name": "Elm & 3rd Retail Plaza",
+      "city": "Waukesha, WI",
+      "elevation_ft": 820
+    },
+    {
+      "id": "RPL",
+      "name": "Riverside Public Library",
+      "city": "Racine, WI",
+      "elevation_ft": 630
+    },
+    {
+      "id": "NFC",
+      "name": "Northgate Fitness Center",
+      "city": "Golden, CO",
+      "elevation_ft": 5280
+    }
+  ],
+  "assets": [
+    {
+      "site_id": "LMOB",
+      "site": "Lakeshore Medical Office Building",
+      "unit": "RTU-1",
+      "model": "VRT-048",
+      "serial": "2247V01421",
+      "controller_firmware": "2.3",
+      "installed": "2022-12"
+    },
+    {
+      "site_id": "LMOB",
+      "site": "Lakeshore Medical Office Building",
+      "unit": "RTU-2",
+      "model": "VRT-048",
+      "serial": "2207V01973",
+      "controller_firmware": "2.2",
+      "installed": "2022-02"
+    },
+    {
+      "site_id": "LMOB",
+      "site": "Lakeshore Medical Office Building",
+      "unit": "RTU-3",
+      "model": "VHP-060",
+      "serial": "2130V01192",
+      "controller_firmware": "2.2",
+      "installed": "2021-08"
+    },
+    {
+      "site_id": "LMOB",
+      "site": "Lakeshore Medical Office Building",
+      "unit": "RTU-4",
+      "model": "VRT-060",
+      "serial": "2304V00188",
+      "controller_firmware": "2.4.1",
+      "installed": "2023-02"
+    },
+    {
+      "site_id": "LMOB",
+      "site": "Lakeshore Medical Office Building",
+      "unit": "RTU-5",
+      "model": "VRT-060",
+      "serial": "2314V00733",
+      "controller_firmware": "2.4.1",
+      "installed": "2023-04"
+    },
+    {
+      "site_id": "LMOB",
+      "site": "Lakeshore Medical Office Building",
+      "unit": "RTU-6",
+      "model": "VHP-048",
+      "serial": "2441V00700",
+      "controller_firmware": "2.4.1",
+      "installed": "2024-11"
+    },
+    {
+      "site_id": "LMOB",
+      "site": "Lakeshore Medical Office Building",
+      "unit": "RTU-7",
+      "model": "VRT-060",
+      "serial": "2310V00412",
+      "controller_firmware": "2.3",
+      "installed": "2023-03"
+    },
+    {
+      "site_id": "LMOB",
+      "site": "Lakeshore Medical Office Building",
+      "unit": "CU-1",
+      "model": "VCU-024",
+      "serial": "2116V01821",
+      "controller_firmware": "1.9",
+      "installed": "2021-05"
+    },
+    {
+      "site_id": "LMOB",
+      "site": "Lakeshore Medical Office Building",
+      "unit": "AH-1",
+      "model": "VAH-024",
+      "serial": "2452V00086",
+      "controller_firmware": "1.9",
+      "installed": "2024-12"
+    },
+    {
+      "site_id": "BES",
+      "site": "Brookhaven Elementary School",
+      "unit": "RTU-1",
+      "model": "VHP-048",
+      "serial": "2108V00973",
+      "controller_firmware": "2.3",
+      "installed": "2021-03"
+    },
+    {
+      "site_id": "BES",
+      "site": "Brookhaven Elementary School",
+      "unit": "RTU-2",
+      "model": "VHP-036",
+      "serial": "2435V00518",
+      "controller_firmware": "2.4.1",
+      "installed": "2024-09"
+    },
+    {
+      "site_id": "BES",
+      "site": "Brookhaven Elementary School",
+      "unit": "RTU-3",
+      "model": "VRT-048",
+      "serial": "2120V00102",
+      "controller_firmware": "2.2",
+      "installed": "2021-06"
+    },
+    {
+      "site_id": "BES",
+      "site": "Brookhaven Elementary School",
+      "unit": "RTU-4",
+      "model": "VHP-048",
+      "serial": "2322V00411",
+      "controller_firmware": "2.3",
+      "installed": "2023-06"
+    },
+    {
+      "site_id": "BES",
+      "site": "Brookhaven Elementary School",
+      "unit": "AH-1",
+      "model": "VAH-024",
+      "serial": "2340V01542",
+      "controller_firmware": "1.8",
+      "installed": "2023-11"
+    },
+    {
+      "site_id": "BES",
+      "site": "Brookhaven Elementary School",
+      "unit": "CU-1",
+      "model": "VCU-024",
+      "serial": "2231V01952",
+      "controller_firmware": "1.8",
+      "installed": "2022-08"
+    },
+    {
+      "site_id": "HPDC",
+      "site": "Harbor Point Distribution Center",
+      "unit": "RTU-1",
+      "model": "VRL-090",
+      "serial": "2201V00185",
+      "controller_firmware": "1.8",
+      "installed": "2022-01"
+    },
+    {
+      "site_id": "HPDC",
+      "site": "Harbor Point Distribution Center",
+      "unit": "RTU-2",
+      "model": "VRL-120",
+      "serial": "2329V01623",
+      "controller_firmware": "1.8",
+      "installed": "2023-08"
+    },
+    {
+      "site_id": "HPDC",
+      "site": "Harbor Point Distribution Center",
+      "unit": "RTU-3",
+      "model": "VRL-120",
+      "serial": "2152V01570",
+      "controller_firmware": "1.8",
+      "installed": "2021-12"
+    },
+    {
+      "site_id": "HPDC",
+      "site": "Harbor Point Distribution Center",
+      "unit": "RTU-4",
+      "model": "VRL-150",
+      "serial": "2212V01255",
+      "controller_firmware": "1.8",
+      "installed": "2022-04"
+    },
+    {
+      "site_id": "HPDC",
+      "site": "Harbor Point Distribution Center",
+      "unit": "RTU-5",
+      "model": "VHP-060",
+      "serial": "2105V00428",
+      "controller_firmware": "2.2",
+      "installed": "2021-02"
+    },
+    {
+      "site_id": "E3RP",
+      "site": "Elm & 3rd Retail Plaza",
+      "unit": "RTU-1",
+      "model": "VRT-036",
+      "serial": "2412V01667",
+      "controller_firmware": "2.3",
+      "installed": "2024-04"
+    },
+    {
+      "site_id": "E3RP",
+      "site": "Elm & 3rd Retail Plaza",
+      "unit": "RTU-2",
+      "model": "VRT-036",
+      "serial": "2331V01743",
+      "controller_firmware": "2.2",
+      "installed": "2023-08"
+    },
+    {
+      "site_id": "E3RP",
+      "site": "Elm & 3rd Retail Plaza",
+      "unit": "RTU-3",
+      "model": "VHP-048",
+      "serial": "2105V00910",
+      "controller_firmware": "2.4.1",
+      "installed": "2021-02"
+    },
+    {
+      "site_id": "E3RP",
+      "site": "Elm & 3rd Retail Plaza",
+      "unit": "RTU-4",
+      "model": "VRT-048",
+      "serial": "2235V00047",
+      "controller_firmware": "2.3",
+      "installed": "2022-09"
+    },
+    {
+      "site_id": "E3RP",
+      "site": "Elm & 3rd Retail Plaza",
+      "unit": "RTU-5",
+      "model": "VRL-150",
+      "serial": "2233V01848",
+      "controller_firmware": "1.8",
+      "installed": "2022-09"
+    },
+    {
+      "site_id": "E3RP",
+      "site": "Elm & 3rd Retail Plaza",
+      "unit": "CU-1",
+      "model": "VCU-036",
+      "serial": "2410V01510",
+      "controller_firmware": "1.9",
+      "installed": "2024-03"
+    },
+    {
+      "site_id": "RPL",
+      "site": "Riverside Public Library",
+      "unit": "RTU-1",
+      "model": "VRL-120",
+      "serial": "2409V01504",
+      "controller_firmware": "1.8",
+      "installed": "2024-03"
+    },
+    {
+      "site_id": "RPL",
+      "site": "Riverside Public Library",
+      "unit": "AH-1",
+      "model": "VAH-036",
+      "serial": "2152V00610",
+      "controller_firmware": "1.9",
+      "installed": "2021-12"
+    },
+    {
+      "site_id": "RPL",
+      "site": "Riverside Public Library",
+      "unit": "CU-1",
+      "model": "VCU-036",
+      "serial": "2339V00300",
+      "controller_firmware": "1.9",
+      "installed": "2023-10"
+    },
+    {
+      "site_id": "RPL",
+      "site": "Riverside Public Library",
+      "unit": "CU-2",
+      "model": "VCU-048",
+      "serial": "2106V00057",
+      "controller_firmware": "1.8",
+      "installed": "2021-02"
+    },
+    {
+      "site_id": "NFC",
+      "site": "Northgate Fitness Center",
+      "unit": "RTU-1",
+      "model": "VRT-048",
+      "serial": "2324V01668",
+      "controller_firmware": "2.3",
+      "installed": "2023-07"
+    },
+    {
+      "site_id": "NFC",
+      "site": "Northgate Fitness Center",
+      "unit": "RTU-2",
+      "model": "VRT-060",
+      "serial": "2308V01127",
+      "controller_firmware": "2.3",
+      "installed": "2023-03"
+    },
+    {
+      "site_id": "NFC",
+      "site": "Northgate Fitness Center",
+      "unit": "RTU-3",
+      "model": "VRT-036",
+      "serial": "2317V01584",
+      "controller_firmware": "2.2",
+      "installed": "2023-05"
+    },
+    {
+      "site_id": "NFC",
+      "site": "Northgate Fitness Center",
+      "unit": "RTU-4",
+      "model": "VAH-048",
+      "serial": "2431V01785",
+      "controller_firmware": "1.8",
+      "installed": "2024-08"
+    }
+  ],
+  "bulletins": [
+    {
+      "id": "SB-23-014",
+      "date": "2023-11-06",
+      "title": "VRT-060 condenser fan motor run capacitor — early failures",
+      "applies_to": "VRT-060 units with serial numbers 2307V00001 through 2312V99999",
+      "facts": [
+        "Original condenser fan run capacitor is rated 5 µF / 370 VAC and can swell and lose capacitance after one to two cooling seasons.",
+        "Replace with upgraded capacitor part number VPN-0475 (5 µF / 440 VAC).",
+        "A weak capacitor reduces condenser fan speed, which raises head pressure on hot days and can cause high-pressure switch trips.",
+        "Warranty labor allowance: 0.5 hours."
+      ]
+    },
+    {
+      "id": "SB-24-003",
+      "date": "2024-03-18",
+      "title": "VRL-150 condenser fan blade inspection",
+      "applies_to": "VRL-150 units built in 2023",
+      "facts": [
+        "Inspect condenser fan blades for hairline cracks at the hub during every spring start-up.",
+        "Replace cracked blades with fan blade kit VPN-6120; torque hub set screws to 160 in-lb.",
+        "Do not operate the unit with a cracked blade."
+      ]
+    },
+    {
+      "id": "SB-24-011",
+      "date": "2024-09-02",
+      "title": "A2L refrigerant detection system — field service guidance",
+      "applies_to": "All R-454B units (VRT, VHP, VRL)",
+      "facts": [
+        "When the refrigerant detection sensor senses a leak, the board shuts off the compressor and runs the indoor blower continuously (mitigation mode).",
+        "Mitigation mode continues for at least 5 minutes after the sensor reading clears.",
+        "Never bypass or jumper the refrigerant detection sensor."
+      ]
+    }
+  ],
+  "techs": [
+    "Dana Ortiz",
+    "Marcus Bell",
+    "Priya Raman",
+    "Luis Herrera",
+    "Jen Kowalski",
+    "Sam Okafor"
+  ],
+  "agents": [
+    "Tom",
+    "Alicia",
+    "Raj",
+    "Megan"
+  ],
+  "calls": [
+    {
+      "id": "C01",
+      "site": "LMOB",
+      "unit": "RTU-7",
+      "tech": "Dana Ortiz",
+      "agent": "Tom",
+      "date": "2025-07-14",
+      "topic": "Repeated high-pressure lockouts on hot afternoons",
+      "must_say": [
+        "firmware two point three",
+        "no debounce on the high-pressure switch input",
+        "locks out hard after three trips in one hour",
+        "fixed in firmware two point four point one",
+        "update it with the service app over the USB-C port",
+        "check the condenser fan capacitor"
+      ]
+    },
+    {
+      "id": "C02",
+      "site": "BES",
+      "unit": "RTU-1",
+      "tech": "Priya Raman",
+      "agent": "Alicia",
+      "date": "2025-01-22",
+      "topic": "Heat pump defrost not terminating",
+      "must_say": [
+        "the A version of the defrost sensor drifts low after about two years",
+        "part number V-P-N forty-four seventy-one B",
+        "the B version supersedes the A version"
+      ]
+    },
+    {
+      "id": "C03",
+      "site": "E3RP",
+      "unit": "CU-1",
+      "tech": "Luis Herrera",
+      "agent": "Raj",
+      "date": "2025-06-03",
+      "topic": "Compressor hums but will not start",
+      "must_say": [
+        "the only approved hard start kit is the V-H-S thirty-five",
+        "a generic kit with a start capacitor over two hundred microfarads voids the compressor warranty"
+      ]
+    },
+    {
+      "id": "C04",
+      "site": "HPDC",
+      "unit": "RTU-2",
+      "tech": "Marcus Bell",
+      "agent": "Megan",
+      "date": "2025-08-11",
+      "topic": "Second stage of cooling never energizes",
+      "must_say": [
+        "factory stage delay is ten minutes",
+        "DIP switch four",
+        "turn DIP switch four on to cut it to three minutes"
+      ]
+    },
+    {
+      "id": "C05",
+      "site": "RPL",
+      "unit": "AH-1",
+      "tech": "Jen Kowalski",
+      "agent": "Tom",
+      "date": "2025-02-27",
+      "topic": "Air handler blower runs constantly",
+      "must_say": [
+        "the G relay on the V-A-B fifty board can weld closed",
+        "replacement board kit V-P-N fifty-five twenty",
+        "check for twenty-four volts at G with the thermostat off"
+      ]
+    },
+    {
+      "id": "C06",
+      "site": "NFC",
+      "unit": "RTU-1",
+      "tech": "Sam Okafor",
+      "agent": "Alicia",
+      "date": "2025-04-16",
+      "topic": "Flame rollout switch tripping",
+      "must_say": [
+        "bird nests blocking the inducer venturi",
+        "common on the twenty twenty-two builds",
+        "inducer screen kit V-P-N thirty-three ten"
+      ]
+    },
+    {
+      "id": "C07",
+      "site": "LMOB",
+      "unit": "RTU-3",
+      "tech": "Dana Ortiz",
+      "agent": "Raj",
+      "date": "2025-12-09",
+      "topic": "Auxiliary heat not coming on",
+      "must_say": [
+        "only the fifteen kilowatt kit has a manual reset limit",
+        "it is behind access panel four"
+      ]
+    },
+    {
+      "id": "C08",
+      "site": "RPL",
+      "unit": "CU-2",
+      "tech": "Jen Kowalski",
+      "agent": "Megan",
+      "date": "2025-01-08",
+      "topic": "Low-pressure trips while cooling a server room in winter",
+      "must_say": [
+        "you need the low ambient kit V-L-A two",
+        "it lets the unit cool down to zero degrees outside"
+      ]
+    },
+    {
+      "id": "C09",
+      "site": "HPDC",
+      "unit": "RTU-4",
+      "tech": "Marcus Bell",
+      "agent": "Tom",
+      "date": "2025-05-20",
+      "topic": "Economizer damper not modulating",
+      "must_say": [
+        "the actuator needs a two to ten volt signal",
+        "the board ships in zero to ten volt mode",
+        "move jumper J-P seven"
+      ]
+    },
+    {
+      "id": "C10",
+      "site": "E3RP",
+      "unit": "RTU-1",
+      "tech": "Luis Herrera",
+      "agent": "Alicia",
+      "date": "2025-06-30",
+      "topic": "Condensate overflow switch tripping with dry pan",
+      "must_say": [
+        "on the oh-three-six built before week forty of twenty twenty-two the float switch is mounted too low",
+        "relocation kit V-P-N twenty-two oh eight"
+      ]
+    },
+    {
+      "id": "C11",
+      "site": "NFC",
+      "unit": "RTU-2",
+      "tech": "Sam Okafor",
+      "agent": "Megan",
+      "date": "2025-03-04",
+      "topic": "Compressor warranty question",
+      "must_say": [
+        "ten year compressor warranty if the unit is registered within sixty days",
+        "otherwise it is five years"
+      ]
+    },
+    {
+      "id": "C12",
+      "site": "BES",
+      "unit": "RTU-2",
+      "tech": "Priya Raman",
+      "agent": "Raj",
+      "date": "2025-10-21",
+      "topic": "Heat pump heats when calling for cooling",
+      "must_say": [
+        "the V-H-P energizes the reversing valve in heating",
+        "set the thermostat to B, not O"
+      ]
+    },
+    {
+      "id": "C13",
+      "site": "HPDC",
+      "unit": "RTU-1",
+      "tech": "Marcus Bell",
+      "agent": "Alicia",
+      "date": "2025-07-02",
+      "topic": "Phase monitor nuisance trips",
+      "must_say": [
+        "factory unbalance trip is ten percent",
+        "the dial goes from five to fifteen percent",
+        "set it to eight percent on that utility"
+      ]
+    },
+    {
+      "id": "C14",
+      "site": "LMOB",
+      "unit": "CU-1",
+      "tech": "Dana Ortiz",
+      "agent": "Megan",
+      "date": "2025-05-12",
+      "topic": "Pairing a condenser with an air handler — metering device",
+      "must_say": [
+        "the V-C-U oh-two-four ships with a fixed orifice",
+        "with the V-A-H oh-two-four you install TXV kit V-T-X two",
+        "remove the fixed orifice"
+      ]
+    },
+    {
+      "id": "C15",
+      "site": "NFC",
+      "unit": "RTU-4",
+      "tech": "Sam Okafor",
+      "agent": "Tom",
+      "date": "2025-11-18",
+      "topic": "Electric heat staging timing",
+      "must_say": [
+        "the V-A-B fifty board stages the heat strips thirty seconds apart"
+      ]
+    },
+    {
+      "id": "C16",
+      "site": "BES",
+      "unit": "RTU-3",
+      "tech": "Priya Raman",
+      "agent": "Megan",
+      "date": "2025-11-03",
+      "topic": "Gas valve has 24 volts but no flame",
+      "must_say": [
+        "igniter part V-P-N eleven ninety",
+        "forty to seventy-five ohms cold",
+        "over a hundred ohms replace it"
+      ]
+    },
+    {
+      "id": "C17",
+      "site": "E3RP",
+      "unit": "RTU-3",
+      "tech": "Luis Herrera",
+      "agent": "Raj",
+      "date": "2025-12-15",
+      "topic": "Defrost interval for a snowy site",
+      "must_say": [
+        "in heavy snow we recommend thirty minutes instead of the default sixty"
+      ]
+    },
+    {
+      "id": "C18",
+      "site": "RPL",
+      "unit": "RTU-1",
+      "tech": "Jen Kowalski",
+      "agent": "Alicia",
+      "date": "2025-02-10",
+      "topic": "Unit will not start after a winter power outage",
+      "must_say": [
+        "the V-C-B four hundred board enforces a four hour warm-up delay",
+        "after a cold power-up below fifty degrees outside"
+      ]
+    },
+    {
+      "id": "C19",
+      "site": "LMOB",
+      "unit": "RTU-7",
+      "tech": "Dana Ortiz",
+      "agent": "Tom",
+      "date": "2025-07-22",
+      "topic": "Follow-up after firmware update and capacitor replacement",
+      "must_say": [
+        "running fine since the update and the new capacitor",
+        "high-pressure trips now show up as event code E forty-one in the history log"
+      ]
+    },
+    {
+      "id": "C20",
+      "site": "RPL",
+      "unit": "CU-1",
+      "tech": "Jen Kowalski",
+      "agent": "Raj",
+      "date": "2025-09-09",
+      "topic": "Slow refrigerant leak search",
+      "must_say": [
+        "known leak point at the liquid service valve braze joint on the twenty twenty-one builds"
+      ]
+    },
+    {
+      "id": "C21",
+      "site": "BES",
+      "unit": "AH-1",
+      "tech": "Priya Raman",
+      "agent": "Tom",
+      "date": "2025-03-25",
+      "topic": "Rattling noise from air handler",
+      "must_say": [
+        "blower wheel set screw works loose",
+        "torque it to thirty inch-pounds"
+      ]
+    },
+    {
+      "id": "C22",
+      "site": "NFC",
+      "unit": "RTU-3",
+      "tech": "Sam Okafor",
+      "agent": "Raj",
+      "date": "2025-08-27",
+      "topic": "Refrigerant detection sensor fault, blower will not shut off",
+      "must_say": [
+        "the R-D-S one sensor has a five year service life",
+        "a sensor fault forces the blower on in mitigation mode"
+      ]
+    },
+    {
+      "id": "C23",
+      "site": "HPDC",
+      "unit": "RTU-5",
+      "tech": "Marcus Bell",
+      "agent": "Megan",
+      "date": "2025-12-01",
+      "topic": "Heat pump compressor locked out in cold weather",
+      "must_say": [
+        "low ambient compressor lockout is zero degrees from the factory",
+        "DIP switches two and three",
+        "with dual fuel set it to ten degrees"
+      ]
+    },
+    {
+      "id": "C24",
+      "site": "E3RP",
+      "unit": "RTU-5",
+      "tech": "Luis Herrera",
+      "agent": "Tom",
+      "date": "2025-10-07",
+      "topic": "Failed compressor on circuit two — interim operation",
+      "must_say": [
+        "replacement compressor part V-C-P one-fifty-T",
+        "about a three week lead time",
+        "disable circuit two with DIP switch six and run on circuit one"
+      ]
+    }
+  ],
+  "photo_slots": [
+    {
+      "id": "P-LMOB-RTU7-01",
+      "site": "LMOB",
+      "unit": "RTU-7",
+      "job": "J-25-0714",
+      "date": "2025-07-14",
+      "tech": "Dana Ortiz",
+      "must_show": "a failed cylindrical capacitor with a ruptured / bulged top, still in its enclosure",
+      "label": "failed capacitor with a blown, bulged top"
+    },
+    {
+      "id": "P-HPDC-RTU4-01",
+      "site": "HPDC",
+      "unit": "RTU-4",
+      "job": "J-25-0520",
+      "date": "2025-05-20",
+      "tech": "Marcus Bell",
+      "must_show": "a condenser coil heavily clogged with debris, cottonwood or dirt",
+      "label": "clogged condenser coil"
+    },
+    {
+      "id": "P-BES-RTU4-01",
+      "site": "BES",
+      "unit": "RTU-4",
+      "job": "J-25-0203",
+      "date": "2025-02-03",
+      "tech": "Priya Raman",
+      "must_show": "an outdoor heat pump coil covered in ice",
+      "label": "iced-over outdoor coil"
+    },
+    {
+      "id": "P-NFC-RTU3-01",
+      "site": "NFC",
+      "unit": "RTU-3",
+      "job": "J-25-0827",
+      "date": "2025-08-27",
+      "tech": "Sam Okafor",
+      "must_show": "a burnt / pitted contactor or a burnt wire terminal",
+      "label": "burnt contactor"
+    }
+  ]
+}

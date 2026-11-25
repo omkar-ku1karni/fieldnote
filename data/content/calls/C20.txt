@@ -1,0 +1,26 @@
+-------------------
+call_id: C20
+date: 2025-09-09
+site: Riverside Public Library
+unit: CU-1
+model: VCU-036
+tech: Jen Kowalski
+agent: Raj
+topic: Slow refrigerant leak search
+-------
+AGENT: Vantorr Technical Support, Raj speaking. What can I help you with?
+TECH: Hi Raj, Jen Kowalski from Ridgeline Mechanical Services. I'm at Riverside Public Library in Racine, Wisconsin, on C-U one. It's a V-C-U thirty-six, serial two three three nine V zero zero three zero zero. We've got a slow refrigerant loss that keeps showing up at service visits. I want to work through likely leak locations before opening anything up.
+AGENT: Okay, Jen. Have you confirmed a leak by inspection or approved leak-detection methods, rather than basing it only on a change in cooling performance?
+TECH: We've seen enough evidence to suspect a leak, but we haven't pinned down the exact location. The outdoor unit is accessible, and I can inspect the tubing and joints without disturbing the system yet.
+AGENT: Understood. Is there any visible oil staining around the service connections or brazed joints on the condensing unit?
+TECH: There's some residue near a connection, but I haven't called it a refrigerant leak on appearance alone. I want a detector indication and a proper test before I make a repair recommendation.
+AGENT: That's reasonable. Does the service history show that this same joint was repaired previously, or is this your first attempt to locate the source?
+TECH: First documented search that I can find. The past notes talk about cooling complaints but don't identify a repair. There's no reason for me to assume somebody already addressed the suspected area.
+AGENT: One place worth checking is the known leak point at the liquid service valve braze joint on the twenty twenty-one builds. That doesn't prove your particular unit is leaking there. Inspect that joint closely as part of a systematic search, and verify any finding with an approved method.
+TECH: Okay. I'll start there and work outward, checking the accessible connections instead of immediately deciding the coil is the problem. I'd rather locate the leak than keep adding refrigerant and hoping the complaint goes away.
+AGENT: Exactly. For this V-C-U equipment, follow the R four ten A service precautions. If repair work is needed, recover refrigerant properly, isolate and prepare the circuit according to the service instructions, and complete the specified leak and evacuation checks before charging.
+TECH: Understood. I have the proper recovery equipment here, but I'll hold off until there's an actual leak location to repair. The library is open, so we're keeping the work area controlled while I inspect the condenser.
+AGENT: Good. After a verified repair, use the unit rating plate and applicable charging documentation. Don't try to correct an unidentified leak just by chasing a pressure reading or relying on a single observation.
+TECH: Makes sense. I can document what I check and what the detector shows. If the valve joint turns out to be sound, I'll continue around the circuit rather than stopping the search there.
+AGENT: Perfect. Call back if you find something that needs clarification, and keep the leak search methodical. Thanks for calling Vantorr Technical Support.
+TECH: Thanks, Raj. I'll get back to the inspection. Have a good day.

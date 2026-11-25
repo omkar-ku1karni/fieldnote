@@ -1,0 +1,33 @@
+-------------------
+
+call_id: C02
+date: 2025-01-22
+site: Brookhaven Elementary School (Madison, WI)
+unit: RTU-1
+model: VHP-048
+tech: Priya Raman
+agent: Alicia
+topic: Heat pump defrost not terminating
+-------
+
+AGENT: Vantorr Technical Support, Alicia speaking. How can I help?
+TECH: Hi, Alicia. Priya Raman from Ridgeline Mechanical Services. I'm at Brookhaven Elementary School in Madison, working on R-T-U one, and I need help with defrost.
+AGENT: Sure. Give me the model and serial from the plate, then tell me what the unit is doing.
+TECH: V-H-P forty-eight. Serial is two one zero eight V zero zero nine seven three. It enters defrost but seems to stay there instead of finishing normally.
+AGENT: Are you seeing that behavior every time it enters defrost, or only after it's been running in the cold for a while?
+TECH: It has happened more than once this morning. The school says the heat feels inconsistent, and I can hear the outdoor section changing modes but not getting back promptly.
+AGENT: Have you checked whether the outdoor coil actually clears during the cycle, rather than just assuming the sensor reading reflects its condition?
+TECH: I have. The coil is clearing, at least in the area I can inspect. There's still a little frost nearby, but it doesn't match how long the unit stays in defrost.
+AGENT: Okay. Can you confirm which revision letter is marked on the installed defrost sensor, if you can reach its identification safely?
+TECH: I can see the marking. Give me a second to move my light. All right, it says A. The connector looks seated and the harness isn't visibly pinched.
+AGENT: That's useful. We have seen that the A version of the defrost sensor drifts low after about two years. It can make the board interpret the coil as colder than it is.
+TECH: That fits what I'm seeing. Is there a current replacement, or should I order another A sensor?
+AGENT: Order part number V-P-N forty-four seventy-one B. The B version supersedes the A version, so you don't want to replace it with the earlier revision.
+TECH: Okay, B version. I want to make sure this isn't a wiring problem before I swap it. I haven't disconnected anything with the unit energized.
+AGENT: Good. Shut down and isolate power, inspect the sensor connection and cable condition, then follow the service procedure for checking the sensor against the approved reference information.
+TECH: So no guessing at resistance based on what I remember from another job. I'll use the documentation that's specific to this model.
+AGENT: Exactly. If the wiring checks out, replace the drifting sensor and watch a complete defrost cycle afterward. Confirm it both enters and terminates as intended.
+TECH: That's a solid plan. I'll document the A marking and the behavior for the school before changing the part.
+AGENT: Sounds good, Priya. If the issue remains with the B sensor installed, call Vantorr Technical Support with your observations. Thanks for checking before replacing parts.
+TECH: Thanks, Alicia. The wind is picking up, so I'll get this panel closed and start the checks. Have a good one.
+AGENT: You too. Work safely.

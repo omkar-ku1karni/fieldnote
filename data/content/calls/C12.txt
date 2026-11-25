@@ -1,0 +1,33 @@
+-------------------
+
+call_id: C12
+date: 2025-10-21
+site: Brookhaven Elementary School (Madison, WI)
+unit: RTU-2
+model: VHP-036
+tech: Priya Raman
+agent: Raj
+topic: Heat pump heats when calling for cooling
+-------
+
+AGENT: Vantorr Technical Support, this is Raj. What can I do for you?
+TECH: Hi, Raj. Priya Raman with Ridgeline Mechanical Services. I'm at Brookhaven Elementary School in Madison, working on R-T-U two. The space heats when the thermostat calls for cooling.
+AGENT: Understood. What's the model and serial off the unit's rating plate?
+TECH: V-H-P thirty-six, serial two four three five V zero zero five one eight. The teacher says it started after some thermostat work, but I haven't changed anything yet.
+AGENT: When you select cooling, does the indoor fan run and the outdoor unit respond even though the delivered air is getting warmer?
+TECH: Yes, both sections respond. The room is definitely getting warm instead of cool, so we stopped the call rather than letting it continue.
+AGENT: Was the thermostat replaced or reconfigured recently, or is that still something you're trying to confirm?
+TECH: The maintenance log shows a thermostat change. I can see its heat-pump settings menu, and I'm comparing it to the equipment instructions before touching anything.
+AGENT: Good. Have you verified the thermostat's reversing-valve configuration against the requirements for this exact heat-pump series?
+TECH: Not yet. The setting looks like it may have been copied from a different unit. I didn't want to guess because it could explain the opposite response.
+AGENT: You're on the right track. The V-H-P energizes the reversing valve in heating. For this equipment, set the thermostat to B, not O.
+TECH: Okay, that gives me a specific thing to confirm. I'll document the current selection and check the installed thermostat's setup procedure before making the change.
+AGENT: Exactly. Follow the thermostat instructions and the unit documentation. Don't start moving control conductors around to compensate for a configuration problem.
+TECH: Good point. The teacher mainly wants the classroom cooled, but I want to fix the control logic properly instead of making the system act right by accident.
+AGENT: After the authorized configuration correction, test a cooling demand and confirm the delivered air responds appropriately. Then separately verify heating operates normally.
+TECH: And if it's still acting backward, I should stop and investigate the reversing-valve control and equipment response under the approved diagnostic procedure.
+AGENT: Yes. Don't assume the thermostat setting explains every possible failure. Use the actual test results before replacing a valve or control board.
+TECH: Understood. I'll keep the staff updated and avoid running the space hotter while I check it.
+AGENT: Sounds good, Priya. Call Vantorr Technical Support back if the behavior doesn't correct after you verify the configuration.
+TECH: Thanks, Raj. I'll finish that check and close the access panel.
+AGENT: You're welcome. Take care at the school.

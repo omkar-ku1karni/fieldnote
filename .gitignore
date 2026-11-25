@@ -1,0 +1,23 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# heavy / regenerable artifacts
+data/raw/
+data/generated/
+data/index/
+*.wav
+*.mp3
+*.flac
+
+# model caches
+.cache/
+
+# eval run logs (noisy; results JSON/JSONL are the record)
+eval/results/*.log
+
+# internal build notes, kept local
+docs/PLAN.md

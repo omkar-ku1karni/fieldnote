@@ -1,0 +1,1049 @@
+{
+ "summary": {
+  "by_category": {
+   "image_only": {
+    "recall@5": 0.333,
+    "recall@10": 0.533,
+    "recall@20": 0.6,
+    "rr": 0.365,
+    "n": 15
+   },
+   "text": {
+    "recall@5": 0.9,
+    "recall@10": 0.9,
+    "recall@20": 1.0,
+    "rr": 0.776,
+    "n": 10
+   },
+   "audio": {
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "rr": 0.938,
+    "n": 8
+   },
+   "multihop": {
+    "recall@5": 0.724,
+    "recall@10": 0.824,
+    "recall@20": 0.895,
+    "rr": 1.0,
+    "n": 7
+   },
+   "all": {
+    "recall@5": 0.677,
+    "recall@10": 0.769,
+    "recall@20": 0.832,
+    "rr": 0.693,
+    "n": 40
+   }
+  },
+  "latency_ms": {
+   "p50": 27,
+   "p95": 36
+  }
+ },
+ "rows": [
+  {
+   "id": "I01",
+   "category": "image_only",
+   "latency_ms": 30,
+   "recall@5": 0.0,
+   "hit@5": 0.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 0.1,
+   "top5": [
+    "VRL-IOM#p18",
+    "VRL-IOM#p16",
+    "VRL-IOM#p17",
+    "VRT-IOM#p24",
+    "VRL-IOM#p15"
+   ],
+   "gold": [
+    [
+     "VRT-IOM#p25"
+    ]
+   ]
+  },
+  {
+   "id": "I02",
+   "category": "image_only",
+   "latency_ms": 30,
+   "recall@5": 0.0,
+   "hit@5": 0.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 0.16666666666666666,
+   "top5": [
+    "VRL-IOM#p16",
+    "VRL-IOM#p18",
+    "VRL-IOM#p17",
+    "VRL-IOM#p15",
+    "VCU-IOM#p4"
+   ],
+   "gold": [
+    [
+     "VCU-IOM#p24"
+    ]
+   ]
+  },
+  {
+   "id": "I03",
+   "category": "image_only",
+   "latency_ms": 30,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "VRL-IOM#p17",
+    "VRL-IOM#p16",
+    "VRL-IOM#p18",
+    "VRL-IOM#p15",
+    "VRL-IOM#p20"
+   ],
+   "gold": [
+    [
+     "VRL-IOM#p17"
+    ]
+   ]
+  },
+  {
+   "id": "I04",
+   "category": "image_only",
+   "latency_ms": 31,
+   "recall@5": 0.0,
+   "hit@5": 0.0,
+   "recall@10": 0.0,
+   "hit@10": 0.0,
+   "recall@20": 0.0,
+   "hit@20": 0.0,
+   "rr": 0.0,
+   "top5": [
+    "call:C19",
+    "call:C01",
+    "VRT-IOM#p24",
+    "VRL-IOM#p25",
+    "call:C10"
+   ],
+   "gold": [
+    [
+     "VRT-IOM#p15"
+    ]
+   ]
+  },
+  {
+   "id": "I05",
+   "category": "image_only",
+   "latency_ms": 30,
+   "recall@5": 0.0,
+   "hit@5": 0.0,
+   "recall@10": 0.0,
+   "hit@10": 0.0,
+   "recall@20": 0.0,
+   "hit@20": 0.0,
+   "rr": 0.0,
+   "top5": [
+    "VRL-IOM#p3",
+    "VRL-IOM#p9",
+    "VAH-IOM#p5",
+    "VHP-IOM#p10",
+    "VRL-IOM#p14"
+   ],
+   "gold": [
+    [
+     "VHP-IOM#p9"
+    ]
+   ]
+  },
+  {
+   "id": "I06",
+   "category": "image_only",
+   "latency_ms": 28,
+   "recall@5": 0.0,
+   "hit@5": 0.0,
+   "recall@10": 0.0,
+   "hit@10": 0.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 0.07142857142857142,
+   "top5": [
+    "VRL-IOM#p10",
+    "VRL-IOM#p9",
+    "VRL-IOM#p25",
+    "call:C19",
+    "call:C04"
+   ],
+   "gold": [
+    [
+     "VRT-IOM#p15"
+    ]
+   ]
+  },
+  {
+   "id": "I07",
+   "category": "image_only",
+   "latency_ms": 25,
+   "recall@5": 0.0,
+   "hit@5": 0.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 0.14285714285714285,
+   "top5": [
+    "VRL-IOM#p22",
+    "VAH-IOM#p21",
+    "VRT-IOM#p29",
+    "VRL-IOM#p25",
+    "call:C04"
+   ],
+   "gold": [
+    [
+     "VRL-IOM#p23"
+    ]
+   ]
+  },
+  {
+   "id": "I08",
+   "category": "image_only",
+   "latency_ms": 28,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "VAH-IOM#p17",
+    "VRL-IOM#p19",
+    "VRL-IOM#p20",
+    "VRT-IOM#p26",
+    "VAH-IOM#p4"
+   ],
+   "gold": [
+    [
+     "VAH-IOM#p17"
+    ]
+   ]
+  },
+  {
+   "id": "I09",
+   "category": "image_only",
+   "latency_ms": 28,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "VHP-IOM#p16",
+    "VHP-IOM#p15",
+    "call:C02",
+    "VHP-IOM#p17",
+    "VHP-IOM#p4"
+   ],
+   "gold": [
+    [
+     "VHP-IOM#p16"
+    ]
+   ]
+  },
+  {
+   "id": "I10",
+   "category": "image_only",
+   "latency_ms": 27,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "VRT-IOM#p12",
+    "VRT-IOM#p5",
+    "VRT-IOM#p4",
+    "VRT-IOM#p10",
+    "call:C16"
+   ],
+   "gold": [
+    [
+     "VRT-IOM#p12"
+    ]
+   ]
+  },
+  {
+   "id": "I11",
+   "category": "image_only",
+   "latency_ms": 28,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "VCU-IOM#p10",
+    "VRL-IOM#p15",
+    "VCU-IOM#p22",
+    "VCU-IOM#p5",
+    "VRL-IOM#p18"
+   ],
+   "gold": [
+    [
+     "VCU-IOM#p10"
+    ]
+   ]
+  },
+  {
+   "id": "I12",
+   "category": "image_only",
+   "latency_ms": 37,
+   "recall@5": 0.0,
+   "hit@5": 0.0,
+   "recall@10": 0.0,
+   "hit@10": 0.0,
+   "recall@20": 0.0,
+   "hit@20": 0.0,
+   "rr": 0.0,
+   "top5": [
+    "RMS-REGISTER#p1",
+    "call:C01",
+    "call:C19",
+    "call:C07",
+    "call:C14"
+   ],
+   "gold": [
+    [
+     "photo:P-LMOB-RTU7-01"
+    ]
+   ]
+  },
+  {
+   "id": "I13",
+   "category": "image_only",
+   "latency_ms": 27,
+   "recall@5": 0.0,
+   "hit@5": 0.0,
+   "recall@10": 0.0,
+   "hit@10": 0.0,
+   "recall@20": 0.0,
+   "hit@20": 0.0,
+   "rr": 0.0,
+   "top5": [
+    "VHP-IOM#p15",
+    "call:C02",
+    "call:C17",
+    "VAH-IOM#p19",
+    "call:C23"
+   ],
+   "gold": [
+    [
+     "photo:P-BES-RTU4-01"
+    ]
+   ]
+  },
+  {
+   "id": "I14",
+   "category": "image_only",
+   "latency_ms": 36,
+   "recall@5": 0.0,
+   "hit@5": 0.0,
+   "recall@10": 0.0,
+   "hit@10": 0.0,
+   "recall@20": 0.0,
+   "hit@20": 0.0,
+   "rr": 0.0,
+   "top5": [
+    "RMS-REGISTER#p2",
+    "call:C09",
+    "call:C13",
+    "VRL-IOM#p18",
+    "call:C04"
+   ],
+   "gold": [
+    [
+     "photo:P-HPDC-RTU4-01"
+    ]
+   ]
+  },
+  {
+   "id": "I15",
+   "category": "image_only",
+   "latency_ms": 23,
+   "recall@5": 0.0,
+   "hit@5": 0.0,
+   "recall@10": 0.0,
+   "hit@10": 0.0,
+   "recall@20": 0.0,
+   "hit@20": 0.0,
+   "rr": 0.0,
+   "top5": [
+    "call:C20",
+    "call:C06",
+    "call:C16",
+    "call:C03",
+    "call:C18"
+   ],
+   "gold": [
+    [
+     "photo:P-NFC-RTU3-01"
+    ]
+   ]
+  },
+  {
+   "id": "T01",
+   "category": "text",
+   "latency_ms": 23,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "VRT-IOM#p23",
+    "VRT-IOM#p24",
+    "VRT-IOM#p22",
+    "VRL-IOM#p15",
+    "VRT-IOM#p4"
+   ],
+   "gold": [
+    [
+     "VRT-IOM#p23",
+     "VRT-IOM#p4"
+    ]
+   ]
+  },
+  {
+   "id": "T02",
+   "category": "text",
+   "latency_ms": 23,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "VHP-IOM#p15",
+    "call:C17",
+    "VHP-IOM#p4",
+    "VHP-IOM#p5",
+    "call:C02"
+   ],
+   "gold": [
+    [
+     "VHP-IOM#p15",
+     "VHP-IOM#p4",
+     "VHP-IOM#p5"
+    ]
+   ]
+  },
+  {
+   "id": "T03",
+   "category": "text",
+   "latency_ms": 23,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "VCU-IOM#p8",
+    "VCU-IOM#p10",
+    "VCU-IOM#p11",
+    "VCU-IOM#p3",
+    "VCU-IOM#p1"
+   ],
+   "gold": [
+    [
+     "VCU-IOM#p8"
+    ]
+   ]
+  },
+  {
+   "id": "T04",
+   "category": "text",
+   "latency_ms": 23,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "VRL-IOM#p11",
+    "VRL-IOM#p14",
+    "VCU-IOM#p19",
+    "VRL-IOM#p24",
+    "VRL-IOM#p25"
+   ],
+   "gold": [
+    [
+     "VRL-IOM#p11"
+    ]
+   ]
+  },
+  {
+   "id": "T05",
+   "category": "text",
+   "latency_ms": 23,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "VAH-IOM#p8",
+    "VAH-IOM#p9",
+    "VAH-IOM#p1",
+    "VAH-IOM#p13",
+    "VAH-IOM#p3"
+   ],
+   "gold": [
+    [
+     "VAH-IOM#p8"
+    ]
+   ]
+  },
+  {
+   "id": "T06",
+   "category": "text",
+   "latency_ms": 24,
+   "recall@5": 0.0,
+   "hit@5": 0.0,
+   "recall@10": 0.0,
+   "hit@10": 0.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 0.058823529411764705,
+   "top5": [
+    "VRT-IOM#p27",
+    "VRT-IOM#p24",
+    "VRT-IOM#p25",
+    "VRT-IOM#p4",
+    "SB-23-014#p1"
+   ],
+   "gold": [
+    [
+     "VRT-IOM#p5"
+    ]
+   ]
+  },
+  {
+   "id": "T07",
+   "category": "text",
+   "latency_ms": 23,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 0.2,
+   "top5": [
+    "VHP-IOM#p19",
+    "VRL-IOM#p7",
+    "VHP-IOM#p18",
+    "VHP-IOM#p23",
+    "VHP-IOM#p4"
+   ],
+   "gold": [
+    [
+     "VHP-IOM#p4",
+     "VHP-IOM#p6"
+    ]
+   ]
+  },
+  {
+   "id": "T08",
+   "category": "text",
+   "latency_ms": 23,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 0.5,
+   "top5": [
+    "VRL-IOM#p21",
+    "SB-24-011#p1",
+    "VRT-IOM#p2",
+    "VHP-IOM#p30",
+    "call:C02"
+   ],
+   "gold": [
+    [
+     "SB-24-011#p1",
+     "SB-24-011#p2"
+    ]
+   ]
+  },
+  {
+   "id": "T09",
+   "category": "text",
+   "latency_ms": 27,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "SB-23-014#p1",
+    "call:C01",
+    "VRL-IOM#p25",
+    "VRT-IOM#p24",
+    "VRT-IOM#p27"
+   ],
+   "gold": [
+    [
+     "SB-23-014#p1",
+     "SB-23-014#p2"
+    ]
+   ]
+  },
+  {
+   "id": "T10",
+   "category": "text",
+   "latency_ms": 23,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "VRL-IOM#p15",
+    "VRL-IOM#p4",
+    "VCU-IOM#p17",
+    "VRL-IOM#p18",
+    "call:C18"
+   ],
+   "gold": [
+    [
+     "VRL-IOM#p15",
+     "VRL-IOM#p4"
+    ]
+   ]
+  },
+  {
+   "id": "A01",
+   "category": "audio",
+   "latency_ms": 23,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "call:C04",
+    "VRL-IOM#p13",
+    "call:C15",
+    "call:C24",
+    "call:C18"
+   ],
+   "gold": [
+    [
+     "call:C04"
+    ]
+   ]
+  },
+  {
+   "id": "A02",
+   "category": "audio",
+   "latency_ms": 22,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "call:C16",
+    "call:C02",
+    "call:C23",
+    "VRT-IOM#p19",
+    "call:C18"
+   ],
+   "gold": [
+    [
+     "call:C16"
+    ]
+   ]
+  },
+  {
+   "id": "A03",
+   "category": "audio",
+   "latency_ms": 23,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "call:C09",
+    "VRL-IOM#p12",
+    "call:C24",
+    "VRL-IOM#p21",
+    "call:C18"
+   ],
+   "gold": [
+    [
+     "call:C09"
+    ]
+   ]
+  },
+  {
+   "id": "A04",
+   "category": "audio",
+   "latency_ms": 24,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 0.5,
+   "top5": [
+    "RMS-REGISTER#p2",
+    "call:C13",
+    "VRL-IOM#p9",
+    "VRL-IOM#p16",
+    "call:C04"
+   ],
+   "gold": [
+    [
+     "call:C13"
+    ]
+   ]
+  },
+  {
+   "id": "A05",
+   "category": "audio",
+   "latency_ms": 22,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "call:C21",
+    "VAH-IOM#p24",
+    "VRL-IOM#p11",
+    "VAH-IOM#p16",
+    "VAH-IOM#p25"
+   ],
+   "gold": [
+    [
+     "call:C21"
+    ]
+   ]
+  },
+  {
+   "id": "A06",
+   "category": "audio",
+   "latency_ms": 22,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "call:C03",
+    "call:C08",
+    "call:C14",
+    "call:C18",
+    "VCU-IOM#p30"
+   ],
+   "gold": [
+    [
+     "call:C03"
+    ]
+   ]
+  },
+  {
+   "id": "A07",
+   "category": "audio",
+   "latency_ms": 27,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "call:C23",
+    "call:C17",
+    "call:C08",
+    "call:C24",
+    "VCU-IOM#p7"
+   ],
+   "gold": [
+    [
+     "call:C23"
+    ]
+   ]
+  },
+  {
+   "id": "A08",
+   "category": "audio",
+   "latency_ms": 23,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "call:C08",
+    "VCU-IOM#p30",
+    "VCU-IOM#p22",
+    "VCU-IOM#p17",
+    "call:C20"
+   ],
+   "gold": [
+    [
+     "call:C08"
+    ]
+   ]
+  },
+  {
+   "id": "H01",
+   "category": "multihop",
+   "latency_ms": 36,
+   "recall@5": 0.4,
+   "hit@5": 1.0,
+   "recall@10": 0.6,
+   "hit@10": 1.0,
+   "recall@20": 0.6,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "RMS-REGISTER#p1",
+    "call:C01",
+    "call:C19",
+    "call:C07",
+    "call:C10"
+   ],
+   "gold": [
+    [
+     "RMS-REGISTER#p1"
+    ],
+    [
+     "SB-23-014#p1",
+     "SB-23-014#p2"
+    ],
+    [
+     "call:C01"
+    ],
+    [
+     "VRT-IOM#p15"
+    ],
+    [
+     "photo:P-LMOB-RTU7-01"
+    ]
+   ]
+  },
+  {
+   "id": "H02",
+   "category": "multihop",
+   "latency_ms": 23,
+   "recall@5": 0.5,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "RMS-REGISTER#p2",
+    "call:C06",
+    "call:C22",
+    "call:C15",
+    "call:C11"
+   ],
+   "gold": [
+    [
+     "RMS-REGISTER#p2"
+    ],
+    [
+     "VRT-IOM#p12"
+    ]
+   ]
+  },
+  {
+   "id": "H03",
+   "category": "multihop",
+   "latency_ms": 35,
+   "recall@5": 0.6666666666666666,
+   "hit@5": 1.0,
+   "recall@10": 0.6666666666666666,
+   "hit@10": 1.0,
+   "recall@20": 0.6666666666666666,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "RMS-REGISTER#p1",
+    "call:C12",
+    "VHP-IOM#p11",
+    "VRT-IOM#p3",
+    "VHP-IOM#p13"
+   ],
+   "gold": [
+    [
+     "RMS-REGISTER#p1"
+    ],
+    [
+     "call:C12"
+    ],
+    [
+     "VHP-IOM#p9"
+    ]
+   ]
+  },
+  {
+   "id": "H04",
+   "category": "multihop",
+   "latency_ms": 36,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "RMS-REGISTER#p2",
+    "call:C09",
+    "call:C13",
+    "call:C04",
+    "VRL-IOM#p15"
+   ],
+   "gold": [
+    [
+     "RMS-REGISTER#p2"
+    ],
+    [
+     "VRL-IOM#p15",
+     "VRL-IOM#p4"
+    ]
+   ]
+  },
+  {
+   "id": "H05",
+   "category": "multihop",
+   "latency_ms": 36,
+   "recall@5": 0.5,
+   "hit@5": 1.0,
+   "recall@10": 0.5,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "RMS-REGISTER#p1",
+    "call:C14",
+    "VRL-IOM#p15",
+    "VRL-IOM#p18",
+    "VRL-IOM#p17"
+   ],
+   "gold": [
+    [
+     "RMS-REGISTER#p1"
+    ],
+    [
+     "VCU-IOM#p23"
+    ]
+   ]
+  },
+  {
+   "id": "H06",
+   "category": "multihop",
+   "latency_ms": 36,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "RMS-REGISTER#p2",
+    "call:C05",
+    "call:C21",
+    "call:C18",
+    "call:C20"
+   ],
+   "gold": [
+    [
+     "RMS-REGISTER#p2"
+    ],
+    [
+     "call:C05"
+    ]
+   ]
+  },
+  {
+   "id": "H07",
+   "category": "multihop",
+   "latency_ms": 35,
+   "recall@5": 1.0,
+   "hit@5": 1.0,
+   "recall@10": 1.0,
+   "hit@10": 1.0,
+   "recall@20": 1.0,
+   "hit@20": 1.0,
+   "rr": 1.0,
+   "top5": [
+    "RMS-REGISTER#p2",
+    "call:C24",
+    "call:C03",
+    "call:C17",
+    "call:C10"
+   ],
+   "gold": [
+    [
+     "RMS-REGISTER#p2"
+    ],
+    [
+     "call:C24"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1378 @@
+[
+ {
+  "photo_id": "P-LMOB-RTU7-01",
+  "file": "P-LMOB-RTU7-01.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-7",
+  "job": "J-25-0714",
+  "date": "2025-07-14",
+  "tech": "Dana Ortiz",
+  "attribution": {
+   "title": "File:Exploded capacitor (5201542058).jpg",
+   "creator": "Marco d'Itri from Milano, Italy",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Exploded_capacitor_(5201542058).jpg"
+  }
+ },
+ {
+  "photo_id": "P-HPDC-RTU4-01",
+  "file": "P-HPDC-RTU4-01.jpg",
+  "site_id": "HPDC",
+  "unit": "RTU-4",
+  "job": "J-25-0520",
+  "date": "2025-05-20",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:Dirty AC filters 2023 (1) 01.jpg",
+   "creator": "Gerardolagunes",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Dirty_AC_filters_2023_(1)_01.jpg"
+  }
+ },
+ {
+  "photo_id": "P-BES-RTU4-01",
+  "file": "P-BES-RTU4-01.jpg",
+  "site_id": "BES",
+  "unit": "RTU-4",
+  "job": "J-25-0203",
+  "date": "2025-02-03",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:Ilmalämpöpumppu (2 of 3).jpg",
+   "creator": "Kuvatusmedia",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Ilmal%C3%A4mp%C3%B6pumppu_(2_of_3).jpg"
+  }
+ },
+ {
+  "photo_id": "P-NFC-RTU3-01",
+  "file": "P-NFC-RTU3-01.jpg",
+  "site_id": "NFC",
+  "unit": "RTU-3",
+  "job": "J-25-0827",
+  "date": "2025-08-27",
+  "tech": "Sam Okafor",
+  "attribution": {
+   "title": "File:Burned Contactor-01ASD.jpg",
+   "creator": "Asurnipal",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Burned_Contactor-01ASD.jpg"
+  }
+ },
+ {
+  "photo_id": "P-004",
+  "file": "P-004.jpg",
+  "site_id": "NFC",
+  "unit": "RTU-3",
+  "job": "J-24-0887",
+  "date": "2024-01-21",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:Motor-Start-Capacitor.jpg",
+   "creator": "Elcap",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:Motor-Start-Capacitor.jpg"
+  }
+ },
+ {
+  "photo_id": "P-005",
+  "file": "P-005.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-2",
+  "job": "J-24-0994",
+  "date": "2025-12-16",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:Shugart SA1004 HDD - AC motor and run capacitor.jpg",
+   "creator": "Mister rf",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Shugart_SA1004_HDD_-_AC_motor_and_run_capacitor.jpg"
+  }
+ },
+ {
+  "photo_id": "P-006",
+  "file": "P-006.jpg",
+  "site_id": "E3RP",
+  "unit": "RTU-4",
+  "job": "J-25-0916",
+  "date": "2025-12-23",
+  "tech": "Jen Kowalski",
+  "attribution": {
+   "title": "File:Heat exchanger at DEQ IST.jpg",
+   "creator": "Organic sweet",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Heat_exchanger_at_DEQ_IST.jpg"
+  }
+ },
+ {
+  "photo_id": "P-007",
+  "file": "P-007.jpg",
+  "site_id": "NFC",
+  "unit": "RTU-1",
+  "job": "J-25-0789",
+  "date": "2024-07-25",
+  "tech": "Jen Kowalski",
+  "attribution": {
+   "title": "File:Shell and Tube Heat Exchanger Piping 1.jpg",
+   "creator": "Ivangiesen",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:Shell_and_Tube_Heat_Exchanger_Piping_1.jpg"
+  }
+ },
+ {
+  "photo_id": "P-008",
+  "file": "P-008.jpg",
+  "site_id": "E3RP",
+  "unit": "RTU-4",
+  "job": "J-25-0559",
+  "date": "2025-10-08",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:Shell and Tube Heat Exchanger of Chiller.jpg",
+   "creator": "Saud",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Shell_and_Tube_Heat_Exchanger_of_Chiller.jpg"
+  }
+ },
+ {
+  "photo_id": "P-009",
+  "file": "P-009.jpg",
+  "site_id": "BES",
+  "unit": "AH-1",
+  "job": "J-25-0637",
+  "date": "2024-02-15",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:Aging Condenser Unit of a Split Air Conditioning System (7547606426).jpg",
+   "creator": "Chris Hunkeler from Carlsbad, California, USA",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Aging_Condenser_Unit_of_a_Split_Air_Conditioning_System_(7547606426).jpg"
+  }
+ },
+ {
+  "photo_id": "P-010",
+  "file": "P-010.jpg",
+  "site_id": "RPL",
+  "unit": "CU-2",
+  "job": "J-24-0473",
+  "date": "2025-11-13",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:Air Conditioning Units circa 1995.JPG",
+   "creator": "JoeBensonAC",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Air_Conditioning_Units_circa_1995.JPG"
+  }
+ },
+ {
+  "photo_id": "P-011",
+  "file": "P-011.jpg",
+  "site_id": "BES",
+  "unit": "RTU-3",
+  "job": "J-24-0969",
+  "date": "2024-08-03",
+  "tech": "Jen Kowalski",
+  "attribution": {
+   "title": "File:Air Conditioning units on the roof, hospital building, 2021, 03.jpg",
+   "creator": "Kgbo",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Air_Conditioning_units_on_the_roof,_hospital_building,_2021,_03.jpg"
+  }
+ },
+ {
+  "photo_id": "P-012",
+  "file": "P-012.jpg",
+  "site_id": "E3RP",
+  "unit": "RTU-2",
+  "job": "J-25-0932",
+  "date": "2024-12-15",
+  "tech": "Jen Kowalski",
+  "attribution": {
+   "title": "File:Air conditioners in Nis.jpg",
+   "creator": "Tiia Monto",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Air_conditioners_in_Nis.jpg"
+  }
+ },
+ {
+  "photo_id": "P-013",
+  "file": "P-013.jpg",
+  "site_id": "E3RP",
+  "unit": "RTU-4",
+  "job": "J-25-0948",
+  "date": "2024-07-07",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:BRP Humabon - Air Conditioning Condenser.jpg",
+   "creator": "Rhk111",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:BRP_Humabon_-_Air_Conditioning_Condenser.jpg"
+  }
+ },
+ {
+  "photo_id": "P-014",
+  "file": "P-014.jpg",
+  "site_id": "BES",
+  "unit": "RTU-2",
+  "job": "J-24-0670",
+  "date": "2025-02-10",
+  "tech": "Sam Okafor",
+  "attribution": {
+   "title": "File:Condenser unit for central air conditioning.JPG",
+   "creator": "H Padleckas",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Condenser_unit_for_central_air_conditioning.JPG"
+  }
+ },
+ {
+  "photo_id": "P-015",
+  "file": "P-015.jpg",
+  "site_id": "LMOB",
+  "unit": "CU-1",
+  "job": "J-25-0475",
+  "date": "2025-05-07",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:Industrial air conditioning unit (DFdB).JPG",
+   "creator": "Dein Freund der Baum",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Industrial_air_conditioning_unit_(DFdB).JPG"
+  }
+ },
+ {
+  "photo_id": "P-016",
+  "file": "P-016.jpg",
+  "site_id": "HPDC",
+  "unit": "RTU-1",
+  "job": "J-24-0924",
+  "date": "2024-03-05",
+  "tech": "Jen Kowalski",
+  "attribution": {
+   "title": "File:Marstair air conditioning condenser unit mounted on red plastered wall, 1 Ingram Road, Gillingham, Kent, England.jpg",
+   "creator": "OathOn",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Marstair_air_conditioning_condenser_unit_mounted_on_red_plastered_wall,_1_Ingram_Road,_Gillingham,_Kent,_England.jpg"
+  }
+ },
+ {
+  "photo_id": "P-017",
+  "file": "P-017.jpg",
+  "site_id": "NFC",
+  "unit": "RTU-1",
+  "job": "J-25-0262",
+  "date": "2024-11-20",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:SHARP air conditioner outdoor unit 20201003.jpg",
+   "creator": "円周率３パーセント",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:SHARP_air_conditioner_outdoor_unit_20201003.jpg"
+  }
+ },
+ {
+  "photo_id": "P-018",
+  "file": "P-018.jpg",
+  "site_id": "HPDC",
+  "unit": "RTU-3",
+  "job": "J-24-0556",
+  "date": "2025-02-04",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:Snow covers an outdoor air conditioning unit in a winter landscape during a heavy snowfall.jpg",
+   "creator": "Shixart1985",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Snow_covers_an_outdoor_air_conditioning_unit_in_a_winter_landscape_during_a_heavy_snowfall.jpg"
+  }
+ },
+ {
+  "photo_id": "P-019",
+  "file": "P-019.jpg",
+  "site_id": "HPDC",
+  "unit": "RTU-1",
+  "job": "J-24-1046",
+  "date": "2024-12-12",
+  "tech": "Sam Okafor",
+  "attribution": {
+   "title": "File:Air conditioner, Sofia (P1070790).jpg",
+   "creator": "Matti Blume",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Air_conditioner,_Sofia_(P1070790).jpg"
+  }
+ },
+ {
+  "photo_id": "P-020",
+  "file": "P-020.jpg",
+  "site_id": "BES",
+  "unit": "RTU-2",
+  "job": "J-25-0213",
+  "date": "2024-08-28",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:HVAC.jpg",
+   "creator": "National Institute of Standards and Technology",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:HVAC.jpg"
+  }
+ },
+ {
+  "photo_id": "P-021",
+  "file": "P-021.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-5",
+  "job": "J-25-0974",
+  "date": "2025-01-16",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:Panasonic CONDENSING UNIT OCU-NR200SF-D.jpg",
+   "creator": "Dinkun Chen",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Panasonic_CONDENSING_UNIT_OCU-NR200SF-D.jpg"
+  }
+ },
+ {
+  "photo_id": "P-022",
+  "file": "P-022.jpg",
+  "site_id": "E3RP",
+  "unit": "RTU-2",
+  "job": "J-24-1028",
+  "date": "2024-04-18",
+  "tech": "Jen Kowalski",
+  "attribution": {
+   "title": "File:Panasonic CONDENSING UNIT OCU-NS500HF.jpg",
+   "creator": "Dinkun Chen",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Panasonic_CONDENSING_UNIT_OCU-NS500HF.jpg"
+  }
+ },
+ {
+  "photo_id": "P-023",
+  "file": "P-023.jpg",
+  "site_id": "RPL",
+  "unit": "RTU-1",
+  "job": "J-24-0931",
+  "date": "2024-07-19",
+  "tech": "Jen Kowalski",
+  "attribution": {
+   "title": "File:Panasonic CONDENSING UNIT OCU-S700HF.jpg",
+   "creator": "Dinkun Chen",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Panasonic_CONDENSING_UNIT_OCU-S700HF.jpg"
+  }
+ },
+ {
+  "photo_id": "P-024",
+  "file": "P-024.jpg",
+  "site_id": "LMOB",
+  "unit": "AH-1",
+  "job": "J-24-0154",
+  "date": "2025-01-02",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:Refrigeration Compressors for the Altitude Wind Tunnel (GRC-1944-C-06715).jpg",
+   "creator": "NASA Glenn Research Center",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:Refrigeration_Compressors_for_the_Altitude_Wind_Tunnel_(GRC-1944-C-06715).jpg"
+  }
+ },
+ {
+  "photo_id": "P-025",
+  "file": "P-025.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-7",
+  "job": "J-24-0509",
+  "date": "2025-01-11",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:Gree Ease Wind air conditioner.jpg",
+   "creator": "Fumikas Sagisavas",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:Gree_Ease_Wind_air_conditioner.jpg"
+  }
+ },
+ {
+  "photo_id": "P-026",
+  "file": "P-026.jpg",
+  "site_id": "NFC",
+  "unit": "RTU-1",
+  "job": "J-25-0528",
+  "date": "2024-04-17",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:Rooftop Packaged Units.JPG",
+   "creator": "P199",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:Rooftop_Packaged_Units.JPG"
+  }
+ },
+ {
+  "photo_id": "P-027",
+  "file": "P-027.jpg",
+  "site_id": "E3RP",
+  "unit": "RTU-3",
+  "job": "J-24-1047",
+  "date": "2025-07-18",
+  "tech": "Dana Ortiz",
+  "attribution": {
+   "title": "File:012 Rooftop HVAC systems and roof ventilation ducts in Tokyo, Japan.jpg",
+   "creator": "Marek Ślusarczyk (Tupungato) Photo portfolio",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:012_Rooftop_HVAC_systems_and_roof_ventilation_ducts_in_Tokyo,_Japan.jpg"
+  }
+ },
+ {
+  "photo_id": "P-028",
+  "file": "P-028.jpg",
+  "site_id": "E3RP",
+  "unit": "RTU-4",
+  "job": "J-25-0698",
+  "date": "2025-03-02",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:013 Office building air conditioning rooftop system in Tokyo city - airconditioning op het dak.jpg",
+   "creator": "Marek Ślusarczyk (Tupungato) Photo portfolio",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:013_Office_building_air_conditioning_rooftop_system_in_Tokyo_city_-_airconditioning_op_het_dak.jpg"
+  }
+ },
+ {
+  "photo_id": "P-029",
+  "file": "P-029.jpg",
+  "site_id": "BES",
+  "unit": "CU-1",
+  "job": "J-25-1251",
+  "date": "2024-07-20",
+  "tech": "Dana Ortiz",
+  "attribution": {
+   "title": "File:130420-F-ZZ999-101 (15718415681), rooftop HVAC.jpg",
+   "creator": "Los Angeles Air Force Base Space and Missile System Center",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:130420-F-ZZ999-101_(15718415681),_rooftop_HVAC.jpg"
+  }
+ },
+ {
+  "photo_id": "P-030",
+  "file": "P-030.jpg",
+  "site_id": "NFC",
+  "unit": "RTU-2",
+  "job": "J-25-0521",
+  "date": "2024-01-24",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:Air conditioning office building roof - public building air conditioning in Tokyo.jpg",
+   "creator": "Marek Ślusarczyk (Tupungato) Photo portfolio",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Air_conditioning_office_building_roof_-_public_building_air_conditioning_in_Tokyo.jpg"
+  }
+ },
+ {
+  "photo_id": "P-031",
+  "file": "P-031.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-7",
+  "job": "J-25-0754",
+  "date": "2025-08-10",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:Helicopter delivering a rooftop HVAC unit -04- (9721469418).jpg",
+   "creator": "Ben Schumin from Montgomery Village, Maryland, USA",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Helicopter_delivering_a_rooftop_HVAC_unit_-04-_(9721469418).jpg"
+  }
+ },
+ {
+  "photo_id": "P-032",
+  "file": "P-032.jpg",
+  "site_id": "E3RP",
+  "unit": "RTU-1",
+  "job": "J-25-0756",
+  "date": "2025-12-16",
+  "tech": "Dana Ortiz",
+  "attribution": {
+   "title": "File:23 0041077 Convair Negative Image - Motor compressor and air conditioner (53718436726).jpg",
+   "creator": "San Diego Air &amp; Space Museum Archives",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:23_0041077_Convair_Negative_Image_-_Motor_compressor_and_air_conditioner_(53718436726).jpg"
+  }
+ },
+ {
+  "photo_id": "P-033",
+  "file": "P-033.jpg",
+  "site_id": "E3RP",
+  "unit": "RTU-4",
+  "job": "J-24-0123",
+  "date": "2025-07-23",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:BURNED OUT AIR CONDITIONER AND COMPRESSOR AND COIL - NARA - 17441993.jpg",
+   "creator": "Unknown authorUnknown author or not provided",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:BURNED_OUT_AIR_CONDITIONER_AND_COMPRESSOR_AND_COIL_-_NARA_-_17441993.jpg"
+  }
+ },
+ {
+  "photo_id": "P-034",
+  "file": "P-034.jpg",
+  "site_id": "BES",
+  "unit": "CU-1",
+  "job": "J-24-1251",
+  "date": "2024-10-05",
+  "tech": "Jen Kowalski",
+  "attribution": {
+   "title": "File:MHI AC COMPRESSOR (Minica H42V).jpg",
+   "creator": "Hd207",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:MHI_AC_COMPRESSOR_(Minica_H42V).jpg"
+  }
+ },
+ {
+  "photo_id": "P-035",
+  "file": "P-035.jpg",
+  "site_id": "RPL",
+  "unit": "RTU-1",
+  "job": "J-24-1215",
+  "date": "2024-08-25",
+  "tech": "Sam Okafor",
+  "attribution": {
+   "title": "File:Panasonic AIR CONDITIONER COMPRESSOR 2P15S225CZB.jpg",
+   "creator": "Dinkun Chen",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Panasonic_AIR_CONDITIONER_COMPRESSOR_2P15S225CZB.jpg"
+  }
+ },
+ {
+  "photo_id": "P-036",
+  "file": "P-036.jpg",
+  "site_id": "NFC",
+  "unit": "RTU-3",
+  "job": "J-25-0147",
+  "date": "2024-08-21",
+  "tech": "Dana Ortiz",
+  "attribution": {
+   "title": "File:Electric Vehicle Scroll Compressor.jpg",
+   "creator": "R2T2M",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Electric_Vehicle_Scroll_Compressor.jpg"
+  }
+ },
+ {
+  "photo_id": "P-037",
+  "file": "P-037.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-2",
+  "job": "J-24-0353",
+  "date": "2024-04-12",
+  "tech": "Dana Ortiz",
+  "attribution": {
+   "title": "File:Scroll Compressor.jpeg",
+   "creator": "Kludge2",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Scroll_Compressor.jpeg"
+  }
+ },
+ {
+  "photo_id": "P-038",
+  "file": "P-038.jpg",
+  "site_id": "BES",
+  "unit": "RTU-4",
+  "job": "J-24-0752",
+  "date": "2025-05-15",
+  "tech": "Jen Kowalski",
+  "attribution": {
+   "title": "File:Air Handler Unit aanzuiging.JPG",
+   "creator": "Alf van Beem",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:Air_Handler_Unit_aanzuiging.JPG"
+  }
+ },
+ {
+  "photo_id": "P-039",
+  "file": "P-039.jpg",
+  "site_id": "BES",
+  "unit": "RTU-1",
+  "job": "J-25-0460",
+  "date": "2024-01-25",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:Air handling unit.JPG",
+   "creator": "P199",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:Air_handling_unit.JPG"
+  }
+ },
+ {
+  "photo_id": "P-040",
+  "file": "P-040.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-5",
+  "job": "J-25-1035",
+  "date": "2024-09-23",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:Air handling units in large commercial building, Brisbane.jpg",
+   "creator": "Kgbo",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Air_handling_units_in_large_commercial_building,_Brisbane.jpg"
+  }
+ },
+ {
+  "photo_id": "P-041",
+  "file": "P-041.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-1",
+  "job": "J-25-0369",
+  "date": "2024-09-22",
+  "tech": "Sam Okafor",
+  "attribution": {
+   "title": "File:Air handling units in large commercial building, Brisbane 01.jpg",
+   "creator": "Kgbo",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Air_handling_units_in_large_commercial_building,_Brisbane_01.jpg"
+  }
+ },
+ {
+  "photo_id": "P-042",
+  "file": "P-042.jpg",
+  "site_id": "NFC",
+  "unit": "RTU-4",
+  "job": "J-25-1267",
+  "date": "2025-07-09",
+  "tech": "Sam Okafor",
+  "attribution": {
+   "title": "File:HVAC Air Handler Unit, pic1.JPG",
+   "creator": "Alf van Beem",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:HVAC_Air_Handler_Unit,_pic1.JPG"
+  }
+ },
+ {
+  "photo_id": "P-043",
+  "file": "P-043.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-2",
+  "job": "J-25-0194",
+  "date": "2024-04-04",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:HVAC Air Handler Unit, pic2.JPG",
+   "creator": "Alf van Beem",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:HVAC_Air_Handler_Unit,_pic2.JPG"
+  }
+ },
+ {
+  "photo_id": "P-044",
+  "file": "P-044.jpg",
+  "site_id": "RPL",
+  "unit": "CU-1",
+  "job": "J-25-1295",
+  "date": "2025-09-06",
+  "tech": "Jen Kowalski",
+  "attribution": {
+   "title": "File:HVAC Air Handler Unit, pic3.JPG",
+   "creator": "Alf van Beem",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:HVAC_Air_Handler_Unit,_pic3.JPG"
+  }
+ },
+ {
+  "photo_id": "P-045",
+  "file": "P-045.jpg",
+  "site_id": "BES",
+  "unit": "AH-1",
+  "job": "J-25-1043",
+  "date": "2024-01-18",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:Mitsubishi Heat Pump interior air handler.agr.jpg",
+   "creator": "ArnoldReinhold",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Heat_Pump_interior_air_handler.agr.jpg"
+  }
+ },
+ {
+  "photo_id": "P-046",
+  "file": "P-046.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-1",
+  "job": "J-25-0813",
+  "date": "2025-05-05",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:Aardgasfornuisvlam.jpg",
+   "creator": "Sapp",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:Aardgasfornuisvlam.jpg"
+  }
+ },
+ {
+  "photo_id": "P-047",
+  "file": "P-047.jpg",
+  "site_id": "LMOB",
+  "unit": "AH-1",
+  "job": "J-24-0394",
+  "date": "2024-07-15",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:332nd Expeditionary CE Squadron HVAC-R operations (9305716).jpg",
+   "creator": "U.S. Air Force AFCENT by Senior Airman Grace Turpin",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:332nd_Expeditionary_CE_Squadron_HVAC-R_operations_(9305716).jpg"
+  }
+ },
+ {
+  "photo_id": "P-048",
+  "file": "P-048.jpg",
+  "site_id": "NFC",
+  "unit": "RTU-3",
+  "job": "J-25-1000",
+  "date": "2025-01-07",
+  "tech": "Jen Kowalski",
+  "attribution": {
+   "title": "File:Cool under pressure- 386th ECES HVAC technicians in action (9047740).jpg",
+   "creator": "U.S. Air Force photo by Senior Airman Mark Colmenares",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:Cool_under_pressure-_386th_ECES_HVAC_technicians_in_action_(9047740).jpg"
+  }
+ },
+ {
+  "photo_id": "P-049",
+  "file": "P-049.jpg",
+  "site_id": "E3RP",
+  "unit": "RTU-3",
+  "job": "J-25-0457",
+  "date": "2024-05-21",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:379th ECES HVAC technicians combat rising temperatures (8502255).jpg",
+   "creator": "U.S. Air Force AFCENT by Airman 1st Class Derrick Bole",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:379th_ECES_HVAC_technicians_combat_rising_temperatures_(8502255).jpg"
+  }
+ },
+ {
+  "photo_id": "P-050",
+  "file": "P-050.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-5",
+  "job": "J-25-0705",
+  "date": "2025-07-24",
+  "tech": "Jen Kowalski",
+  "attribution": {
+   "title": "File:379th ECES HVAC technicians combat rising temperatures (8502257).jpg",
+   "creator": "U.S. Air Force AFCENT by Airman 1st Class Derrick Bole",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:379th_ECES_HVAC_technicians_combat_rising_temperatures_(8502257).jpg"
+  }
+ },
+ {
+  "photo_id": "P-051",
+  "file": "P-051.jpg",
+  "site_id": "RPL",
+  "unit": "RTU-1",
+  "job": "J-24-0237",
+  "date": "2024-03-19",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:379th ECES HVAC technicians combat rising temperatures (8502258).jpg",
+   "creator": "U.S. Air Force AFCENT by Airman 1st Class Derrick Bole",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:379th_ECES_HVAC_technicians_combat_rising_temperatures_(8502258).jpg"
+  }
+ },
+ {
+  "photo_id": "P-052",
+  "file": "P-052.jpg",
+  "site_id": "BES",
+  "unit": "RTU-3",
+  "job": "J-25-0826",
+  "date": "2025-02-06",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:379th ECES HVAC technicians combat rising temperatures (8502259).jpg",
+   "creator": "U.S. Air Force AFCENT by Airman 1st Class Derrick Bole",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:379th_ECES_HVAC_technicians_combat_rising_temperatures_(8502259).jpg"
+  }
+ },
+ {
+  "photo_id": "P-053",
+  "file": "P-053.jpg",
+  "site_id": "BES",
+  "unit": "RTU-4",
+  "job": "J-25-0431",
+  "date": "2025-09-16",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:HVAC Technicians Power Mission Success (8850027).jpg",
+   "creator": "U.S. Air Force photo by Airman 1st Class Skylar Ellis",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:HVAC_Technicians_Power_Mission_Success_(8850027).jpg"
+  }
+ },
+ {
+  "photo_id": "P-054",
+  "file": "P-054.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-5",
+  "job": "J-25-0729",
+  "date": "2025-04-24",
+  "tech": "Sam Okafor",
+  "attribution": {
+   "title": "File:HVAC Technicians Power Mission Success (8850029).jpg",
+   "creator": "U.S. Air Force photo by Airman 1st Class Skylar Ellis",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:HVAC_Technicians_Power_Mission_Success_(8850029).jpg"
+  }
+ },
+ {
+  "photo_id": "P-055",
+  "file": "P-055.jpg",
+  "site_id": "HPDC",
+  "unit": "RTU-2",
+  "job": "J-24-0292",
+  "date": "2024-02-15",
+  "tech": "Jen Kowalski",
+  "attribution": {
+   "title": "File:HVAC Technicians Power Mission Success (8850032).jpg",
+   "creator": "U.S. Air Force photo by Airman 1st Class Skylar Ellis",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:HVAC_Technicians_Power_Mission_Success_(8850032).jpg"
+  }
+ },
+ {
+  "photo_id": "P-056",
+  "file": "P-056.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-2",
+  "job": "J-24-1090",
+  "date": "2024-06-26",
+  "tech": "Dana Ortiz",
+  "attribution": {
+   "title": "File:HVAC Technicians Power Mission Success (8850033).jpg",
+   "creator": "U.S. Air Force photo by Airman 1st Class Skylar Ellis",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:HVAC_Technicians_Power_Mission_Success_(8850033).jpg"
+  }
+ },
+ {
+  "photo_id": "P-057",
+  "file": "P-057.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-3",
+  "job": "J-25-0790",
+  "date": "2024-09-16",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:McQuay AIR CONDITIONING AIR CONDITIONER OUTDOOR UNIT.jpg",
+   "creator": "Dinkun Chen",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:McQuay_AIR_CONDITIONING_AIR_CONDITIONER_OUTDOOR_UNIT.jpg"
+  }
+ },
+ {
+  "photo_id": "P-058",
+  "file": "P-058.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-2",
+  "job": "J-24-1075",
+  "date": "2025-01-22",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:BLOWER INLET AND WHEEL AT LASER LABORATORY - NARA - 17441823.jpg",
+   "creator": "Martin Brown",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:BLOWER_INLET_AND_WHEEL_AT_LASER_LABORATORY_-_NARA_-_17441823.jpg"
+  }
+ },
+ {
+  "photo_id": "P-059",
+  "file": "P-059.jpg",
+  "site_id": "LMOB",
+  "unit": "CU-1",
+  "job": "J-24-1063",
+  "date": "2025-07-18",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:BLOWER INLET AND WHEEL AT LASER LABORATORY - NARA - 17441824.jpg",
+   "creator": "Martin Brown",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:BLOWER_INLET_AND_WHEEL_AT_LASER_LABORATORY_-_NARA_-_17441824.jpg"
+  }
+ },
+ {
+  "photo_id": "P-060",
+  "file": "P-060.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-6",
+  "job": "J-25-0192",
+  "date": "2024-05-11",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:Destroyer, plan of machinery and boiler rooms (Warships To-day, 1936).jpg",
+   "creator": "Andy Dingley (scanner)",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:Destroyer,_plan_of_machinery_and_boiler_rooms_(Warships_To-day,_1936).jpg"
+  }
+ },
+ {
+  "photo_id": "P-061",
+  "file": "P-061.jpg",
+  "site_id": "E3RP",
+  "unit": "CU-1",
+  "job": "J-25-0233",
+  "date": "2024-08-04",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:A dirty cabin filter.jpg",
+   "creator": "UnifiedFunctionality",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:A_dirty_cabin_filter.jpg"
+  }
+ },
+ {
+  "photo_id": "P-062",
+  "file": "P-062.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-1",
+  "job": "J-24-0147",
+  "date": "2025-08-26",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:Dirty-air-filter.jpg",
+   "creator": "Ahanix1989 at English Wikipedia",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:Dirty-air-filter.jpg"
+  }
+ },
+ {
+  "photo_id": "P-063",
+  "file": "P-063.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-3",
+  "job": "J-24-0402",
+  "date": "2024-10-05",
+  "tech": "Dana Ortiz",
+  "attribution": {
+   "title": "File:Dirty AC filters 2023 (1) 02.jpg",
+   "creator": "Gerardolagunes",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Dirty_AC_filters_2023_(1)_02.jpg"
+  }
+ },
+ {
+  "photo_id": "P-064",
+  "file": "P-064.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-5",
+  "job": "J-24-0441",
+  "date": "2025-03-26",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:Dirty AC filters 2023 (1) 03.jpg",
+   "creator": "Gerardolagunes",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Dirty_AC_filters_2023_(1)_03.jpg"
+  }
+ },
+ {
+  "photo_id": "P-065",
+  "file": "P-065.jpg",
+  "site_id": "HPDC",
+  "unit": "RTU-3",
+  "job": "J-25-0544",
+  "date": "2024-02-15",
+  "tech": "Sam Okafor",
+  "attribution": {
+   "title": "File:Dirty AC filters 2023 (1) 04.jpg",
+   "creator": "Gerardolagunes",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Dirty_AC_filters_2023_(1)_04.jpg"
+  }
+ },
+ {
+  "photo_id": "P-066",
+  "file": "P-066.jpg",
+  "site_id": "BES",
+  "unit": "RTU-4",
+  "job": "J-24-0744",
+  "date": "2024-09-17",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:Dirty Jobs- RAF Fairford edition (9851636).jpg",
+   "creator": "U.S. Air Force photo by Senior Airman Adam Enbal",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:Dirty_Jobs-_RAF_Fairford_edition_(9851636).jpg"
+  }
+ },
+ {
+  "photo_id": "P-067",
+  "file": "P-067.jpg",
+  "site_id": "RPL",
+  "unit": "AH-1",
+  "job": "J-24-0652",
+  "date": "2025-03-24",
+  "tech": "Jen Kowalski",
+  "attribution": {
+   "title": "File:Dirty Jobs- RAF Fairford edition (9851641).jpg",
+   "creator": "U.S. Air Force 501CSW by Senior Airman Adam Enbal",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:Dirty_Jobs-_RAF_Fairford_edition_(9851641).jpg"
+  }
+ },
+ {
+  "photo_id": "P-068",
+  "file": "P-068.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-5",
+  "job": "J-24-0700",
+  "date": "2025-05-20",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:378th ECES Airmen Maintain HVAC Equipment (8720241).jpg",
+   "creator": "U.S. Air Force AFCENT by Staff Sgt. Shaei Rodriguez",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:378th_ECES_Airmen_Maintain_HVAC_Equipment_(8720241).jpg"
+  }
+ },
+ {
+  "photo_id": "P-069",
+  "file": "P-069.jpg",
+  "site_id": "HPDC",
+  "unit": "RTU-2",
+  "job": "J-24-0266",
+  "date": "2024-01-12",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:Ecodan outdoor unit Internal view.jpg",
+   "creator": "PeterEastern",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Ecodan_outdoor_unit_Internal_view.jpg"
+  }
+ },
+ {
+  "photo_id": "P-070",
+  "file": "P-070.jpg",
+  "site_id": "E3RP",
+  "unit": "RTU-1",
+  "job": "J-24-0217",
+  "date": "2025-05-09",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:Ecodan outdoor unit in the snow.jpg",
+   "creator": "PeterEastern",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Ecodan_outdoor_unit_in_the_snow.jpg"
+  }
+ },
+ {
+  "photo_id": "P-071",
+  "file": "P-071.jpg",
+  "site_id": "RPL",
+  "unit": "CU-1",
+  "job": "J-25-0370",
+  "date": "2024-02-10",
+  "tech": "Sam Okafor",
+  "attribution": {
+   "title": "File:Outdoor air conditioner unit installed in residential garden space.jpg",
+   "creator": "Shixart1985",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Outdoor_air_conditioner_unit_installed_in_residential_garden_space.jpg"
+  }
+ },
+ {
+  "photo_id": "P-072",
+  "file": "P-072.jpg",
+  "site_id": "BES",
+  "unit": "RTU-3",
+  "job": "J-25-0773",
+  "date": "2025-12-10",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:Air duct pipes in Torp shopping mall, Uddevalla.jpg",
+   "creator": "W.carter",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Air_duct_pipes_in_Torp_shopping_mall,_Uddevalla.jpg"
+  }
+ },
+ {
+  "photo_id": "P-073",
+  "file": "P-073.jpg",
+  "site_id": "NFC",
+  "unit": "RTU-1",
+  "job": "J-24-0942",
+  "date": "2024-03-27",
+  "tech": "Dana Ortiz",
+  "attribution": {
+   "title": "File:Insulated duct 1.jpg",
+   "creator": "Achim Hering",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Insulated_duct_1.jpg"
+  }
+ },
+ {
+  "photo_id": "P-074",
+  "file": "P-074.jpg",
+  "site_id": "E3RP",
+  "unit": "RTU-4",
+  "job": "J-25-0422",
+  "date": "2024-05-17",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:Insulated duct 2.jpg",
+   "creator": "Achim Hering",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Insulated_duct_2.jpg"
+  }
+ },
+ {
+  "photo_id": "P-075",
+  "file": "P-075.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-6",
+  "job": "J-25-1036",
+  "date": "2025-11-26",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:OC Fairground HVAC vent.jpg",
+   "creator": "Eric Polk",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:OC_Fairground_HVAC_vent.jpg"
+  }
+ },
+ {
+  "photo_id": "P-076",
+  "file": "P-076.jpg",
+  "site_id": "BES",
+  "unit": "RTU-3",
+  "job": "J-25-0505",
+  "date": "2025-03-15",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:OC Fairground ductwork.jpg",
+   "creator": "Eric Polk",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:OC_Fairground_ductwork.jpg"
+  }
+ },
+ {
+  "photo_id": "P-077",
+  "file": "P-077.jpg",
+  "site_id": "LMOB",
+  "unit": "AH-1",
+  "job": "J-24-0869",
+  "date": "2025-06-16",
+  "tech": "Sam Okafor",
+  "attribution": {
+   "title": "File:Office building infrastructure.jpg",
+   "creator": "Eric Polk",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Office_building_infrastructure.jpg"
+  }
+ },
+ {
+  "photo_id": "P-078",
+  "file": "P-078.jpg",
+  "site_id": "E3RP",
+  "unit": "RTU-4",
+  "job": "J-24-0159",
+  "date": "2025-08-02",
+  "tech": "Dana Ortiz",
+  "attribution": {
+   "title": "File:Contactor DIN IEK.jpg",
+   "creator": "Kae",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Contactor_DIN_IEK.jpg"
+  }
+ },
+ {
+  "photo_id": "P-079",
+  "file": "P-079.jpg",
+  "site_id": "E3RP",
+  "unit": "RTU-1",
+  "job": "J-25-0744",
+  "date": "2024-03-12",
+  "tech": "Sam Okafor",
+  "attribution": {
+   "title": "File:Moscow trolleybus ZiU-10 2656 2005-03 1110906829.jpg",
+   "creator": "Artyom Svetlov",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Moscow_trolleybus_ZiU-10_2656_2005-03_1110906829.jpg"
+  }
+ },
+ {
+  "photo_id": "P-080",
+  "file": "P-080.jpg",
+  "site_id": "E3RP",
+  "unit": "CU-1",
+  "job": "J-25-0905",
+  "date": "2024-05-08",
+  "tech": "Marcus Bell",
+  "attribution": {
+   "title": "File:Electrical fire damage.jpg",
+   "creator": "\"craignoble666\"",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Electrical_fire_damage.jpg"
+  }
+ },
+ {
+  "photo_id": "P-081",
+  "file": "P-081.jpg",
+  "site_id": "BES",
+  "unit": "RTU-2",
+  "job": "J-25-0598",
+  "date": "2024-06-17",
+  "tech": "Sam Okafor",
+  "attribution": {
+   "title": "File:SAFETY RULE №1 - REMOVE THE VOLTAGE BEFORE ANY ACTION AT ELECTRICAL WIRING.JPG",
+   "creator": "Dmitry G",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:SAFETY_RULE_%E2%84%961_-_REMOVE_THE_VOLTAGE_BEFORE_ANY_ACTION_AT_ELECTRICAL_WIRING.JPG"
+  }
+ },
+ {
+  "photo_id": "P-082",
+  "file": "P-082.jpg",
+  "site_id": "BES",
+  "unit": "AH-1",
+  "job": "J-24-1129",
+  "date": "2024-02-19",
+  "tech": "Sam Okafor",
+  "attribution": {
+   "title": "File:Specialized aviation maintainers repair damaged helicopter's electrical system in painstaking project 131117-A-TP284-001.jpg",
+   "creator": "Staff Sgt. Todd Pouliot",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:Specialized_aviation_maintainers_repair_damaged_helicopter%27s_electrical_system_in_painstaking_project_131117-A-TP284-001.jpg"
+  }
+ },
+ {
+  "photo_id": "P-083",
+  "file": "P-083.jpg",
+  "site_id": "NFC",
+  "unit": "RTU-4",
+  "job": "J-24-0414",
+  "date": "2025-12-03",
+  "tech": "Priya Raman",
+  "attribution": {
+   "title": "File:Specialized aviation maintainers repair damaged helicopter’s electrical system in painstaking project 131117-A-TP284-002.jpg",
+   "creator": "Staff Sgt. Todd Pouliot",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:Specialized_aviation_maintainers_repair_damaged_helicopter%E2%80%99s_electrical_system_in_painstaking_project_131117-A-TP284-002.jpg"
+  }
+ },
+ {
+  "photo_id": "P-084",
+  "file": "P-084.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-5",
+  "job": "J-24-0244",
+  "date": "2024-05-01",
+  "tech": "Dana Ortiz",
+  "attribution": {
+   "title": "File:Panasonic AIR CONDITIONER COMPRESSOR 2K22S225BUA.jpg",
+   "creator": "Dinkun Chen",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Panasonic_AIR_CONDITIONER_COMPRESSOR_2K22S225BUA.jpg"
+  }
+ },
+ {
+  "photo_id": "P-085",
+  "file": "P-085.jpg",
+  "site_id": "LMOB",
+  "unit": "RTU-2",
+  "job": "J-25-0603",
+  "date": "2024-02-02",
+  "tech": "Luis Herrera",
+  "attribution": {
+   "title": "File:Cool under pressure- 386th ECES HVAC technicians in action (9047739).jpg",
+   "creator": "U.S. Air Force photo by Senior Airman Mark Colmenares",
+   "license": "Public domain",
+   "license_url": null,
+   "source": "https://commons.wikimedia.org/wiki/File:Cool_under_pressure-_386th_ECES_HVAC_technicians_in_action_(9047739).jpg"
+  }
+ }
+]

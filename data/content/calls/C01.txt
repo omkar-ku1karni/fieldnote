@@ -1,0 +1,33 @@
+-------------------
+
+call_id: C01
+date: 2025-07-14
+site: Lakeshore Medical Office Building (Milwaukee, WI)
+unit: RTU-7
+model: VRT-060
+tech: Dana Ortiz
+agent: Tom
+topic: Repeated high-pressure lockouts on hot afternoons
+-------
+
+AGENT: Vantorr Technical Support, this is Tom. What can I help you with today?
+TECH: Hey, Tom. Dana Ortiz with Ridgeline Mechanical Services. I'm up on the roof at Lakeshore Medical Office Building in Milwaukee, working on R-T-U seven.
+AGENT: Okay, Dana. Tell me what you've got, and we'll work through it.
+TECH: It's a V-R-T sixty. The rating plate serial reads two three one zero V zero zero four one two. It keeps going into high-pressure lockout on hot afternoons.
+AGENT: Does it run normally earlier in the day, before the roof gets hot?
+TECH: Yeah, mornings are usually fine. Then the tenant calls when cooling quits. Somebody resets it, and later it's down again. The condenser sounds a little rough right now.
+AGENT: When it drops out, are the condenser fan and compressor both stopping, or is the fan acting up before the lockout?
+TECH: Hard to catch it live. I watched the fan hesitate once, though. The coil also has some lint stuck around the exposed side. Wind's making it hard to hear.
+AGENT: Understood. Can you look at the board's displayed firmware version without resetting anything again?
+TECH: Hang on, I've got the panel open. Okay, the display shows firmware two point three. That's exactly what's on it.
+AGENT: Thanks. On firmware two point three, there's no debounce on the high-pressure switch input. That makes a momentary interruption more likely to count as a trip.
+TECH: So that could explain why the fault count climbs so fast even when the system appears to recover?
+AGENT: Right. The board locks out hard after three trips in one hour. That behavior is fixed in firmware two point four point one, but don't assume software is the whole problem.
+TECH: Got it. I don't want to cover up a real high-pressure condition. What should I inspect before touching the board?
+AGENT: First, clean the condenser coil as needed and check the condenser fan capacitor. Isolate power and discharge components according to your service procedure before handling them.
+TECH: Makes sense. I'll inspect the fan circuit, verify the fan operates steadily, and document what I find instead of repeatedly clearing the fault.
+AGENT: After you address any physical cause, update it with the service app over the USB-C port. Follow the app prompts and confirm the version afterward.
+TECH: Okay. Coil, fan capacitor, operation check, then the firmware update. I can do that without guessing at any pressure targets.
+AGENT: Exactly. Use the applicable charging chart if pressure verification becomes necessary, and don't bypass the safety switch to keep the unit running.
+TECH: Perfect. I'll keep it shut down if that switch keeps opening after the checks. Thanks for talking me through it, Tom.
+AGENT: You're welcome, Dana. Call Vantorr Technical Support back if the lockouts continue after the mechanical checks and update. Stay safe up there.

@@ -1,0 +1,33 @@
+-------------------
+
+call_id: C08
+date: 2025-01-08
+site: Riverside Public Library (Racine, WI)
+unit: CU-2
+model: VCU-048
+tech: Jen Kowalski
+agent: Megan
+topic: Low-pressure trips while cooling a server room in winter
+-------
+
+AGENT: Vantorr Technical Support, Megan speaking. How can I help?
+TECH: Hi, Megan. Jen Kowalski with Ridgeline Mechanical Services. I'm outside Riverside Public Library in Racine at C-U two, the condenser serving their server room.
+AGENT: All right. What model and serial are we dealing with?
+TECH: V-C-U forty-eight. Serial is two one zero six V zero zero zero five seven. It keeps tripping on low pressure when the server room calls for cooling in winter.
+AGENT: Does the system cool satisfactorily when the outdoor temperature is milder, without those repeated trips?
+TECH: That's what the library staff reports. Cooling was stable in warmer weather. Now the outside air is cold and the room still needs cooling because of the equipment load.
+AGENT: Have you confirmed that indoor airflow is normal and that the filters and evaporator aren't obviously restricted?
+TECH: Yes, I looked at the filters and airflow path. Nothing obvious there. I haven't tried to adjust the refrigerant charge just because the pressure is low outdoors.
+AGENT: Good. Is there an installed low-ambient control kit on this condenser, or is it the base outdoor-unit configuration?
+TECH: Looks like the base setup. I don't see an added kit identified in the unit records, and the service manager couldn't find an earlier installation note.
+AGENT: In that case, you need the low ambient kit V-L-A two. It's the approved configuration for this application when cooling is required during colder outdoor conditions.
+TECH: Okay. I want to make sure the library understands why cooling a server room in winter is different from ordinary seasonal comfort cooling.
+AGENT: Exactly. With the approved kit installed and the unit otherwise operating correctly, it lets the unit cool down to zero degrees outside.
+TECH: And until that's sorted, I shouldn't bypass the low-pressure control or just keep restarting the compressor whenever it locks out.
+AGENT: Correct. A protective trip is information, not a nuisance to defeat. Verify the system condition and install the kit using the proper instructions.
+TECH: I'll also check the unit documentation before any refrigerant work. I don't want to use made-up pressure targets for cold-weather operation.
+AGENT: That's the right approach. If charging checks are needed, use the approved chart and the procedure appropriate to the operating conditions.
+TECH: Got it. I'll recommend the low-ambient kit, record the current setup, and coordinate a safe return to cooling for the server room.
+AGENT: Sounds good, Jen. If it still trips after installation and verification, call Vantorr Technical Support with the observations.
+TECH: Thanks, Megan. I'll get out of this wind and write up the recommendation.
+AGENT: You're welcome. Take care out there.

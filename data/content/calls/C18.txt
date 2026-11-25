@@ -1,0 +1,27 @@
+-------------------
+call_id: C18
+date: 2025-02-10
+site: Riverside Public Library
+unit: RTU-1
+model: VRL-120
+tech: Jen Kowalski
+agent: Alicia
+topic: Unit will not start after a winter power outage
+-------
+AGENT: Vantorr Technical Support, this is Alicia. What can I help with?
+TECH: Alicia, this is Jen Kowalski with Ridgeline Mechanical Services. I'm at Riverside Public Library in Racine, Wisconsin, on R-T-U one. It's a V-R-L one-twenty, serial two four zero nine V zero one five zero four. They lost building power during the winter weather, and now the rooftop won't start even though power has come back.
+AGENT: Okay, Jen. Are you seeing the control board powered up and responsive now, or is the unit completely dead?
+TECH: The V-C-B four hundred is powered. The display is alive, and the thermostat is requesting operation. I checked the disconnect and the supply condition. Nothing looks like an ongoing power failure from here.
+AGENT: Got it. Was this a full loss of power long enough for the equipment to get cold, rather than a brief interruption?
+TECH: Yes, definitely a full outage. The building was cold when the library staff arrived. They restored service, tried to turn the heating back on, and called us when nothing happened right away.
+AGENT: Thanks. Is the outdoor temperature still below the cold-start threshold shown in the unit's operating instructions?
+TECH: Yes. It's cold outside, and the entire unit has been sitting without power. There's no sign of the compressor trying to start. I was worried I had a lockout left over from the outage.
+AGENT: What you're describing is consistent with the built-in protection. The V-C-B four hundred board enforces a four hour warm-up delay after a cold power-up below fifty degrees outside. That gives the equipment time before the compressor is permitted to operate.
+TECH: Ah, okay. So the live board and the call for operation don't mean the compressor should start immediately. I don't want to clear or bypass something that is intentionally protecting the equipment.
+AGENT: Right. Leave power applied and follow the unit startup instructions. Don't defeat the warm-up delay by forcing a contactor or cycling the disconnect over and over. Repeatedly resetting power won't help you establish a clean observation.
+TECH: That's helpful. I can tell the library staff what's going on and have them avoid touching the controls while the equipment completes its normal power-up sequence. They're mostly worried that nothing responds when they ask for heat.
+AGENT: I understand. Document when stable power was restored and observe the unit after the required delay has elapsed. If it still doesn't respond, then collect the active board status and work through the normal troubleshooting procedure.
+TECH: Understood. I've got the power restoration time from facilities, and I'll leave a note for their staff. At least now I have a reason to wait for the protective sequence instead of pulling the electrical section apart.
+AGENT: Exactly. If another problem remains after warm-up, we can troubleshoot that separately. For now, don't call the delay a component failure.
+TECH: Thanks, Alicia. That clears up the behavior. I appreciate the explanation.
+AGENT: You're welcome, Jen. Thanks for calling Vantorr Technical Support. Stay warm out there.

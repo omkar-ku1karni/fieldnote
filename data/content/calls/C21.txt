@@ -1,0 +1,26 @@
+-------------------
+call_id: C21
+date: 2025-03-25
+site: Brookhaven Elementary School
+unit: AH-1
+model: VAH-024
+tech: Priya Raman
+agent: Tom
+topic: Rattling noise from air handler
+-------
+AGENT: Vantorr Technical Support, this is Tom. What can I help you with?
+TECH: Hey Tom, Priya Raman with Ridgeline Mechanical Services. I'm at Brookhaven Elementary School in Madison, Wisconsin. I'm working on A-H one, a V-A-H twenty-four air handler. Serial is two three four zero V zero one five four two. There's a rattling sound coming from the blower compartment, especially when the blower comes up to speed.
+AGENT: Okay, Priya. Does the rattle follow the blower operation, or do you hear it even when the air handler is shut down?
+TECH: It follows the blower. When the blower stops, the noise stops too. I can hear it through the cabinet, and I don't want to keep running it if something inside is coming loose.
+AGENT: Good call. With power properly isolated, have you checked whether the blower wheel has any movement on its shaft?
+TECH: I was just getting ready to check that. I've removed the access panel with the disconnect off, and I'm using a light to look inside. There's no reason to reach into it while it's spinning.
+AGENT: Right. Is the wheel or housing showing any sign of contact, or is this more of a loose mechanical rattle without obvious scraping?
+TECH: More of a loose rattle. I don't see anything rubbing the housing. Hang on, I'm checking the wheel gently. There is a little movement where it mounts, which seems like a better lead than the cabinet panels.
+AGENT: That fits a condition we've seen: blower wheel set screw works loose. If that's the source, inspect the wheel and shaft for damage, secure the wheel in the proper position, and torque it to thirty inch-pounds.
+TECH: All right, thirty inch-pounds. I'll get the torque tool rather than just tightening it until it feels snug. The wheel itself doesn't look visibly damaged, but I'll give the hub a careful inspection before putting everything back.
+AGENT: Good. Make sure the screw and mounting surfaces are serviceable, and follow the air handler instructions for safe access and reassembly. A loose wheel can create additional damage if somebody just keeps operating it through the noise.
+TECH: Agreed. I'm checking that now. The hub looks intact, and the fastener was loose. I'll secure it properly and then make sure nothing else in the blower compartment was affected.
+AGENT: Perfect. After you replace the panel, run the blower and listen for the original noise. If it remains, stop and continue the mechanical inspection instead of assuming the set screw was the whole problem.
+TECH: I've got it back together now. The blower is running, and the rattle is gone on this check. I'll document what I found and let the school staff know we corrected a loose wheel mounting.
+AGENT: That's a good result. Keep the service note specific so someone can check the same location if the noise comes back. Thanks for calling Vantorr Technical Support, Priya.
+TECH: Thanks, Tom. Appreciate the help. I'll finish up here.

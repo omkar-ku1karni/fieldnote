@@ -1,0 +1,32 @@
+-------------------
+
+call_id: C03
+date: 2025-06-03
+site: Elm & 3rd Retail Plaza (Waukesha, WI)
+unit: CU-1
+model: VCU-036
+tech: Luis Herrera
+agent: Raj
+topic: Compressor hums but will not start
+-------
+
+AGENT: Vantorr Technical Support, this is Raj. What are you seeing in the field?
+TECH: Hey, Raj. Luis Herrera with Ridgeline Mechanical Services. I'm behind the stores at Elm and Third Retail Plaza in Waukesha, on C-U one.
+AGENT: All right. What unit is installed there?
+TECH: It's a V-C-U thirty-six, serial two four one zero V zero one five one zero. I get a hum when cooling is called, but the compressor won't start.
+AGENT: Does the outdoor fan come on normally while the compressor is just humming?
+TECH: Yes, the fan runs. The compressor makes that heavy hum and then goes quiet. I've stopped calling for cooling because I don't want to keep doing that to it.
+AGENT: Good decision. Have you already checked the incoming supply and the contactor condition with the appropriate safe test procedure?
+TECH: Supply is present and the contactor pulls in. I haven't assumed the compressor is bad. The tenant mentioned somebody offered them a universal hard start kit.
+AGENT: Before you add anything, have you checked the existing capacitor and inspected the compressor connections with power isolated?
+TECH: I'm working through that now. The capacitor looks suspect, but I haven't called it failed until I test it. The connections are accessible once the disconnect is open.
+AGENT: That's the right approach. For this V-C-U model, the only approved hard start kit is the V-H-S thirty-five. Don't substitute an unapproved assembly.
+TECH: The universal one the tenant found is advertised with a really large start capacitor. They're asking if it'll get them through the week.
+AGENT: Please tell them a generic kit with a start capacitor over two hundred microfarads voids the compressor warranty. We cannot recommend using that as a shortcut.
+TECH: Understood. I'll explain that adding a big kit doesn't fix a bad capacitor, poor connection, or an internal compressor problem anyway.
+AGENT: Exactly. Verify the installed components against the unit documentation. If those checks pass, evaluate the compressor using the approved diagnostic steps before deciding on a hard start kit.
+TECH: And if it still hums, I shouldn't keep cycling it to see if it finally catches. I'll leave it off and report what I measured.
+AGENT: Right. Repeated failed starts can make things worse. If the compressor is damaged, follow the warranty process rather than installing unapproved hardware.
+TECH: Okay. I'll finish my checks, record the test findings, and make the repair recommendation from there. Thanks for clarifying the kit rule.
+AGENT: Anytime, Luis. Call Vantorr Technical Support if you need help interpreting the approved test procedure. Take care around that equipment.
+TECH: Will do, Raj. Appreciate it.

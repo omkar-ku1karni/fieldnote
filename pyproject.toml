@@ -1,0 +1,61 @@
+[project]
+name = "fieldnote"
+version = "0.1.0"
+description = "Multimodal RAG field assistant for HVAC technicians: manuals (page images + text), job-site photos, and support-call audio."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "httpx>=0.27",
+    "python-dotenv>=1.0",
+    "pyyaml>=6.0",
+    "numpy>=1.26",
+    "pillow>=10.0",
+    "pydantic>=2.6",
+    "pypdfium2>=5.15.2",
+    "faster-whisper>=1.2.1",
+    "qdrant-client>=1.12",
+    "colpali-engine>=0.3.18",
+    "sentence-transformers>=6.3.0",
+    "fastapi>=0.165.0",
+    "uvicorn[standard]>=0.54.0",
+    "torch==2.13.*",
+    "torchvision>=0.28.0",
+]
+
+[dependency-groups]
+datagen = [
+    "matplotlib>=3.8",
+    "reportlab>=4.0",
+    "markdown-it-py>=3.0",
+    "pypdf>=7.1.1",
+]
+dev = [
+    "playwright>=1.65.2",
+]
+tts = [
+    "en-core-web-sm",
+    "kokoro>=0.9.4",
+    "scipy>=1.17.1",
+    "soundfile>=0.14.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fieldnote", "datagen"]
+
+[tool.uv]
+default-groups = ["datagen", "tts"]
+
+[tool.uv.sources]
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
+torchvision = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
+
+# Linux (Docker) gets CPU-only PyTorch instead of multi-GB CUDA wheels. macOS uses the default index.
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

@@ -1,0 +1,32 @@
+-------------------
+
+call_id: C06
+date: 2025-04-16
+site: Northgate Fitness Center (Golden, CO)
+unit: RTU-1
+model: VRT-048
+tech: Sam Okafor
+agent: Alicia
+topic: Flame rollout switch tripping
+-------
+
+AGENT: Vantorr Technical Support, Alicia here. How can I help?
+TECH: Hi, Alicia. Sam Okafor with Ridgeline Mechanical Services. I'm at Northgate Fitness Center in Golden, checking R-T-U one. They've lost gas heat.
+AGENT: Okay, Sam. Read me the model and serial, then tell me what brought you to the unit.
+TECH: V-R-T forty-eight, serial two three two four V zero one six six eight. The flame rollout switch has tripped. I stopped the heating call and left it shut down.
+AGENT: Good. Has anybody reset that rollout switch or tried to keep the burner operating since it tripped?
+TECH: No. I told the manager this isn't the kind of switch you keep resetting. The heating section is off while I look for a cause.
+AGENT: Have you noticed any visible blockage, debris, or damage around the combustion-air path and inducer assembly?
+TECH: There is loose nesting material near the outside opening. I can see it without reaching into the burner compartment. The wind is moving some of it around.
+AGENT: Have you checked the heat exchanger and venting for signs of an unsafe combustion condition, or is that inspection still pending?
+TECH: Still pending. I'm keeping it isolated until I can inspect properly. I haven't decided the nest is the only problem, because the safety tripped for a reason.
+AGENT: That's the correct call. We've seen bird nests blocking the inducer venturi. It was common on the twenty twenty-two builds, although you still need to verify this unit's condition directly.
+TECH: So the material I found is a lead, not permission to reset the switch. Is there a protective screen available after the obstruction is corrected?
+AGENT: Yes, the approved option is inducer screen kit V-P-N thirty-three ten. The screen is for prevention, not a substitute for a full combustion-system inspection.
+TECH: Understood. I'll clear any obstruction under the service procedure, then inspect the venting and heat exchanger before even considering a heat call.
+AGENT: Right. If you find damage, abnormal flame behavior, or any uncertainty about safe operation, keep the heating section out of service and arrange the necessary repair.
+TECH: And I should document the trip, the nesting material, and the inspection results for the manager, rather than saying it was just a nuisance fault.
+AGENT: Absolutely. Do not bypass or defeat that rollout switch. Only return the heater to service after the cause is corrected and the safety checks pass.
+TECH: Thanks. It's a busy gym and they're pushing for heat, but I'll make the safety reason clear to them.
+AGENT: I appreciate that, Sam. Call Vantorr Technical Support if you need further guidance after the inspection. Stay safe.
+TECH: Will do. Thanks, Alicia.

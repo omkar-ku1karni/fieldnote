@@ -1,0 +1,27 @@
+-------------------
+call_id: C13
+date: 2025-07-02
+site: Harbor Point Distribution Center
+unit: RTU-1
+model: VRL-090
+tech: Marcus Bell
+agent: Alicia
+topic: Phase monitor nuisance trips
+-------
+AGENT: Vantorr Technical Support, this is Alicia. What can I help you with today?
+TECH: Hey Alicia, Marcus Bell with Ridgeline Mechanical Services. I'm at Harbor Point Distribution Center in Kenosha, Wisconsin, on R-T-U one. It's a V-R-L ninety. Serial is two two zero one V zero zero one eight five. The phase monitor keeps dropping this unit out, but the building isn't reporting any other power trouble.
+AGENT: Okay, Marcus. When it drops out, are you seeing the phase monitor itself indicate a supply problem, rather than a request to stop from the rooftop controller?
+TECH: Yes. The monitor is the thing opening up. I can see the indication there. The V-C-B four hundred isn't asking it to stop first.
+AGENT: Got it. Have you checked the incoming legs while the unit is actually calling and the compressors are loaded?
+TECH: I did. The readings move around some when the building's larger loads come on. I don't have a steady problem with a missing leg, and the connections looked secure when I inspected them with power safely isolated.
+AGENT: And has anybody already moved the unbalance adjustment on the monitor, or is the dial still where it was delivered?
+TECH: Far as I can tell, nobody touched it. The paint mark looks intact. The maintenance guy says this happens mostly when the whole distribution center is busy, not when the building is quiet.
+AGENT: That helps. On this monitor, factory unbalance trip is ten percent. For reference, the dial goes from five to fifteen percent. Based on the utility behavior you've described and the readings you've checked, set it to eight percent on that utility.
+TECH: Okay. Just confirming, you're telling me to make that adjustment at the monitor, not change anything on the V-C-B four hundred board.
+AGENT: Correct. We're only talking about the phase monitor adjustment. Before you touch it, use the approved isolation procedure, and make sure your supply measurements support what you're seeing. Don't use an adjustment to cover up a damaged connection or an actual phase loss.
+TECH: Understood. I'm going to record the incoming readings and photograph the dial before I change it.
+AGENT: That's a good approach. After the adjustment, observe a normal operating cycle under load. If the monitor still trips, document its indication and the supply condition at the same moment, then call us back with that information.
+TECH: All right. The change is made, the unit has picked back up, and the monitor is staying in. I know that isn't a long test, but at least it isn't dropping out immediately like it was before.
+AGENT: Exactly. Treat that as an initial result, not proof that the utility issue disappeared. Leave the site with a clear note about the adjustment and what the building staff should report if the shutdown returns.
+TECH: Will do. Thanks for walking through that with me, Alicia. I'm going to finish the observation and get off this roof before the wind gets worse.
+AGENT: Sounds good, Marcus. Thanks for calling Vantorr Technical Support. Stay safe up there.

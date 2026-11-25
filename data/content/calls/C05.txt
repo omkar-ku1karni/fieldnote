@@ -1,0 +1,33 @@
+-------------------
+
+call_id: C05
+date: 2025-02-27
+site: Riverside Public Library (Racine, WI)
+unit: AH-1
+model: VAH-036
+tech: Jen Kowalski
+agent: Tom
+topic: Air handler blower runs constantly
+-------
+
+AGENT: Vantorr Technical Support, Tom speaking. How can I help today?
+TECH: Hey, Tom. Jen Kowalski with Ridgeline Mechanical Services. I'm in the mechanical room at Riverside Public Library in Racine, on A-H one.
+AGENT: Thanks, Jen. What's the model and serial, and what's happening?
+TECH: V-A-H thirty-six. The plate says two one five two V zero zero six one zero. The blower just keeps running, even when the thermostat looks satisfied.
+AGENT: Is the thermostat fan setting on automatic, rather than a continuous-fan setting?
+TECH: Yes, automatic. I checked with the librarian before calling. They've been hearing the fan all evening, even after the space isn't asking for heating or cooling.
+AGENT: Does the blower stop when you remove the fan call at the thermostat using the approved service test, or does it continue regardless?
+TECH: It continues. The mechanical room's fairly quiet, so there's no mistaking it. I haven't tried jumping anything or pulling wires around to force it off.
+AGENT: Okay. Have you checked whether an external control is still sending a fan demand to the air handler?
+TECH: Not fully yet. There's a building control connection, so I want to rule that out before I blame the board. The thermostat display by itself doesn't prove the signal is gone.
+AGENT: Exactly. With the correct safe measurement procedure, check for twenty-four volts at G with the thermostat off. That helps separate a continuing command from an internal relay issue.
+TECH: So if G is still being driven, I need to find the source of that command before thinking about the air handler board.
+AGENT: Right. But if the command is absent and the blower remains energized, the G relay on the V-A-B fifty board can weld closed.
+TECH: I've seen a stuck relay elsewhere. Is there a supported repair for this board, or are we replacing the whole assembly?
+AGENT: Use replacement board kit V-P-N fifty-five twenty if your checks confirm a welded relay. Don't try to break the contacts free and send the unit back into service.
+TECH: Understood. I'll isolate power before opening the electrical compartment further, then document the control signal and relay behavior.
+AGENT: Good. After a confirmed board replacement, restore power, issue a normal fan call, then remove it and verify the blower responds correctly.
+TECH: That'll give the library a clear before-and-after test. I can explain why replacing a thermostat blindly would have missed the problem.
+AGENT: Exactly. Keep the cover in place for the functional check, and don't bypass any protective devices while testing.
+TECH: Thanks, Tom. I'll finish tracing the fan command before ordering anything.
+AGENT: Sounds good, Jen. Call Vantorr Technical Support if the signal and relay behavior don't line up. Take care.

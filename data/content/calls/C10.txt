@@ -1,0 +1,32 @@
+-------------------
+
+call_id: C10
+date: 2025-06-30
+site: Elm & 3rd Retail Plaza (Waukesha, WI)
+unit: RTU-1
+model: VRT-036
+tech: Luis Herrera
+agent: Alicia
+topic: Condensate overflow switch tripping with dry pan
+-------
+
+AGENT: Vantorr Technical Support, Alicia speaking. What's the issue today?
+TECH: Hi, Alicia. Luis Herrera from Ridgeline Mechanical Services. I'm at Elm and Third Retail Plaza in Waukesha, up at R-T-U one.
+AGENT: Okay, Luis. What's the unit model and serial number?
+TECH: It's a V-R-T thirty-six, serial two four one two V zero one six six seven. The condensate overflow switch keeps stopping cooling, but the pan looks dry.
+AGENT: Is the pan dry when you arrive, or have you been able to observe the switch opening while you're standing there?
+TECH: Dry when I arrive, and I caught the shutdown once without seeing water collect. The tenant says it happens off and on. There's no obvious puddle beneath the unit.
+AGENT: Have you checked that the drain and trap are clear and that the unit is sitting correctly, without water being held where you can't see it?
+TECH: The drain is clear, and I looked along the pan edges with a light. I don't see a backup. I haven't moved the float or bypassed its contacts.
+AGENT: Good. Can you verify the manufacturing information on the rating plate rather than relying on the installation date?
+TECH: Sure. I've got the serial and plate in front of me. I can also check the build information through our normal records instead of assuming the equipment age.
+AGENT: Here's why I ask. On the oh-three-six built before week forty of twenty twenty-two the float switch is mounted too low. That can cause a false overflow indication.
+TECH: Interesting. I know the symptom fits, but I want to confirm whether this particular unit falls in that affected group before changing the mounting.
+AGENT: Exactly. If the build details confirm applicability and your drainage checks are good, use relocation kit V-P-N twenty-two oh eight.
+TECH: Okay, so it's a mounting correction, not an invitation to tie the switch out of the circuit. I'll verify the kit instructions and the exact placement.
+AGENT: Right. Keep the overflow protection functional. Isolate power while working near the control wiring and follow the relocation procedure in the service documentation.
+TECH: After that, I'll run a normal cooling cycle and check that condensate leaves through the drain and the safety operates correctly under its approved test.
+AGENT: Good. If the problem continues, inspect the switch and control circuit before concluding there's another mounting issue. Record the outcome for the site.
+TECH: Will do. The roof is pretty warm, so I'll close the cabinet while I pull the build record.
+AGENT: Sounds good, Luis. Call Vantorr Technical Support if the manufacturing details don't match the bulletin. Take care.
+TECH: Thanks, Alicia. Appreciate the help.

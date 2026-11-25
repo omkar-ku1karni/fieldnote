@@ -1,0 +1,26 @@
+-------------------
+call_id: C17
+date: 2025-12-15
+site: Elm & 3rd Retail Plaza
+unit: RTU-3
+model: VHP-048
+tech: Luis Herrera
+agent: Raj
+topic: Defrost interval for a snowy site
+-------
+AGENT: Vantorr Technical Support, Raj speaking. What can I do for you?
+TECH: Hey Raj, Luis Herrera from Ridgeline Mechanical Services. I'm at Elm and Third Retail Plaza in Waukesha, Wisconsin. Working on R-T-U three, V-H-P forty-eight. Serial number is two one zero five V zero zero nine one zero. We've had a lot of blowing snow, and the outdoor coil keeps getting packed up. I want to talk about the defrost interval.
+AGENT: Sure. Are you seeing normal heating operation between defrost cycles, or is the equipment failing to complete a defrost once it begins?
+TECH: It does complete defrost when it goes into it. The trouble is that fresh snow starts collecting again. The property manager sees the coil frosting up and thinks the heat pump is broken every time.
+AGENT: Understood. Has the coil been checked for blocked airflow or a buildup that would need to be cleared before any control adjustment?
+TECH: Yes. I cleared the drift around the unit and checked the outdoor coil. Nothing is bent or obviously blocked now. It's a pretty exposed rooftop, though, and the snow blows right across the equipment.
+AGENT: All right. Is the unit still on its original defrost interval, with no earlier service adjustment noted?
+TECH: According to the service log, yes. Nobody's changed that setting since installation. I'm calling before I touch it because I want a recommendation for this weather, not just a guess.
+AGENT: For that situation, in heavy snow we recommend thirty minutes instead of the default sixty. Use the V-H-P service instructions to make the interval change, and keep the change documented for whoever comes back when conditions improve.
+TECH: Okay, thirty instead of sixty under these snow conditions. That makes sense. I can explain to the manager that we're adjusting how often the control checks the need for defrost, not saying the unit is supposed to run covered in ice.
+AGENT: Exactly. It's still important to keep the area around the unit clear and confirm that defrost actually completes normally. An interval change won't fix a failed component or an outdoor coil that can't get air.
+TECH: Right. I'll finish checking the coil, make the adjustment by the book, and watch a heating cycle. The ladder's right where the wind is blowing, so I'm trying to do this carefully.
+AGENT: No rush on our account. If you see a genuine defrost failure after making that change, stop there and follow the V-H-P troubleshooting procedure rather than making additional undocumented control changes.
+TECH: Will do. I'll add a note that this was for the site's heavy snow exposure, so the next technician understands why the setting isn't at its original value.
+AGENT: Good plan. Thanks for calling Vantorr Technical Support, Luis. Keep yourself safe on that roof.
+TECH: Thanks, Raj. I appreciate it. Have a good one.

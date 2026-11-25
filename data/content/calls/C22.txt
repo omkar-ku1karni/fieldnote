@@ -1,0 +1,26 @@
+-------------------
+call_id: C22
+date: 2025-08-27
+site: Northgate Fitness Center
+unit: RTU-3
+model: VRT-036
+tech: Sam Okafor
+agent: Raj
+topic: Refrigerant detection sensor fault, blower will not shut off
+-------
+AGENT: Vantorr Technical Support, Raj speaking. How can I help you?
+TECH: Hi Raj, Sam Okafor with Ridgeline Mechanical Services. I'm at Northgate Fitness Center in Golden, Colorado, on R-T-U three. It's a V-R-T thirty-six, serial two three one seven V zero one five eight four. The indoor blower keeps running after the thermostat call ends. The building staff want it shut off, but the controller is indicating a refrigerant detection sensor fault.
+AGENT: Understood. Is the blower staying on even with the normal fan request removed at the thermostat?
+TECH: Yes. I watched the thermostat request end, but the blower kept going. It's not just somebody leaving the fan selection on. I can see a fault associated with the refrigerant detection system.
+AGENT: Okay. Have you checked whether the sensor connection and harness are visibly secure, without disconnecting or bypassing the safety circuit?
+TECH: I've looked at what's accessible. I don't see anything obviously pulled loose, and I haven't disconnected the sensor. I wanted to know whether this blower behavior is expected before I touched the safety equipment.
+AGENT: That's the right approach. Do you have a confirmed refrigerant leak indication, or is the only information at this point a sensor fault reported by the board?
+TECH: Just the sensor fault so far. I don't want to tell the customer there's definitely a refrigerant leak when I haven't established that. The supply air is still moving, which is what caught their attention.
+AGENT: On this unit, the R-D-S one sensor has a five year service life. More importantly for your immediate complaint, a sensor fault forces the blower on in mitigation mode. The blower behavior is intentional while that fault is active.
+TECH: Okay, that explains why the thermostat isn't shutting the fan off. Facilities asked if I could pull a wire and make it stop, but I told them I'd get an answer from support first.
+AGENT: You were right to hold off. Do not bypass the sensor, disconnect the blower, or defeat mitigation mode. Follow the V-R-T refrigerant detection system troubleshooting instructions and keep the space and equipment under the site's safety procedures.
+TECH: Understood. I'll record the fault as displayed, check the service documentation for the sensor inspection and replacement process, and explain why the fan needs to remain under control of the safety system.
+AGENT: Good. A fault does not, by itself, tell you where refrigerant is leaking, but it does need to be resolved. Use approved detection procedures if a leak is suspected, and restore normal operation only after the safety system passes its required checks.
+TECH: That's clear. The customer will be happier knowing the fan isn't randomly stuck on. I'll make the safety concern explicit on the work order so nobody tries to silence it overnight.
+AGENT: Exactly. Thanks for calling Vantorr Technical Support, Sam. Call again if the documented checks reveal a specific sensor problem.
+TECH: Thanks, Raj. I appreciate it. Have a good afternoon.

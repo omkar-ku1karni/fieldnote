@@ -1,0 +1,26 @@
+-------------------
+call_id: C23
+date: 2025-12-01
+site: Harbor Point Distribution Center
+unit: RTU-5
+model: VHP-060
+tech: Marcus Bell
+agent: Megan
+topic: Heat pump compressor locked out in cold weather
+-------
+AGENT: Vantorr Technical Support, this is Megan. What are you seeing today?
+TECH: Hey Megan, Marcus Bell with Ridgeline Mechanical Services. I'm at Harbor Point Distribution Center in Kenosha, Wisconsin, on R-T-U five. It's a V-H-P sixty, serial two one zero five V zero zero four two eight. The compressor isn't running in heating, and it's bitterly cold outside. This unit has a dual-fuel setup, so I'm checking whether we're looking at a normal low ambient lockout.
+AGENT: Okay, Marcus. Is the auxiliary heat source taking over when the heat pump compressor stays off?
+TECH: Yes, the backup heat is responding. The spaces are getting heat, but the building engineer noticed the compressor wasn't operating and thought it had failed. I don't have evidence of a mechanical compressor failure right now.
+AGENT: Got it. Is the outdoor temperature low enough that you would expect the ambient lockout to become relevant?
+TECH: It is. We're well into winter conditions here, and the rooftop is exposed to the wind. I want to confirm what the factory control does rather than forcing a compressor start just to prove it can run.
+AGENT: That makes sense. Has anyone adjusted the low ambient lockout for this dual-fuel application, according to the site service records?
+TECH: Nothing documented. The previous maintenance note just says dual fuel is enabled. I haven't opened up the board settings yet because I don't want to accidentally change the wrong switch.
+AGENT: Here's what applies. The low ambient compressor lockout is zero degrees from the factory. The setting is handled with DIP switches two and three on the V-C-B two hundred ten board. For this dual-fuel configuration, with dual fuel set it to ten degrees.
+TECH: Okay, so the backup heat can carry the load when it's too cold for the compressor to be permitted to operate. I'll use the service instructions to identify the correct switch positions instead of trying to work them out over the phone.
+AGENT: Exactly. Isolate power as required before adjusting the board, and use the V-H-P instructions to verify the selection. We don't want the switch positions guessed from memory or a setting changed while the equipment is energized.
+TECH: Understood. I'll document the original position, make the approved setting change, and restore the unit for an ordinary heat call. I'm not going to bypass the compressor lockout to satisfy the building engineer.
+AGENT: Good. Explain that a compressor lockout under cold outdoor conditions is not automatically a compressor fault. Check that the dual-fuel handoff operates normally and address any independent fault indications through the standard procedure.
+TECH: I can do that. The engineer's standing nearby, so I'll walk him through what we found. It should help him understand why the backup heat is operating when he expects the heat pump.
+AGENT: Sounds good, Marcus. If the behavior doesn't agree with the documented setting and outdoor conditions, gather those observations before making further changes. Thanks for calling Vantorr Technical Support.
+TECH: Thanks, Megan. That clears it up. Stay warm.

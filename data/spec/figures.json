@@ -1,0 +1,306 @@
+[
+  {
+    "figure_id": "VRT-036-CC",
+    "series": "VRT",
+    "model": "VRT-036",
+    "kind": "CC",
+    "title": "VRT-036 Cooling Charging Chart",
+    "file": "VRT-036-CC.jpg"
+  },
+  {
+    "figure_id": "VRT-036-BT",
+    "series": "VRT",
+    "model": "VRT-036",
+    "kind": "BT",
+    "title": "VRT-036 Indoor Blower Performance",
+    "file": "VRT-036-BT.jpg"
+  },
+  {
+    "figure_id": "VRT-048-CC",
+    "series": "VRT",
+    "model": "VRT-048",
+    "kind": "CC",
+    "title": "VRT-048 Cooling Charging Chart",
+    "file": "VRT-048-CC.jpg"
+  },
+  {
+    "figure_id": "VRT-048-BT",
+    "series": "VRT",
+    "model": "VRT-048",
+    "kind": "BT",
+    "title": "VRT-048 Indoor Blower Performance",
+    "file": "VRT-048-BT.jpg"
+  },
+  {
+    "figure_id": "VRT-060-CC",
+    "series": "VRT",
+    "model": "VRT-060",
+    "kind": "CC",
+    "title": "VRT-060 Cooling Charging Chart",
+    "file": "VRT-060-CC.jpg"
+  },
+  {
+    "figure_id": "VRT-060-BT",
+    "series": "VRT",
+    "model": "VRT-060",
+    "kind": "BT",
+    "title": "VRT-060 Indoor Blower Performance",
+    "file": "VRT-060-BT.jpg"
+  },
+  {
+    "figure_id": "VRT-WD",
+    "series": "VRT",
+    "model": null,
+    "kind": "WD",
+    "title": "VRT Series Control Wiring Diagram and Electrical Data",
+    "file": "VRT-WD.jpg"
+  },
+  {
+    "figure_id": "VRT-LED",
+    "series": "VRT",
+    "model": null,
+    "kind": "LED",
+    "title": "VRT Series Status LED Flash Codes",
+    "file": "VRT-LED.jpg"
+  },
+  {
+    "figure_id": "VRT-ALT",
+    "series": "VRT",
+    "model": null,
+    "kind": "ALT",
+    "title": "VRT Series High-Altitude Gas Input Derate",
+    "file": "VRT-ALT.jpg"
+  },
+  {
+    "figure_id": "VHP-036-CC",
+    "series": "VHP",
+    "model": "VHP-036",
+    "kind": "CC",
+    "title": "VHP-036 Cooling Charging Chart",
+    "file": "VHP-036-CC.jpg"
+  },
+  {
+    "figure_id": "VHP-036-BT",
+    "series": "VHP",
+    "model": "VHP-036",
+    "kind": "BT",
+    "title": "VHP-036 Indoor Blower Performance",
+    "file": "VHP-036-BT.jpg"
+  },
+  {
+    "figure_id": "VHP-048-CC",
+    "series": "VHP",
+    "model": "VHP-048",
+    "kind": "CC",
+    "title": "VHP-048 Cooling Charging Chart",
+    "file": "VHP-048-CC.jpg"
+  },
+  {
+    "figure_id": "VHP-048-BT",
+    "series": "VHP",
+    "model": "VHP-048",
+    "kind": "BT",
+    "title": "VHP-048 Indoor Blower Performance",
+    "file": "VHP-048-BT.jpg"
+  },
+  {
+    "figure_id": "VHP-060-CC",
+    "series": "VHP",
+    "model": "VHP-060",
+    "kind": "CC",
+    "title": "VHP-060 Cooling Charging Chart",
+    "file": "VHP-060-CC.jpg"
+  },
+  {
+    "figure_id": "VHP-060-BT",
+    "series": "VHP",
+    "model": "VHP-060",
+    "kind": "BT",
+    "title": "VHP-060 Indoor Blower Performance",
+    "file": "VHP-060-BT.jpg"
+  },
+  {
+    "figure_id": "VHP-WD",
+    "series": "VHP",
+    "model": null,
+    "kind": "WD",
+    "title": "VHP Series Control Wiring Diagram and Electrical Data",
+    "file": "VHP-WD.jpg"
+  },
+  {
+    "figure_id": "VHP-LED",
+    "series": "VHP",
+    "model": null,
+    "kind": "LED",
+    "title": "VHP Series Status LED Flash Codes",
+    "file": "VHP-LED.jpg"
+  },
+  {
+    "figure_id": "VHP-TH",
+    "series": "VHP",
+    "model": null,
+    "kind": "TH",
+    "title": "VHP Series Sensor Resistance vs. Temperature",
+    "file": "VHP-TH.jpg"
+  },
+  {
+    "figure_id": "VCU-024-CC",
+    "series": "VCU",
+    "model": "VCU-024",
+    "kind": "CC",
+    "title": "VCU-024 Cooling Charging Chart",
+    "file": "VCU-024-CC.jpg"
+  },
+  {
+    "figure_id": "VCU-036-CC",
+    "series": "VCU",
+    "model": "VCU-036",
+    "kind": "CC",
+    "title": "VCU-036 Cooling Charging Chart",
+    "file": "VCU-036-CC.jpg"
+  },
+  {
+    "figure_id": "VCU-048-CC",
+    "series": "VCU",
+    "model": "VCU-048",
+    "kind": "CC",
+    "title": "VCU-048 Cooling Charging Chart",
+    "file": "VCU-048-CC.jpg"
+  },
+  {
+    "figure_id": "VCU-WD",
+    "series": "VCU",
+    "model": null,
+    "kind": "WD",
+    "title": "VCU Series Control Wiring Diagram and Electrical Data",
+    "file": "VCU-WD.jpg"
+  },
+  {
+    "figure_id": "VCU-LED",
+    "series": "VCU",
+    "model": null,
+    "kind": "LED",
+    "title": "VCU Series Status LED Flash Codes",
+    "file": "VCU-LED.jpg"
+  },
+  {
+    "figure_id": "VCU-TH",
+    "series": "VCU",
+    "model": null,
+    "kind": "TH",
+    "title": "VCU Series Sensor Resistance vs. Temperature",
+    "file": "VCU-TH.jpg"
+  },
+  {
+    "figure_id": "VCU-LS",
+    "series": "VCU",
+    "model": null,
+    "kind": "LS",
+    "title": "VCU Series Additional Refrigerant for Long Line Sets",
+    "file": "VCU-LS.jpg"
+  },
+  {
+    "figure_id": "VAH-024-BT",
+    "series": "VAH",
+    "model": "VAH-024",
+    "kind": "BT",
+    "title": "VAH-024 Indoor Blower Performance",
+    "file": "VAH-024-BT.jpg"
+  },
+  {
+    "figure_id": "VAH-036-BT",
+    "series": "VAH",
+    "model": "VAH-036",
+    "kind": "BT",
+    "title": "VAH-036 Indoor Blower Performance",
+    "file": "VAH-036-BT.jpg"
+  },
+  {
+    "figure_id": "VAH-048-BT",
+    "series": "VAH",
+    "model": "VAH-048",
+    "kind": "BT",
+    "title": "VAH-048 Indoor Blower Performance",
+    "file": "VAH-048-BT.jpg"
+  },
+  {
+    "figure_id": "VAH-WD",
+    "series": "VAH",
+    "model": null,
+    "kind": "WD",
+    "title": "VAH Series Control Wiring Diagram and Electrical Data",
+    "file": "VAH-WD.jpg"
+  },
+  {
+    "figure_id": "VAH-LED",
+    "series": "VAH",
+    "model": null,
+    "kind": "LED",
+    "title": "VAH Series Status LED Flash Codes",
+    "file": "VAH-LED.jpg"
+  },
+  {
+    "figure_id": "VRL-090-CC",
+    "series": "VRL",
+    "model": "VRL-090",
+    "kind": "CC",
+    "title": "VRL-090 Cooling Charging Chart",
+    "file": "VRL-090-CC.jpg"
+  },
+  {
+    "figure_id": "VRL-090-BT",
+    "series": "VRL",
+    "model": "VRL-090",
+    "kind": "BT",
+    "title": "VRL-090 Indoor Blower Performance",
+    "file": "VRL-090-BT.jpg"
+  },
+  {
+    "figure_id": "VRL-120-CC",
+    "series": "VRL",
+    "model": "VRL-120",
+    "kind": "CC",
+    "title": "VRL-120 Cooling Charging Chart",
+    "file": "VRL-120-CC.jpg"
+  },
+  {
+    "figure_id": "VRL-120-BT",
+    "series": "VRL",
+    "model": "VRL-120",
+    "kind": "BT",
+    "title": "VRL-120 Indoor Blower Performance",
+    "file": "VRL-120-BT.jpg"
+  },
+  {
+    "figure_id": "VRL-150-CC",
+    "series": "VRL",
+    "model": "VRL-150",
+    "kind": "CC",
+    "title": "VRL-150 Cooling Charging Chart",
+    "file": "VRL-150-CC.jpg"
+  },
+  {
+    "figure_id": "VRL-150-BT",
+    "series": "VRL",
+    "model": "VRL-150",
+    "kind": "BT",
+    "title": "VRL-150 Indoor Blower Performance",
+    "file": "VRL-150-BT.jpg"
+  },
+  {
+    "figure_id": "VRL-WD",
+    "series": "VRL",
+    "model": null,
+    "kind": "WD",
+    "title": "VRL Series Control Wiring Diagram and Electrical Data",
+    "file": "VRL-WD.jpg"
+  },
+  {
+    "figure_id": "VRL-LED",
+    "series": "VRL",
+    "model": null,
+    "kind": "LED",
+    "title": "VRL Series Status LED Flash Codes",
+    "file": "VRL-LED.jpg"
+  }
+]

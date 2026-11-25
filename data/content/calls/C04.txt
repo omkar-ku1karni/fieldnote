@@ -1,0 +1,33 @@
+-------------------
+
+call_id: C04
+date: 2025-08-11
+site: Harbor Point Distribution Center (Kenosha, WI)
+unit: RTU-2
+model: VRL-120
+tech: Marcus Bell
+agent: Megan
+topic: Second stage of cooling never energizes
+-------
+
+AGENT: Vantorr Technical Support, this is Megan. What can I do for you?
+TECH: Hi, Megan. Marcus Bell with Ridgeline Mechanical Services. I'm on the warehouse roof at Harbor Point Distribution Center in Kenosha, checking R-T-U two.
+AGENT: Okay, Marcus. What model and serial are on the rating plate?
+TECH: V-R-L one-twenty. Serial two three two nine V zero one six two three. First-stage cooling operates, but the building staff says the second stage never comes on.
+AGENT: When they ask for more cooling, have you confirmed the control is actually receiving a second-stage demand?
+TECH: Yes. I verified the demand is being made. First stage keeps going, and we're not getting the response they expected. It's noisy up here with the exhaust fans running.
+AGENT: Have you allowed a full staging delay before concluding the second stage isn't responding?
+TECH: Maybe not. The staff were watching it for a short time and assumed both stages should start right away. I saw the same thing on my first check.
+AGENT: Understood. Is there any active safety fault that would prevent another stage from being enabled?
+TECH: No active safety fault showing. The unit is still running first stage while we're talking, and I haven't changed any board settings yet.
+AGENT: Good. On this V-R-L, factory stage delay is ten minutes. A quick observation can make a healthy second stage look dead.
+TECH: Ah, that could be what caught us. Is there an approved way to shorten that delay if the site's operating sequence calls for it?
+AGENT: There is. The board has DIP switch four. For the approved shorter staging delay, turn DIP switch four on to cut it to three minutes.
+TECH: All right. I'm not going to flip it while the cabinet's live. I'll isolate power and confirm the switch identification in the service information first.
+AGENT: Exactly. Then restore operation and watch a complete demand sequence. Don't change other switches, because those are unrelated to this complaint.
+TECH: I also want to make sure second stage actually starts after the delay, not just assume it will because we've found a setting.
+AGENT: That's important. Confirm the stage command and the physical response after the programmed delay. If it still fails, we can trace that separate issue.
+TECH: Got it. The main point is we may have stopped the test before the factory delay elapsed. I'll explain that to the warehouse manager.
+AGENT: Yes. Record the starting configuration and any authorized change in the service notes so the next technician knows what happened.
+TECH: Will do. Thanks, Megan. I'll finish this sequence with the access covers secured.
+AGENT: You're welcome, Marcus. Vantorr Technical Support is here if the stage still doesn't operate after a proper test. Stay safe on that roof.

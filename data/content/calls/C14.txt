@@ -1,0 +1,27 @@
+-------------------
+call_id: C14
+date: 2025-05-12
+site: Lakeshore Medical Office Building
+unit: CU-1
+model: VCU-024
+tech: Dana Ortiz
+agent: Megan
+topic: Pairing a condenser with an air handler — metering device
+-------
+AGENT: Vantorr Technical Support, Megan speaking. How can I help?
+TECH: Hi Megan, Dana Ortiz from Ridgeline Mechanical Services. I'm at Lakeshore Medical Office Building in Milwaukee, Wisconsin. I'm working on C-U one, a V-C-U twenty-four condenser. Serial number reads two one one six V zero one eight two one. We're pairing it with a V-A-H twenty-four air handler, and I want to be sure about the metering device before we connect everything.
+AGENT: Glad you called before startup. Is the indoor air handler definitely the matching V-A-H twenty-four, based on its own rating plate?
+TECH: Yes, I checked it at the unit. The indoor section is sitting in the mechanical room. The installer left the condenser paperwork nearby, but the metering instructions weren't clear to the crew.
+AGENT: Okay. Have you opened the indoor coil access and confirmed what metering hardware is presently installed?
+TECH: Not yet. The panel is still on. I can isolate it and inspect it. I'm trying not to assume that whatever came in the box is what belongs in the finished system.
+AGENT: Good instinct. Has the crew already installed a separate expansion valve, or is the equipment still at the assembly stage?
+TECH: Still at assembly. The tubing is routed, but nobody's charged or started the system. I stopped them when we realized the two pieces of equipment might not use the same metering arrangement out of the box.
+AGENT: Here's the key distinction: the V-C-U oh-two-four ships with a fixed orifice. When you're matching it to that air handler, with the V-A-H oh-two-four you install TXV kit V-T-X two. As part of that conversion, remove the fixed orifice.
+TECH: All right. So I shouldn't leave the fixed orifice in place along with the kit. That's exactly what I needed to hear. I was worried we'd end up with both devices restricting the circuit.
+AGENT: Right. Follow the kit's installation instructions and verify that the finished assembly matches the approved pairing before sealing things up. Keep the removed component identified so nobody mistakes it for a missing installation item.
+TECH: Makes sense. I'll pull the panel, check what's actually there, and have the crew stop until the kit is on site. We can finish the mechanical work without pretending we're ready for commissioning.
+AGENT: Perfect. When you do commission it, use the equipment documentation and the appropriate charging chart for the installed combination. The pressure and temperature targets belong to that chart; I don't want to give you a number from memory over the phone.
+TECH: Agreed. We've got the correct documentation in the job folder. I'll mark the work order with the pairing and the required metering change so the startup technician sees it.
+AGENT: Excellent. That should prevent a lot of confusion later, especially if another crew comes in to finish the job. Anything else on that equipment today?
+TECH: No, this was the question. Thanks, Megan. You saved us from closing it up the wrong way.
+AGENT: You're welcome, Dana. Thanks for calling Vantorr Technical Support, and have a safe afternoon.

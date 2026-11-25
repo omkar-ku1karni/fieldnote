@@ -1,0 +1,33 @@
+-------------------
+
+call_id: C07
+date: 2025-12-09
+site: Lakeshore Medical Office Building (Milwaukee, WI)
+unit: RTU-3
+model: VHP-060
+tech: Dana Ortiz
+agent: Raj
+topic: Auxiliary heat not coming on
+-------
+
+AGENT: Vantorr Technical Support, this is Raj. What's going on with your equipment?
+TECH: Hey, Raj. Dana Ortiz from Ridgeline Mechanical Services. I'm back at Lakeshore Medical Office Building in Milwaukee, this time on R-T-U three.
+AGENT: Okay, Dana. Give me the model and serial so we're on the right equipment.
+TECH: V-H-P sixty. Serial two one three zero V zero one one nine two. The heat pump runs, but auxiliary heat doesn't seem to come on when it's being called.
+AGENT: Have you verified that the controller is actually making an auxiliary-heat demand, not just that the occupied space feels cold?
+TECH: Yes, the demand is there. I can see it requested, but the expected heat isn't following. There's a lot of fan noise, so I'm checking the control side before assuming the elements failed.
+AGENT: Do you know which auxiliary heat kit is installed from its identification label?
+TECH: I'm looking for that now. The access doors are labeled, but the kit information is partly behind the service panel. I haven't opened the heater compartment yet.
+AGENT: Before you go further, is there an active high-temperature or heater safety indication that might have interrupted the circuit?
+TECH: There is a heater safety indication. I didn't reset anything. I wanted to find out whether this setup has a manual reset or if I'm chasing the wrong component.
+AGENT: On this series, only the fifteen kilowatt kit has a manual reset limit. You need to identify the installed kit before following that branch of the diagnostic procedure.
+TECH: Okay, so I shouldn't assume every auxiliary heater has the same limit arrangement. Where is that manual reset if this is the matching kit?
+AGENT: For that kit, it is behind access panel four. Isolate electrical power first, and follow the service instructions for investigating the reason the limit operated.
+TECH: I'll make sure there's no active heat call and confirm the compartment is safe before I access it. I'm not touching a limit just to get heat back quickly.
+AGENT: Good. Inspect for airflow restrictions, control issues, or evidence of overheating. A reset without correcting the cause could create a serious problem.
+TECH: Understood. If the installed kit is different, I'll follow its specific safety circuit rather than hunt for a manual reset that isn't there.
+AGENT: Exactly. Once the actual fault is corrected, verify the auxiliary-heat demand and operation using the approved startup procedure, with the covers restored.
+TECH: I'll record the kit identification and what I find behind the panel. That should make the follow-up straightforward for the building staff.
+AGENT: Sounds good. If the safety indication remains or the heater won't respond after the correct checks, call Vantorr Technical Support back.
+TECH: Thanks, Raj. I'll get the power isolated and start with the identification label.
+AGENT: You're welcome, Dana. Stay safe in that cabinet.

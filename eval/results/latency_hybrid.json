@@ -1,0 +1,362 @@
+{
+ "summary": {
+  "retrieval_ms": {
+   "p50": 145,
+   "p95": 211,
+   "max": 214,
+   "mean": 154
+  },
+  "llm_ms": {
+   "p50": 2486,
+   "p95": 4819,
+   "max": 5462,
+   "mean": 2637
+  },
+  "total_ms": {
+   "p50": 2625,
+   "p95": 4964,
+   "max": 5594,
+   "mean": 2792
+  },
+  "waited_ms": {
+   "p50": 0,
+   "p95": 0,
+   "max": 0,
+   "mean": 0
+  },
+  "service_ms": {
+   "p50": 2625,
+   "p95": 4964,
+   "max": 5594
+  },
+  "throttled_requests": 0,
+  "config": "hybrid",
+  "gap_s": 12.0,
+  "n": 40,
+  "models": [
+   "gemini-flash-lite-latest"
+  ]
+ },
+ "rows": [
+  {
+   "id": "I01",
+   "total_ms": 2046.9750830088742,
+   "retrieval_ms": 136.4157080242876,
+   "llm_ms": 1910.5593749845866,
+   "waited_ms": 0.0072499969974160194,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "I02",
+   "total_ms": 5215.070208010729,
+   "retrieval_ms": 134.27329101250507,
+   "llm_ms": 5080.796916998224,
+   "waited_ms": 0.007041991921141744,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "I03",
+   "total_ms": 1809.095333010191,
+   "retrieval_ms": 130.60870801564306,
+   "llm_ms": 1678.486624994548,
+   "waited_ms": 0.00633401214145124,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "I04",
+   "total_ms": 2065.5297500197776,
+   "retrieval_ms": 132.96425002044998,
+   "llm_ms": 1932.5654999993276,
+   "waited_ms": 0.00391600769944489,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "I05",
+   "total_ms": 2852.7900839981157,
+   "retrieval_ms": 144.90333400317468,
+   "llm_ms": 2707.886749994941,
+   "waited_ms": 0.006250018486753106,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "I06",
+   "total_ms": 2927.558208000846,
+   "retrieval_ms": 131.53408298967406,
+   "llm_ms": 2796.024125011172,
+   "waited_ms": 0.005667010555043817,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "I07",
+   "total_ms": 3011.4504160010256,
+   "retrieval_ms": 148.70141600840725,
+   "llm_ms": 2862.7489999926183,
+   "waited_ms": 0.006624002708122134,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "I08",
+   "total_ms": 2778.4224160132,
+   "retrieval_ms": 130.83116602501832,
+   "llm_ms": 2647.5912499881815,
+   "waited_ms": 0.01983399852178991,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "I09",
+   "total_ms": 4858.673250011634,
+   "retrieval_ms": 145.6850420217961,
+   "llm_ms": 4712.988207989838,
+   "waited_ms": 0.006207992555573583,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "I10",
+   "total_ms": 3337.8310409898404,
+   "retrieval_ms": 150.78945699497126,
+   "llm_ms": 3187.041583994869,
+   "waited_ms": 0.0027909991331398487,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "I11",
+   "total_ms": 2268.6008749878965,
+   "retrieval_ms": 148.10924997436814,
+   "llm_ms": 2120.4916250135284,
+   "waited_ms": 0.006458023563027382,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "I12",
+   "total_ms": 1832.2275840037037,
+   "retrieval_ms": 190.52733399439603,
+   "llm_ms": 1641.7002500093076,
+   "waited_ms": 0.004956993507221341,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "I13",
+   "total_ms": 3091.928208974423,
+   "retrieval_ms": 134.55474996590056,
+   "llm_ms": 2957.3734590085223,
+   "waited_ms": 0.0050000089686363935,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "I14",
+   "total_ms": 2487.4266250117216,
+   "retrieval_ms": 206.22204200481065,
+   "llm_ms": 2281.204583006911,
+   "waited_ms": 0.0050000089686363935,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "I15",
+   "total_ms": 1829.8102080007084,
+   "retrieval_ms": 213.79887399962172,
+   "llm_ms": 1616.0113340010867,
+   "waited_ms": 0.008208007784560323,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "T01",
+   "total_ms": 5593.794707994675,
+   "retrieval_ms": 132.03424899256788,
+   "llm_ms": 5461.760459002107,
+   "waited_ms": 0.005081994459033012,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "T02",
+   "total_ms": 2016.3482500065584,
+   "retrieval_ms": 129.58879201323725,
+   "llm_ms": 1886.7594579933211,
+   "waited_ms": 0.006959016900509596,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "T03",
+   "total_ms": 2192.10524999653,
+   "retrieval_ms": 133.665542001836,
+   "llm_ms": 2058.439707994694,
+   "waited_ms": 0.007250026101246476,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "T04",
+   "total_ms": 2061.4699170109816,
+   "retrieval_ms": 151.35700002429076,
+   "llm_ms": 1910.1129169866908,
+   "waited_ms": 0.006040994776412845,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "T05",
+   "total_ms": 2624.873042019317,
+   "retrieval_ms": 138.58550001168624,
+   "llm_ms": 2486.2875420076307,
+   "waited_ms": 0.00695799826644361,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "T06",
+   "total_ms": 2864.138249977259,
+   "retrieval_ms": 158.3947079780046,
+   "llm_ms": 2705.7435419992544,
+   "waited_ms": 0.007041002390906215,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "T07",
+   "total_ms": 4963.806957995985,
+   "retrieval_ms": 144.86204099375755,
+   "llm_ms": 4818.944917002227,
+   "waited_ms": 0.007124996045604348,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "T08",
+   "total_ms": 3631.9951670011505,
+   "retrieval_ms": 137.17150001320988,
+   "llm_ms": 3494.8236669879407,
+   "waited_ms": 0.007166003342717886,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "T09",
+   "total_ms": 3602.9448339832015,
+   "retrieval_ms": 153.01725096651353,
+   "llm_ms": 3449.927583016688,
+   "waited_ms": 0.006707996362820268,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "T10",
+   "total_ms": 2856.341207982041,
+   "retrieval_ms": 141.45779196405783,
+   "llm_ms": 2714.883416017983,
+   "waited_ms": 0.006958987796679139,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "A01",
+   "total_ms": 2779.0465419820976,
+   "retrieval_ms": 147.2001249785535,
+   "llm_ms": 2631.846417003544,
+   "waited_ms": 0.00708398874849081,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "A02",
+   "total_ms": 3111.9184580165893,
+   "retrieval_ms": 140.37025001016445,
+   "llm_ms": 2971.548208006425,
+   "waited_ms": 0.00633401214145124,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "A03",
+   "total_ms": 2015.7114999892656,
+   "retrieval_ms": 138.7332499725744,
+   "llm_ms": 1876.9782500166912,
+   "waited_ms": 0.006290996680036187,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "A04",
+   "total_ms": 1974.482750025345,
+   "retrieval_ms": 144.4482920342125,
+   "llm_ms": 1830.0344579911325,
+   "waited_ms": 0.00695799826644361,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "A05",
+   "total_ms": 2362.4671660072636,
+   "retrieval_ms": 142.1208739920985,
+   "llm_ms": 2220.346292015165,
+   "waited_ms": 0.005082983989268541,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "A06",
+   "total_ms": 2342.9958750202786,
+   "retrieval_ms": 134.8609580018092,
+   "llm_ms": 2208.1349170184694,
+   "waited_ms": 0.007208000170066953,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "A07",
+   "total_ms": 2089.8615840123966,
+   "retrieval_ms": 135.02287602750584,
+   "llm_ms": 1954.8387079848908,
+   "waited_ms": 0.00995802110992372,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "A08",
+   "total_ms": 2240.7074169896077,
+   "retrieval_ms": 132.2237089916598,
+   "llm_ms": 2108.483707997948,
+   "waited_ms": 0.006791000487282872,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "H01",
+   "total_ms": 2781.8810410099104,
+   "retrieval_ms": 214.32933301548474,
+   "llm_ms": 2567.5517079944257,
+   "waited_ms": 0.004875037120655179,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "H02",
+   "total_ms": 2444.2844169971067,
+   "retrieval_ms": 147.80375000555068,
+   "llm_ms": 2296.480666991556,
+   "waited_ms": 0.006832968210801482,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "H03",
+   "total_ms": 2287.8862920042593,
+   "retrieval_ms": 211.2002080248203,
+   "llm_ms": 2076.686083979439,
+   "waited_ms": 0.004875008016824722,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "H04",
+   "total_ms": 2364.7456250037067,
+   "retrieval_ms": 197.4402499909047,
+   "llm_ms": 2167.305375012802,
+   "waited_ms": 0.006584014045074582,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "H05",
+   "total_ms": 3157.1459170081653,
+   "retrieval_ms": 189.42670902470127,
+   "llm_ms": 2967.719207983464,
+   "waited_ms": 0.005166017217561603,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "H06",
+   "total_ms": 3026.8035830231383,
+   "retrieval_ms": 208.42237502802163,
+   "llm_ms": 2818.3812079951167,
+   "waited_ms": 0.005375011824071407,
+   "model": "gemini-flash-lite-latest"
+  },
+  {
+   "id": "H07",
+   "total_ms": 1863.5496659844648,
+   "retrieval_ms": 193.39237399981357,
+   "llm_ms": 1670.1572919846512,
+   "waited_ms": 0.0050000089686363935,
+   "model": "gemini-flash-lite-latest"
+  }
+ ]
+}

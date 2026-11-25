@@ -1,0 +1,25 @@
+-------------------
+call_id: C19
+date: 2025-07-22
+site: Lakeshore Medical Office Building
+unit: RTU-7
+model: VRT-060
+tech: Dana Ortiz
+agent: Tom
+topic: Follow-up after firmware update and capacitor replacement
+-------
+AGENT: Vantorr Technical Support, Tom speaking. How can I help today?
+TECH: Hey Tom, Dana Ortiz from Ridgeline Mechanical Services. I'm back at Lakeshore Medical Office Building in Milwaukee, Wisconsin. This is R-T-U seven, the V-R-T sixty, serial two three one zero V zero zero four one two. I'm following up on the call we made about a week ago, when we were chasing those intermittent shutdowns.
+AGENT: Thanks for calling back, Dana. Since that earlier visit, has the rooftop stayed in normal operation without the same customer complaint?
+TECH: Yes. The building staff say it's running fine since the update and the new capacitor. We've had no repeat complaint at the front desk, and the spaces it serves have been comfortable during occupied hours.
+AGENT: That's encouraging. Did you complete the normal startup checks after the firmware update and the capacitor replacement?
+TECH: We did. I went back through the startup sequence, checked that the fans were responding normally, and watched it settle into operation. I also wrote the work order so the next person knows both changes were made.
+AGENT: Good. Have you looked at the board's event history since the repair to see whether the old shutdown behavior has been recorded again?
+TECH: I have the history open now. I'm not seeing the earlier issue recur. There's a new way the board lists some events, though, and I want to make sure I don't misread one if it appears later.
+AGENT: Sure. One of the changes to know is that high-pressure trips now show up as event code E forty-one in the history log. That's an event-history label, not a reason to replace a pressure switch just because you see it in a list.
+TECH: Got it. So if that entry ever appears, I'll note the operating conditions and investigate the actual cause instead of treating the entry itself like a diagnosis. I don't have that event occurring now.
+AGENT: Exactly. Because your original complaint has not returned, I wouldn't change any additional controls today. Keep the update and repair details with the service record, and compare future events against the symptoms the building actually reports.
+TECH: That was my thinking. I mostly wanted to close the loop with support rather than leave the earlier call hanging. It's nice to have a quiet rooftop for once, even with traffic noise coming up from the street.
+AGENT: I appreciate the follow-up. It gives us a better picture than just hearing that somebody swapped parts and left. If the shutdowns return, bring the event history and the current observations so we're troubleshooting real evidence.
+TECH: Will do. I'll finish the paperwork and leave it running. Thanks again for the help on that earlier call, Tom.
+AGENT: You're welcome, Dana. Thanks for checking back with Vantorr Technical Support. Have a good afternoon.

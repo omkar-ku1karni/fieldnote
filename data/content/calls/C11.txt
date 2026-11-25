@@ -1,0 +1,33 @@
+-------------------
+
+call_id: C11
+date: 2025-03-04
+site: Northgate Fitness Center (Golden, CO)
+unit: RTU-2
+model: VRT-060
+tech: Sam Okafor
+agent: Megan
+topic: Compressor warranty question
+-------
+
+AGENT: Vantorr Technical Support, this is Megan. How can I help you today?
+TECH: Hey, Megan. Sam Okafor with Ridgeline Mechanical Services. I'm at Northgate Fitness Center in Golden, looking at R-T-U two. I've got a compressor warranty question.
+AGENT: Sure, Sam. Read the model and serial from the rating plate so we know which unit you're asking about.
+TECH: V-R-T sixty, serial two three zero eight V zero one one two seven. We're evaluating a compressor concern, and the facility manager wants to know what coverage they have.
+AGENT: Have you confirmed that the issue is actually with the compressor, rather than an external electrical or control component?
+TECH: Not definitively. We're still in the diagnostic stage, and I told them I can't promise a compressor replacement before the tests are done.
+AGENT: Good distinction. Do you know whether the original owner registered this unit after installation?
+TECH: They aren't sure. The manager found a folder with commissioning notes, but there isn't an obvious registration confirmation in it.
+AGENT: Okay. Have you got an installation or purchase record available to help the warranty team verify the dates?
+TECH: I have the service history and can request the purchase documents. I just need to explain the rule in plain language before the manager starts making assumptions.
+AGENT: The rule is ten year compressor warranty if the unit is registered within sixty days. Otherwise it is five years. Eligibility still needs to be verified against the actual unit record.
+TECH: So the serial number by itself doesn't prove they registered it, and I shouldn't tell them they're covered until that has been confirmed.
+AGENT: Correct. Ask them to locate their registration confirmation and supporting installation documents. The warranty team can check the recorded status and applicable terms.
+TECH: And if the compressor tests show a different failed component, the compressor warranty wouldn't automatically turn that repair into a covered claim.
+AGENT: Exactly. Keep the diagnostic findings separate from the coverage discussion. Document the symptoms, completed tests, and identified failed component before requesting an authorization.
+TECH: That helps. The manager was worried that any troubleshooting might void the warranty, so I'm keeping everything to approved service steps.
+AGENT: Good. Avoid unauthorized modifications and don't discard any components the warranty team might need for a review. Follow the claim instructions before replacement.
+TECH: I'll tell them registration determines which compressor term may apply, while the actual decision depends on the record and diagnosis.
+AGENT: That's a fair summary. If you need help with the documentation requirements, call Vantorr Technical Support again and we can guide you to the process.
+TECH: Thanks, Megan. I'll finish the diagnostics and ask the manager for the registration paperwork.
+AGENT: You're welcome, Sam. Have a safe afternoon.

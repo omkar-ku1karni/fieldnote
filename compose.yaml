@@ -1,0 +1,28 @@
+# docker compose up                      -> app on http://localhost:8000 (uses ./data, keys from .env)
+# docker compose --profile local-llm up  -> also starts Ollama for the no-key, fully local path
+# docker compose run --rm app make corpus index   -> rebuild everything inside the container (CPU: slow)
+services:
+  app:
+    build: .
+    ports: ["8000:8000"]
+    env_file: [.env]
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+      HF_HOME: /cache/huggingface
+    volumes:
+      - ./data:/app/data            # corpus + index live on the host, survive rebuilds
+      - ./eval:/app/eval
+      - model-cache:/cache          # Hugging Face model downloads
+    healthcheck:
+      test: ["CMD", "curl", "-fs", "http://localhost:8000/api/health"]
+      interval: 30s
+      start_period: 120s
+
+  ollama:
+    image: ollama/ollama:0.12.6
+    profiles: ["local-llm"]
+    volumes: [ollama:/root/.ollama]
+
+volumes:
+  model-cache:
+  ollama:
